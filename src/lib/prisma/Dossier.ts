@@ -1,4 +1,4 @@
-"use server"
+"use server";
 import { Dossier } from "@prisma/client";
 import prisma from "./prisma";
 
@@ -13,7 +13,9 @@ export const createDossier = async (
     !data.constructeur ||
     !data.dessinePar
   ) {
-    throw new Error("Toutes les données sont requises");
+    return {
+      message: "Toutes les données sont requises",
+    };
   }
 
   try {
