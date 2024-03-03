@@ -2,6 +2,8 @@
 import { MotionButton } from "@/components/ui/button";
 import { Variants, motion } from "framer-motion";
 import { toast } from "sonner";
+import DossierForm from "../components/DossierForm";
+import { createDossier } from "../lib/prisma/Dossier";
 
 const BoilerplateTextVariants: Variants = {
   hidden: {
@@ -39,21 +41,26 @@ export default function Home() {
       <p className="text-2xl font-semibold">🚀 Baptiste LECHAT Boilerplate</p>
       <MotionButton
         variant="outline"
-        onClick={() =>
-          toast("Event has been created", {
-            description: "Sunday, December 03, 2023 at 9:00 AM",
-            action: {
-              label: "Undo",
-              onClick: () => console.log("Undo"),
-            },
-          })
-        }
+        onClick={async () => {
+          const result = await createDossier({
+            numDossier: "123",
+            nomDossier: "Mon dossier",
+            cp: "75000",
+            ville: "Paris",
+            constructeur: "Constructeur SA",
+            dessinePar: "Jean Dupont",
+          });
+          toast(result.message);
+        }}
         variants={BoilerplateButtonVariants}
         initial="hidden"
         animate="visible"
       >
-        Show Toast
+        Create User
       </MotionButton>
+      <div className="w-1/2">
+        <DossierForm />
+      </div>
     </motion.main>
   );
 }
