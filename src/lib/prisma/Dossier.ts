@@ -10,7 +10,7 @@ export const createDossier = async (
     !data.nomDossier ||
     !data.cp ||
     !data.ville ||
-    !data.constructeur ||
+    !data.client ||
     !data.dessinePar
   ) {
     return {

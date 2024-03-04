@@ -1,5 +1,4 @@
 "use client";
-import prisma from "@/lib/prisma/prisma";
 import { Variants, motion } from "framer-motion";
 import DossierForm from "../components/DossierForm";
 

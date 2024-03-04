@@ -30,7 +30,7 @@ const formSchema = z.object({
       ville: z.string({
         required_error: "Ville est requis",
       }),
-      constructeur: z.string(),
+      client: z.string(),
       dessinePar: z
         .string({
           required_error: "Dessiné par est requis",
@@ -68,7 +68,7 @@ const DossierForm = () => {
           ville: {
             inputProps: { placeholder: "VILLE" },
           },
-          constructeur: {
+          client: {
             inputProps: { placeholder: "ABC Construction" },
           },
           dessinePar: {
