@@ -1,6 +1,7 @@
 "use client";
 import { createDossier } from "@/lib/prisma/Dossier";
-import { Dossier } from "@prisma/client";
+import { createFeedback } from "@/lib/prisma/Feedback";
+import { Dossier, Feedback } from "@prisma/client";
 import { Save } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
@@ -38,15 +39,28 @@ const formSchema = z.object({
         .describe("Dessiné par"),
     })
     .describe("📂 Informations du dossier"),
+  feedback: z
+    .object({
+      comment: z.string().describe("Commentaires"),
+      note: z.number().min(1).max(5).default(3),
+    })
+    .describe("📝 Remarques sur le dossier")
+    .optional(),
 });
 
 const DossierForm = () => {
   const router = useRouter();
 
   const handleSubmit = async (data: any) => {
-    console.log(data.dossier);
-    const result = await createDossier(data.dossier as Dossier);
-    toast(result.message);
+    console.log(data);
+    const newDossier = await createDossier(data.dossier as Dossier);
+    toast(newDossier.message);
+    const newFeedback = await createFeedback(
+      data.feedback as Feedback,
+      data.dossier as Dossier
+    );
+    toast(newFeedback.message);
+
     router.refresh();
   };
 
