@@ -6,16 +6,18 @@ export const createFeedback = async (
   data: Omit<Feedback, "id" | "createdAt" | "updatedAt" | "numDossier">,
   dossier: Dossier
 ) => {
-  if (!data.comment || !data.note) {
+  if (!data.generalComment || !data.generalNote) {
     return {
       message: "Toutes les données sont requises",
     };
   }
 
   try {
+    const generalNote = String(data.generalNote);
     const feedback = await prisma.feedback.create({
       data: {
-        ...data,
+        generalComment: data.generalComment,
+        generalNote: Number(generalNote[0]),
         dossier: {
           connect: {
             numDossier: dossier.numDossier,
@@ -23,14 +25,14 @@ export const createFeedback = async (
         },
       },
     });
-    console.log(feedback);
+    console.log(`🎉 Nouveau feedback créé : ${feedback.id}`);
     return {
-      message: "Nouveau feedback créé",
+      message: "🎉 Nouveau feedback créé",
     };
   } catch (error: any) {
     console.log(error.message);
     return {
-      message: error.message as string,
+      message: `💥 Erreur - Création feedback : ${error.message as string}`,
     };
   }
 };

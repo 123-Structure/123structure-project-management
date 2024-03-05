@@ -22,14 +22,14 @@ export const createDossier = async (
     const dossier = await prisma.dossier.create({
       data,
     });
-    console.log(dossier);
+    console.log(`🎉 Nouveau dossier créé : ${dossier.numDossier}`);
     return {
-      message: "Nouveau dossier créé",
+      message: `🎉 Nouveau dossier créé : ${dossier.numDossier}`,
     };
   } catch (error: any) {
     console.log(error.message);
     return {
-      message: error.message as string,
+      message: `💥 Erreur - Création dossier : ${error.message as string}`,
     };
   }
 };

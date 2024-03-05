@@ -17,35 +17,70 @@ const formSchema = z.object({
         .string({
           required_error: "Numéro de dossier est requis",
         })
+        // .min(1, { message: "Numéro de dossier ne peut pas être vide" })
+        // .max(10, {
+        //   message: "Numéro de dossier ne peut pas dépasser 10 caractères",
+        // })
+        .length(10, {
+          message: "Numéro de dossier doit faire 10 caractères",
+        })
         .describe("Numéro de dossier"),
       nomDossier: z
         .string({
           required_error: "Nom de dossier est requis",
+        })
+        .min(1, { message: "Nom de dossier ne peut pas être vide" })
+        .max(100, {
+          message: "Nom de dossier ne peut pas dépasser 100 caractères",
         })
         .describe("Nom de dossier"),
       cp: z
         .string({
           required_error: "Code postal est requis",
         })
+        .min(1, { message: "Code postal ne peut pas être vide" })
+        .max(5, { message: "Code postal ne peut pas dépasser 5 caractères" })
         .describe("Code postal"),
-      ville: z.string({
-        required_error: "Ville est requis",
-      }),
-      client: z.string(),
+      ville: z
+        .string({
+          required_error: "Ville est requis",
+        })
+        .min(1, { message: "Ville ne peut pas être vide" })
+        .max(100, { message: "Ville ne peut pas dépasser 100 caractères" }),
+      client: z
+        .string()
+        .min(1, { message: "Client ne peut pas être vide" })
+        .max(100, { message: "Client ne peut pas dépasser 100 caractères" }),
       dessinePar: z
         .string({
           required_error: "Dessiné par est requis",
+        })
+        .min(1, { message: "Dessiné par ne peut pas être vide" })
+        .max(50, {
+          message: "Dessiné par ne peut pas dépasser 50 caractères",
         })
         .describe("Dessiné par"),
     })
     .describe("📂 Informations du dossier"),
   feedback: z
     .object({
-      comment: z.string().describe("Commentaires"),
-      note: z.number().min(1).max(5).default(3),
+      generalComment: z
+        .string()
+        .describe("Commentaires")
+        .describe("Remarques général sur le projet")
+        .optional(),
+      generalNote: z
+        .enum([
+          "1 - Non satisfaisant",
+          "2 - Médiocre",
+          "3 - Acceptable",
+          "4 - Bon",
+          "5 - Excellent",
+        ])
+        .describe("Note général sur le projet")
+        .optional(),
     })
-    .describe("📝 Remarques sur le dossier")
-    .optional(),
+    .describe("📝 Remarques sur le dossier"),
 });
 
 const DossierForm = () => {
@@ -54,13 +89,23 @@ const DossierForm = () => {
   const handleSubmit = async (data: any) => {
     console.log(data);
     const newDossier = await createDossier(data.dossier as Dossier);
-    toast(newDossier.message);
-    const newFeedback = await createFeedback(
-      data.feedback as Feedback,
-      data.dossier as Dossier
-    );
-    toast(newFeedback.message);
-
+    if (
+      data.feedback.generalComment !== undefined ||
+      data.feedback.generalNote !== undefined
+    ) {
+      const newFeedback = await createFeedback(
+        data.feedback as Feedback,
+        data.dossier as Dossier
+      );
+      toast("Message du serveur", {
+        description: `${newDossier.message} / ${newFeedback.message}`,
+      });
+      router.refresh();
+      return;
+    }
+    toast("Message du serveur", {
+      description: newDossier.message,
+    });
     router.refresh();
   };
 
@@ -87,6 +132,17 @@ const DossierForm = () => {
           },
           dessinePar: {
             inputProps: { placeholder: "b.lechat" },
+          },
+        },
+        feedback: {
+          generalComment: {
+            inputProps: {
+              placeholder: "Commentaires",
+            },
+            fieldType: "textarea",
+          },
+          generalNote: {
+            fieldType: "radio",
           },
         },
       }}

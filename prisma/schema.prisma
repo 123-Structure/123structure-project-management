@@ -27,11 +27,11 @@ model Dossier {
 }
 
 model Feedback {
-  id         Int      @id @default(autoincrement())
-  numDossier String   @unique
-  dossier    Dossier  @relation(fields: [numDossier], references: [numDossier])
-  comment    String
-  note       Int
-  createdAt  DateTime @default(now())
-  updatedAt  DateTime @updatedAt
+  id             Int      @id @default(autoincrement())
+  numDossier     String   @unique
+  dossier        Dossier  @relation(fields: [numDossier], references: [numDossier])
+  generalComment String
+  generalNote    Int
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
 }
