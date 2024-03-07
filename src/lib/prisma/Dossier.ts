@@ -1,5 +1,6 @@
 "use server";
 import { Dossier } from "@prisma/client";
+import fetchAddress from "../utils/fetchAddress";
 import prisma from "./prisma";
 
 export const createDossier = async (
@@ -19,6 +20,8 @@ export const createDossier = async (
   }
 
   try {
+    const addresses = await fetchAddress(`${data.cp} ${data.ville}`);
+    console.log("Adresses trouvées :", addresses);
     const dossier = await prisma.dossier.create({
       data,
     });

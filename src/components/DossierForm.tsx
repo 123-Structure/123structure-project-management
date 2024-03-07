@@ -80,7 +80,8 @@ const formSchema = z.object({
         .describe("Note général sur le projet")
         .optional(),
     })
-    .describe("📝 Remarques sur le dossier"),
+    .describe("📝 Remarques sur le dossier")
+    .optional(),
 });
 
 const DossierForm = () => {
