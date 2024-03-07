@@ -1,14 +1,14 @@
 "use server";
-import { Dossier, Feedback } from "@prisma/client";
+import { Feedback } from "@prisma/client";
 import prisma from "./prisma";
 
 export const createFeedback = async (
   data: Omit<Feedback, "id" | "createdAt" | "updatedAt" | "numDossier">,
-  dossier: Dossier
+  numDossier: string
 ) => {
   if (!data.generalComment || !data.generalNote) {
     return {
-      message: "Toutes les données sont requises",
+      message: "⚠ Feedback - Toutes les données sont requises",
     };
   }
 
@@ -20,7 +20,7 @@ export const createFeedback = async (
         generalNote: Number(generalNote[0]),
         dossier: {
           connect: {
-            numDossier: dossier.numDossier,
+            numDossier: numDossier,
           },
         },
       },

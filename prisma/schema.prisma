@@ -17,21 +17,32 @@ model Dossier {
   id         Int       @id @default(autoincrement())
   numDossier String    @unique
   nomDossier String
-  cp         String
-  ville      String
   client     String
   dessinePar String
+  location   Location?
+  feedback   Feedback?
   createdAt  DateTime  @default(now())
   updatedAt  DateTime  @updatedAt
-  feedback   Feedback?
+}
+
+model Location {
+  id         Int      @id @default(autoincrement())
+  numDossier String   @unique
+  cp         String
+  ville      String
+  latitude   Float
+  longitude  Float
+  dossier    Dossier  @relation(fields: [numDossier], references: [numDossier])
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 }
 
 model Feedback {
   id             Int      @id @default(autoincrement())
   numDossier     String   @unique
-  dossier        Dossier  @relation(fields: [numDossier], references: [numDossier])
   generalComment String
   generalNote    Int
+  dossier        Dossier  @relation(fields: [numDossier], references: [numDossier])
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 }

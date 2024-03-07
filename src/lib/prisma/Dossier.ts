@@ -1,6 +1,5 @@
 "use server";
 import { Dossier } from "@prisma/client";
-import fetchAddress from "../utils/fetchAddress";
 import prisma from "./prisma";
 
 export const createDossier = async (
@@ -9,21 +8,22 @@ export const createDossier = async (
   if (
     !data.numDossier ||
     !data.nomDossier ||
-    !data.cp ||
-    !data.ville ||
     !data.client ||
     !data.dessinePar
   ) {
     return {
-      message: "Toutes les données sont requises",
+      message: "⚠ Dossier - Toutes les données sont requises",
     };
   }
 
   try {
-    const addresses = await fetchAddress(`${data.cp} ${data.ville}`);
-    console.log("Adresses trouvées :", addresses);
     const dossier = await prisma.dossier.create({
-      data,
+      data: {
+        numDossier: data.numDossier,
+        nomDossier: data.nomDossier,
+        client: data.client,
+        dessinePar: data.dessinePar,
+      },
     });
     console.log(`🎉 Nouveau dossier créé : ${dossier.numDossier}`);
     return {

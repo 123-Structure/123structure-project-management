@@ -1,8 +1,11 @@
 import IAddressResponse from "../interface/IAddressResponse";
 
-const fetchAddress = async (query: string): Promise<IAddressResponse[]> => {
+const fetchAddress = async (query: {
+  cp: string;
+  ville: string;
+}): Promise<IAddressResponse> => {
   try {
-    const url = `https://api-adresse.data.gouv.fr/search/?q=${query}&type=municipality&autocomplete=0`;
+    const url = `https://api-adresse.data.gouv.fr/search/?q=${query.cp}-${query.ville}&type=municipality&autocomplete=0`;
     const response = await fetch(url);
 
     if (!response.ok) {
@@ -10,7 +13,7 @@ const fetchAddress = async (query: string): Promise<IAddressResponse[]> => {
     }
 
     const data = await response.json();
-    return data.features as IAddressResponse[];
+    return data.features[0] as IAddressResponse;
   } catch (error) {
     console.error(error);
     throw error;

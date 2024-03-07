@@ -1,12 +1,13 @@
 "use client";
 import { createDossier } from "@/lib/prisma/Dossier";
-import { createFeedback } from "@/lib/prisma/Feedback";
 import { Dossier, Feedback } from "@prisma/client";
 import { Save } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import * as z from "zod";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
+import { createLocation } from "@/lib/prisma/Location";
+import { createFeedback } from "@/lib/prisma/Feedback";
 
 // Define your form schema using zod
 const formSchema = z.object({
@@ -38,8 +39,7 @@ const formSchema = z.object({
         .string({
           required_error: "Code postal est requis",
         })
-        .min(1, { message: "Code postal ne peut pas être vide" })
-        .max(5, { message: "Code postal ne peut pas dépasser 5 caractères" })
+        .length(5, { message: "Code postal doit faire 5 caractères" })
         .describe("Code postal"),
       ville: z
         .string({
@@ -90,13 +90,17 @@ const DossierForm = () => {
   const handleSubmit = async (data: any) => {
     console.log(data);
     const newDossier = await createDossier(data.dossier as Dossier);
-    if (
-      data.feedback.generalComment !== undefined ||
-      data.feedback.generalNote !== undefined
-    ) {
+    const newLocation = await createLocation(
+      {
+        cp: data.dossier.cp,
+        ville: data.dossier.ville,
+      },
+      data.dossier.numDossier
+    );
+    if (data.feedback !== undefined) {
       const newFeedback = await createFeedback(
         data.feedback as Feedback,
-        data.dossier as Dossier
+        data.dossier.numDossier
       );
       toast("Message du serveur", {
         description: `${newDossier.message} / ${newFeedback.message}`,
@@ -104,9 +108,11 @@ const DossierForm = () => {
       router.refresh();
       return;
     }
+
     toast("Message du serveur", {
-      description: newDossier.message,
+      description: `${newDossier.message} ${newLocation.message}`,
     });
+
     router.refresh();
   };
 

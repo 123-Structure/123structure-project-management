@@ -1,4 +1,9 @@
-interface IAddressResponse {
+interface IGeometry {
+  type: string;
+  coordinates: number[];
+}
+
+interface IProperties {
   label: string;
   score: number;
   id: string;
@@ -13,6 +18,12 @@ interface IAddressResponse {
   context: string;
   importance: number;
   municipality: string;
+}
+
+interface IAddressResponse {
+  type: string;
+  geometry: IGeometry;
+  properties: IProperties;
 }
 
 export default IAddressResponse;
