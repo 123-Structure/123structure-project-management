@@ -35,7 +35,7 @@ const formSchema = z.object({
           message: "Nom de dossier ne peut pas dépasser 100 caractères",
         })
         .describe("Nom de dossier"),
-      cp: z
+      codePostal: z
         .string({
           required_error: "Code postal est requis",
         })
@@ -92,7 +92,7 @@ const DossierForm = () => {
     const newDossier = await createDossier(data.dossier as Dossier);
     const newLocation = await createLocation(
       {
-        cp: data.dossier.cp,
+        codePostal: data.dossier.codePostal,
         ville: data.dossier.ville,
       },
       data.dossier.numDossier
@@ -103,14 +103,14 @@ const DossierForm = () => {
         data.dossier.numDossier
       );
       toast("Message du serveur", {
-        description: `${newDossier.message} / ${newFeedback.message}`,
+        description: `${newDossier.message} / ${newLocation.message} / ${newFeedback.message}`,
       });
       router.refresh();
       return;
     }
 
     toast("Message du serveur", {
-      description: `${newDossier.message} ${newLocation.message}`,
+      description: `${newDossier.message} / ${newLocation.message}`,
     });
 
     router.refresh();
@@ -128,7 +128,7 @@ const DossierForm = () => {
           nomDossier: {
             inputProps: { placeholder: "PROPRIETE ABC" },
           },
-          cp: {
+          codePostal: {
             inputProps: { placeholder: "00000" },
           },
           ville: {

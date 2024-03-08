@@ -3,12 +3,12 @@ import fetchAddress from "../utils/fetchAddress";
 import prisma from "./prisma";
 
 export const createLocation = async (
-  data: { cp: string; ville: string },
+  data: { codePostal: string; ville: string },
   numDossier: string
 ) => {
   try {
     const address = await fetchAddress({
-      cp: data.cp,
+      codePostal: data.codePostal,
       ville: data.ville,
     });
 
@@ -17,22 +17,48 @@ export const createLocation = async (
       longitude: address.geometry.coordinates[0],
     };
 
-    const location = await prisma.location.create({
-      data: {
-        ...coordinates,
-        cp: data.cp,
-        ville: data.ville,
-        dossier: {
-          connect: {
-            numDossier: numDossier,
-          },
-        },
-      },
+    const codeInsee = address.properties.citycode;
+
+    const existingLocation = await prisma.location.findUnique({
+      where: { codeInsee: codeInsee },
     });
-    console.log(`🎉 Nouveau location créé : ${location.id}`);
-    return {
-      message: "🎉 Nouveau location créé",
-    };
+
+    let location;
+
+    if (existingLocation) {
+      const dossier = await prisma.dossier.update({
+        where: { numDossier: numDossier },
+        data: { codeInsee: existingLocation.codeInsee },
+      });
+      location = existingLocation;
+
+      console.log(
+        `🎉 Localisation mise à jour et liée au dossier : ${dossier.numDossier}`
+      );
+      return {
+        message: `🎉 Localisation mise à jour et liée au dossier : ${dossier.numDossier}`,
+      };
+    } else {
+      const location = await prisma.location.create({
+        data: {
+          codePostal: data.codePostal,
+          codeInsee,
+          ville: data.ville,
+          ...coordinates,
+        },
+      });
+      const dossier = await prisma.dossier.update({
+        where: { numDossier: numDossier },
+        data: { codeInsee: location.codeInsee },
+      });
+
+      console.log(
+        `🎉 Localisation créée et liée au dossier : ${dossier.numDossier}`
+      );
+      return {
+        message: `🎉 Localisation créée à jour et liée au dossier : ${dossier.numDossier}`,
+      };
+    }
   } catch (error: any) {
     console.log(error.message);
     return {
