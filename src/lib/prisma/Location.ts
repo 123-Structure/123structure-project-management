@@ -1,5 +1,7 @@
 "use server";
 import fetchAddress from "../utils/fetchAddress";
+import fetchSeismSnowWind from "../utils/fetchSeismSnowWind";
+import getLittoral from "../utils/getLittoral";
 import prisma from "./prisma";
 
 export const createLocation = async (
@@ -39,11 +41,25 @@ export const createLocation = async (
         message: `🎉 Localisation mise à jour et liée au dossier : ${dossier.numDossier}`,
       };
     } else {
+      const seismSnowWind = await fetchSeismSnowWind(coordinates);
+
+      if (!seismSnowWind.code) {
+        return {
+          message: `💥 Erreur - Obtention séisme, neige et vent`,
+        };
+      }
+
+      const littoral = await getLittoral(codeInsee);
+
       const location = await prisma.location.create({
         data: {
           codePostal: data.codePostal,
           codeInsee,
-          ville: data.ville,
+          ville: data.ville.toUpperCase(),
+          seisme: seismSnowWind.seisme_ec8,
+          vent: seismSnowWind.vent_ec1,
+          neige: seismSnowWind.neige_ec1,
+          littoral: littoral ? littoral.CLASSEMENT : "",
           ...coordinates,
         },
       });

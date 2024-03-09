@@ -20,10 +20,10 @@ interface IProperties {
   municipality: string;
 }
 
-interface IAddressResponse {
+interface IAddress {
   type: string;
   geometry: IGeometry;
   properties: IProperties;
 }
 
-export default IAddressResponse;
+export default IAddress;

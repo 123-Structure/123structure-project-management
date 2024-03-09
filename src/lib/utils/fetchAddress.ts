@@ -1,9 +1,9 @@
-import IAddressResponse from "../interface/IAddressResponse";
+import IAddress from "../interface/IAddress";
 
 const fetchAddress = async (query: {
   codePostal: string;
   ville: string;
-}): Promise<IAddressResponse> => {
+}): Promise<IAddress> => {
   try {
     const url = `https://api-adresse.data.gouv.fr/search/?q=${query.codePostal}-${query.ville}&type=municipality&autocomplete=0`;
     const response = await fetch(url);
@@ -13,7 +13,7 @@ const fetchAddress = async (query: {
     }
 
     const data = await response.json();
-    return data.features[0] as IAddressResponse;
+    return data.features[0] as IAddress;
   } catch (error) {
     console.error(error);
     throw error;
