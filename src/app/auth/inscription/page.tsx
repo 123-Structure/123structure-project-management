@@ -23,8 +23,10 @@ const Page = () => {
         <div className="flex items-center justify-center gap-1 ">
           <p>Vous avez déjà un compte ?</p>
           <Button
+            className="text-slate-950"
             variant={"link"}
             onClick={() => router.push("/auth/connexion")}
+
           >
             <p className="font-bold">Se connecter</p>
           </Button>
