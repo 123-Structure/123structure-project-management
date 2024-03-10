@@ -1,13 +1,13 @@
 "use client";
 import { createDossier } from "@/lib/prisma/Dossier";
+import { createFeedback } from "@/lib/prisma/Feedback";
+import { createLocation } from "@/lib/prisma/Location";
 import { Dossier, Feedback } from "@prisma/client";
 import { Save } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import * as z from "zod";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
-import { createLocation } from "@/lib/prisma/Location";
-import { createFeedback } from "@/lib/prisma/Feedback";
 
 // Define your form schema using zod
 const formSchema = z.object({
@@ -88,32 +88,46 @@ const DossierForm = () => {
   const router = useRouter();
 
   const handleSubmit = async (data: any) => {
-    // console.log(data);
-    const newDossier = await createDossier(data.dossier as Dossier);
-    const newLocation = await createLocation(
-      {
-        codePostal: data.dossier.codePostal,
-        ville: data.dossier.ville,
-      },
-      data.dossier.numDossier
-    );
-    if (data.feedback !== undefined) {
-      const newFeedback = await createFeedback(
-        data.feedback as Feedback,
+    try {
+      const newDossier = await createDossier(data.dossier as Dossier);
+      const newLocation = await createLocation(
+        {
+          codePostal: data.dossier.codePostal,
+          ville: data.dossier.ville,
+        },
         data.dossier.numDossier
       );
-      toast("Message du serveur", {
-        description: `${newDossier.message} / ${newLocation.message} / ${newFeedback.message}`,
-      });
-      router.refresh();
-      return;
+
+      let newFeedback;
+      if (data.feedback !== undefined) {
+        newFeedback = await createFeedback(
+          data.feedback as Feedback,
+          data.dossier.numDossier
+        );
+      }
+
+      if (
+        newDossier.error ||
+        newLocation.error ||
+        (newFeedback && newFeedback.error)
+      ) {
+        toast.error("Erreur lors de la création du dossier", {
+          description: `${newDossier.error ?? ""} / ${
+            newLocation.error ?? ""
+          } / ${newFeedback?.error ?? ""}`,
+        });
+      } else {
+        toast.success("Dossier créé avec succès", {
+          description: `${newDossier.success} / ${newLocation.success} ${
+            newFeedback?.success ? `/ ${newFeedback?.success}` : ""
+          }`,
+        });
+        router.refresh();
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Une erreur est survenue lors de la création du dossier");
     }
-
-    toast("Message du serveur", {
-      description: `${newDossier.message} / ${newLocation.message}`,
-    });
-
-    router.refresh();
   };
 
   return (

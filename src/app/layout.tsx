@@ -1,13 +1,13 @@
+import SessionProviderWrapper from "@/components/auth/SessionProviderWrapper";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import ThemeToggle from "@/components/theme/ThemeToggle";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import SessionProviderWrapper from "@/components/SessionProviderWrapper";
-import { ReactNode } from "react";
 import type { Session } from "next-auth";
+import { Inter } from "next/font/google";
+import { ReactNode } from "react";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,7 +42,7 @@ export default function RootLayout({
               <ThemeToggle />
             </div>
             {children}
-            <Toaster />
+            <Toaster expand={true} richColors />
           </ThemeProvider>
         </SessionProviderWrapper>
       </body>

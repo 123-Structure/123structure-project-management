@@ -7,7 +7,10 @@ import prisma from "./prisma";
 export const createLocation = async (
   data: { codePostal: string; ville: string },
   numDossier: string
-) => {
+): Promise<{
+  success?: string;
+  error?: string;
+}> => {
   try {
     const address = await fetchAddress({
       codePostal: data.codePostal,
@@ -34,18 +37,18 @@ export const createLocation = async (
       });
       location = existingLocation;
 
-      console.log(
-        `🎉 Localisation mise à jour et liée au dossier : ${dossier.numDossier}`
-      );
+      // console.log(
+      //   `🎉 Localisation mise à jour et liée au dossier : ${dossier.numDossier}`
+      // );
       return {
-        message: `🎉 Localisation mise à jour et liée au dossier : ${dossier.numDossier}`,
+        success: `${location.codePostal} ${location.ville}`,
       };
     } else {
       const seismSnowWind = await fetchSeismSnowWind(coordinates);
 
       if (!seismSnowWind.code) {
         return {
-          message: `💥 Erreur - Obtention séisme, neige et vent`,
+          error: `Localisation (Séisme, Neige et Vent) - Erreur lors de la récupération des données`,
         };
       }
 
@@ -63,22 +66,23 @@ export const createLocation = async (
           ...coordinates,
         },
       });
-      const dossier = await prisma.dossier.update({
+
+      await prisma.dossier.update({
         where: { numDossier: numDossier },
         data: { codeInsee: location.codeInsee },
       });
 
-      console.log(
-        `🎉 Localisation créée et liée au dossier : ${dossier.numDossier}`
-      );
+      // console.log(
+      //   `🎉 Localisation créée et liée au dossier : ${dossier.numDossier}`
+      // );
       return {
-        message: `🎉 Localisation créée à jour et liée au dossier : ${dossier.numDossier}`,
+        success: `${location.codePostal} ${location.ville}`,
       };
     }
   } catch (error: any) {
     console.log(error.message);
     return {
-      message: `💥 Erreur - Création location : ${error.message as string}`,
+      error: `Localisation - ${error.message as string}`,
     };
   }
 };

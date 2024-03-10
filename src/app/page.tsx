@@ -1,10 +1,12 @@
 "use client";
-import SignUp from "@/components/SignUp";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Variants, motion } from "framer-motion";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 import DossierForm from "../components/DossierForm";
+import { LogOut } from "lucide-react";
 
 const MainVariants: Variants = {
   hidden: {
@@ -16,26 +18,32 @@ const MainVariants: Variants = {
 };
 
 export default function Home() {
+  const router = useRouter();
   const { data: session, status } = useSession();
 
-  const handleSignIn = () => {
-    signIn();
+  const handleSignOut = () => {
+    signOut({ redirect: false });
+    router.push("/auth/connexion");
+    toast.success("Authentification", {
+      description: `${session?.user.name} déconnecté avec succès.`,
+    });
   };
 
   if (status === "loading") {
-    return <div>Chargement...</div>;
+    return (
+      <motion.main
+        className="flex h-screen w-screen flex-col items-center justify-center gap-4"
+        variants={MainVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <div>Chargement...</div>
+      </motion.main>
+    );
   }
 
   if (!session) {
-    return (
-      <div>
-        <p className="text-2xl font-semibold">
-          Vous devez être connecté pour accéder à cette page.
-        </p>
-        <Button onClick={handleSignIn}>Se connecter</Button>
-        <SignUp />
-      </div>
-    );
+    router.push("auth/connexion");
   }
 
   return (
@@ -45,11 +53,16 @@ export default function Home() {
       initial="hidden"
       animate="visible"
     >
-      <p className="text-2xl font-semibold">Bienvenue, {session.user.name} !</p>
       <p className="text-2xl font-semibold">
-        Votre adresse e-mail est : {session.user.email}
+        Bienvenue, {session?.user.name} !
       </p>
-      <Button onClick={() => signOut()}>Déconnexion</Button>
+      <p className="text-2xl font-semibold">
+        Votre adresse e-mail est : {session?.user.email}
+      </p>
+      <Button onClick={handleSignOut}>
+        <LogOut className="mr-2 size-4" />
+        Déconnexion
+      </Button>
       <p className="text-2xl font-semibold">🏡 123 Structure</p>
       <ScrollArea className="size-1/2 rounded-md border px-4">
         <DossierForm />

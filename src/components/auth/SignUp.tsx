@@ -1,37 +1,36 @@
 "use client";
 import { createUser } from "@/lib/prisma/User";
 import { User } from "@prisma/client";
+import { LogIn } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import * as z from "zod";
-import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
+import AutoForm, { AutoFormSubmit } from "../ui/auto-form";
 
 // Define your form schema using zod
 const formSchema = z.object({
+  name: z
+    .string({
+      required_error: "Le champs est requis",
+    })
+    .describe("Nom d'utilisateur"),
   email: z
     .string({
-      required_error: "Username is required.",
+      required_error: "Email est requis.",
     })
-    // You can use zod's built-in validation as normal
     .min(2, {
-      message: "Username must be at least 2 characters.",
+      message: "Email doit faire plus de 2 caractères",
     })
     .email(),
 
   password: z
     .string({
-      required_error: "Password is required.",
+      required_error: "Mot de passe est requis",
     })
-    // Use the "describe" method to set the label
-    // If no label is set, the field name will be used
-    // and un-camel-cased
-    .describe("Your secure password")
     .min(8, {
-      message: "Password must be at least 8 characters.",
-    }),
-  name: z.string({
-    required_error: "Le champs est requis",
-  }),
+      message: "Mot de passe doit faire au moins 8 caractères",
+    })
+    .describe("Mot de passe"),
 });
 
 const SignUp = () => {
@@ -41,11 +40,11 @@ const SignUp = () => {
     // console.log(data);
     const newuser = await createUser(data as User);
 
-    toast("Message du serveur", {
+    toast("Authentification", {
       description: `${newuser.message}`,
     });
 
-    router.push("api/auth/signin");
+    router.push("/auth/connexion");
   };
 
   return (
@@ -61,7 +60,10 @@ const SignUp = () => {
         },
       }}
     >
-      <AutoFormSubmit>Inscription</AutoFormSubmit>
+      <AutoFormSubmit>
+        <LogIn className="mr-2 size-4" />
+        Inscription
+      </AutoFormSubmit>
     </AutoForm>
   );
 };
