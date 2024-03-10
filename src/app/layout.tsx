@@ -1,10 +1,13 @@
+import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import ThemeToggle from "@/components/theme/ThemeToggle";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme/ThemeProvider";
+import SessionProviderWrapper from "@/components/SessionProviderWrapper";
+import { ReactNode } from "react";
+import type { Session } from "next-auth";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +18,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+  session,
+}: {
+  children: ReactNode;
+  session: Session;
+}) {
   return (
     <html lang="en">
       <body
@@ -26,18 +31,20 @@ export default function RootLayout({
           inter.className
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className="absolute bottom-8 right-8 z-50">
-            <ThemeToggle />
-          </div>
-          {children}
-          <Toaster />
-        </ThemeProvider>
+        <SessionProviderWrapper session={session}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <div className="absolute bottom-8 right-8 z-50">
+              <ThemeToggle />
+            </div>
+            {children}
+            <Toaster />
+          </ThemeProvider>
+        </SessionProviderWrapper>
       </body>
     </html>
   );

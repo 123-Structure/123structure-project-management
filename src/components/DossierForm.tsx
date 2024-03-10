@@ -88,7 +88,7 @@ const DossierForm = () => {
   const router = useRouter();
 
   const handleSubmit = async (data: any) => {
-    console.log(data);
+    // console.log(data);
     const newDossier = await createDossier(data.dossier as Dossier);
     const newLocation = await createLocation(
       {

@@ -1,4 +1,4 @@
-import littoral from "../../public/littoral.json";
+import littoral from "../assets/littoral.json";
 import ILittoral from "../interface/ILittoral";
 
 const getLittoral = (codeInsee: string): ILittoral | undefined => {
