@@ -1,7 +1,7 @@
 "use client";
 import { Variants, motion } from "framer-motion";
-import Image from "next/image";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 
 // Images
 import Image01 from "../../../public/img/auth/01.jpg";

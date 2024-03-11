@@ -36,7 +36,9 @@ export const createDossier = async (
   } catch (error: any) {
     if (error instanceof PrismaClientKnownRequestError) {
       if (error.code === "P2002") {
-        console.log("Information du dossier - Le numéro de dossier ${data.numDossier} existe déjà");
+        console.log(
+          `Information du dossier - Le numéro de dossier ${data.numDossier} existe déjà`
+        );
         return {
           error: `Information du dossier - Le numéro de dossier ${data.numDossier} existe déjà`,
         };

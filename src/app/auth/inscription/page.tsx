@@ -2,9 +2,11 @@
 import SignUp from "@/components/auth/SignUp";
 import { Button } from "@/components/ui/button";
 import { useSession } from "next-auth/react";
+import { useTheme } from "next-themes";
 import { useRouter } from "next/navigation";
 
 const Page = () => {
+  const { theme } = useTheme();
   const router = useRouter();
   const { data: session } = useSession();
 
@@ -23,10 +25,9 @@ const Page = () => {
         <div className="flex items-center justify-center gap-1 ">
           <p>Vous avez déjà un compte ?</p>
           <Button
-            className="text-slate-950"
+            className={theme === "dark" ? "text-slate-50" : "text-slate-950"}
             variant={"link"}
             onClick={() => router.push("/auth/connexion")}
-
           >
             <p className="font-bold">Se connecter</p>
           </Button>

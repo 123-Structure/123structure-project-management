@@ -38,13 +38,18 @@ const SignUp = () => {
 
   const handleSubmit = async (data: any) => {
     // console.log(data);
-    const newuser = await createUser(data as User);
+    const newUser = await createUser(data as User);
 
-    toast("Authentification", {
-      description: `${newuser.message}`,
-    });
-
-    router.push("/auth/connexion");
+    if (newUser.error) {
+      toast.error("Authentification", {
+        description: `${newUser.error}`,
+      });
+    } else if (newUser.success) {
+      toast.success("Authentification", {
+        description: `${newUser.success}`,
+      });
+      router.push("/auth/connexion");
+    }
   };
 
   return (

@@ -3,13 +3,18 @@ import { User } from "@prisma/client";
 import "bcrypt";
 import bcrypt from "bcrypt";
 import prisma from "./prisma";
+import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 
 export const createUser = async (
   data: Omit<User, "id" | "createdAt" | "updatedAt">
-) => {
+): Promise<{
+  success?: string;
+  error?: string;
+}> => {
   if (!data.email || !data.password || !data.name) {
     return {
-      message: "⚠ User - Toutes les données sont requises",
+      error:
+        "Création d'un compte utilisateur - Toutes les données sont requises",
     };
   }
 
@@ -24,14 +29,24 @@ export const createUser = async (
         name: data.name,
       },
     });
-    console.log(`🎉 Nouveau user créé : ${user.name}`);
+    console.log(`Création d'un compte utilisateur - ${user.name}`);
     return {
-      message: `🎉 Nouveau user créé : ${user.name}`,
+      success: `Création d'un compte utilisateur - ${user.name}`,
     };
   } catch (error: any) {
+    if (error instanceof PrismaClientKnownRequestError) {
+      if (error.code === "P2002") {
+        console.log(
+          `Création d'un compte utilisateur - ${data.email} existe déjà`
+        );
+        return {
+          error: `Création d'un compte utilisateur - ${data.email} existe déjà`,
+        };
+      }
+    }
     console.log(error.message);
     return {
-      message: `💥 Erreur - Création user : ${error.message as string}`,
+      error: error.message as string,
     };
   }
 };
