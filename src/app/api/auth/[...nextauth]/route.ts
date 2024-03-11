@@ -8,15 +8,27 @@ declare module "next-auth" {
   interface Session {
     user: {
       id: string;
-      name?: string | null;
+      firstName?: string | null;
+      lastName?: string | null;
       email?: string | null;
     };
   }
 }
 
+declare module "next-auth" {
+  interface User {
+    id: string;
+    firstName?: string | null;
+    lastName?: string | null;
+    email?: string | null;
+  }
+}
+
+
 const userSchema = z.object({
   id: z.string(),
-  name: z.string().nullable(),
+  firstName: z.string().nullable(),
+  lastName: z.string().nullable(),
   email: z.string().nullable(),
 });
 
@@ -56,7 +68,8 @@ const handler = NextAuth({
         const userData = userSchema.parse({
           id: user.id.toString(),
           email: user.email,
-          name: user.name,
+          firstName: user.firstName,
+          lastName: user.lastName,
         });
 
         return userData;
@@ -72,6 +85,9 @@ const handler = NextAuth({
     async jwt({ token, user }) {
       if (user) {
         token.id = user.id as string;
+        token.email = user.email as string;
+        token.firstName = user.firstName as string;
+        token.lastName = user.lastName as string;
       }
       return token;
     },
@@ -79,8 +95,9 @@ const handler = NextAuth({
       if (token) {
         session.user = {
           id: token.id as string,
-          email: token.email,
-          name: token.name,
+          email: token.email as string,
+          firstName: token.firstName as string,
+          lastName: token.lastName as string,
         };
       }
       return session;

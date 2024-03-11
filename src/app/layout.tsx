@@ -1,4 +1,5 @@
 import SessionProviderWrapper from "@/components/auth/SessionProviderWrapper";
+import Menu from "@/components/menu/Menu";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import ThemeToggle from "@/components/theme/ThemeToggle";
 import { Toaster } from "@/components/ui/sonner";
@@ -27,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "bg-background font-sans antialiased overflow-hidden",
+          "bg-background font-sans antialiased overflow-hidden flex flex-col min-h-screen",
           inter.className
         )}
       >
@@ -38,10 +39,11 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className="absolute bottom-8 right-8 z-50">
+            <div className="fixed bottom-8 right-8 z-50">
               <ThemeToggle />
             </div>
-            {children}
+            <Menu />
+            <main className="grow p-4">{children}</main>
             <Toaster expand={true} richColors />
           </ThemeProvider>
         </SessionProviderWrapper>

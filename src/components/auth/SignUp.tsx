@@ -9,11 +9,16 @@ import AutoForm, { AutoFormSubmit } from "../ui/auto-form";
 
 // Define your form schema using zod
 const formSchema = z.object({
-  name: z
+  firstName: z
     .string({
       required_error: "Le champs est requis",
     })
-    .describe("Nom d'utilisateur"),
+    .describe("Prénom"),
+  lastName: z
+    .string({
+      required_error: "Le champs est requis",
+    })
+    .describe("Nom"),
   email: z
     .string({
       required_error: "Email est requis.",

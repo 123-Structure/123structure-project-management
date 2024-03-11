@@ -1,9 +1,9 @@
 "use server";
 import { User } from "@prisma/client";
+import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 import "bcrypt";
 import bcrypt from "bcrypt";
 import prisma from "./prisma";
-import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 
 export const createUser = async (
   data: Omit<User, "id" | "createdAt" | "updatedAt">
@@ -11,7 +11,7 @@ export const createUser = async (
   success?: string;
   error?: string;
 }> => {
-  if (!data.email || !data.password || !data.name) {
+  if (!data.email || !data.password || !data.firstName || !data.lastName) {
     return {
       error:
         "Création d'un compte utilisateur - Toutes les données sont requises",
@@ -26,12 +26,15 @@ export const createUser = async (
       data: {
         email: data.email,
         password: hashedPassword,
-        name: data.name,
+        firstName: data.firstName,
+        lastName: data.lastName.toUpperCase(),
       },
     });
-    console.log(`Création d'un compte utilisateur - ${user.name}`);
+    console.log(
+      `Création d'un compte utilisateur - ${user.firstName} ${user.lastName}`
+    );
     return {
-      success: `Création d'un compte utilisateur - ${user.name}`,
+      success: `Création d'un compte utilisateur -  ${user.firstName} ${user.lastName}`,
     };
   } catch (error: any) {
     if (error instanceof PrismaClientKnownRequestError) {
