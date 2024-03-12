@@ -8,35 +8,47 @@ import * as z from "zod";
 import AutoForm, { AutoFormSubmit } from "../ui/auto-form";
 
 // Define your form schema using zod
-const formSchema = z.object({
-  firstName: z
-    .string({
-      required_error: "Le champs est requis",
-    })
-    .describe("Prénom"),
-  lastName: z
-    .string({
-      required_error: "Le champs est requis",
-    })
-    .describe("Nom"),
-  email: z
-    .string({
-      required_error: "Email est requis.",
-    })
-    .min(2, {
-      message: "Email doit faire plus de 2 caractères",
-    })
-    .email(),
-
-  password: z
-    .string({
-      required_error: "Mot de passe est requis",
-    })
-    .min(8, {
-      message: "Mot de passe doit faire au moins 8 caractères",
-    })
-    .describe("Mot de passe"),
-});
+const formSchema = z
+  .object({
+    firstName: z
+      .string({
+        required_error: "Le champs est requis",
+      })
+      .describe("Prénom"),
+    lastName: z
+      .string({
+        required_error: "Le champs est requis",
+      })
+      .describe("Nom"),
+    email: z
+      .string({
+        required_error: "Email est requis.",
+      })
+      .min(2, {
+        message: "Email doit faire plus de 2 caractères",
+      })
+      .email(),
+    password: z
+      .string({
+        required_error: "Mot de passe est requis",
+      })
+      .min(8, {
+        message: "Mot de passe doit faire au moins 8 caractères",
+      })
+      .describe("Mot de passe"),
+    confirm: z
+      .string({
+        required_error: "Mot de passe est requis",
+      })
+      .min(8, {
+        message: "Mot de passe doit faire au moins 8 caractères",
+      })
+      .describe("Confirmation"),
+  })
+  .refine((data) => data.password === data.confirm, {
+    message: "Les mots de passe doivent correspondre",
+    path: ["confirm"],
+  });
 
 const SignUp = () => {
   const router = useRouter();
@@ -63,6 +75,12 @@ const SignUp = () => {
       onSubmit={(data: any) => handleSubmit(data)}
       fieldConfig={{
         password: {
+          inputProps: {
+            type: "password",
+            placeholder: "••••••••",
+          },
+        },
+        confirm: {
           inputProps: {
             type: "password",
             placeholder: "••••••••",
