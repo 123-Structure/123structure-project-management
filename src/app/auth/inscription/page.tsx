@@ -2,7 +2,6 @@
 import SignUp from "@/components/auth/SignUp";
 import { Button } from "@/components/ui/button";
 import { useSession } from "next-auth/react";
-import { useTheme } from "next-themes";
 import { useRouter } from "next/navigation";
 
 const Page = () => {

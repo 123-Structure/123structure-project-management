@@ -43,7 +43,7 @@ export default function RootLayout({
               <ThemeToggle />
             </div>
             <Menu />
-            <main className="grow p-4">{children}</main>
+            <main className="grow">{children}</main>
             <Toaster expand={true} richColors />
           </ThemeProvider>
         </SessionProviderWrapper>

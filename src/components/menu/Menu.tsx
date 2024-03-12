@@ -1,9 +1,9 @@
 "use client";
+import { LogOut, PlusCircle, UserIcon, Users, Wrench } from "lucide-react";
 import { signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
-import { LogOut, UserIcon, Users, Wrench } from "lucide-react";
 import User from "./User";
 
 const Menu = () => {
@@ -25,21 +25,25 @@ const Menu = () => {
   return (
     <nav className="flex w-full justify-center p-4">
       <div className="flex gap-4">
-        <Button variant="link">
+        <Button variant="link" onClick={() => router.push("/")}>
           <UserIcon className="mr-2 size-4" />
           Espace personnel
         </Button>
-        <Button variant="link">
+        <Button variant="link" disabled>
           <Users className="mr-2 size-4" />
-          Equipe
+          Équipe
         </Button>
-        <Button variant="link">
+        <Button variant="link" disabled>
           <Wrench className="mr-2 size-4" />
           Outils
         </Button>
         <Button variant="link" onClick={handleSignOut}>
           <LogOut className="mr-2 size-4" />
           Déconnexion
+        </Button>
+        <Button onClick={() => router.push("/dossier/nouveau")}>
+          <PlusCircle className="mr-2 size-4" />
+          Nouveau dossier
         </Button>
       </div>
       <div className="absolute right-8 top-4">
