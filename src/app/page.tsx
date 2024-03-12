@@ -1,9 +1,11 @@
 "use client";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Variants, motion } from "framer-motion";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import DossierForm from "../components/DossierForm";
 
-const MainVariants: Variants = {
+const PageVariants: Variants = {
   hidden: {
     opacity: 0,
   },
@@ -13,17 +15,36 @@ const MainVariants: Variants = {
 };
 
 export default function Home() {
+  const router = useRouter();
+  const { data: session, status } = useSession();
+
+  if (status === "loading") {
+    return (
+      <motion.div
+        className="flex h-screen w-screen items-center justify-center"
+        variants={PageVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <div>Chargement...</div>
+      </motion.div>
+    );
+  }
+
+  if (!session) {
+    router.push("auth/connexion");
+  }
+
   return (
-    <motion.main
-      className="flex h-screen w-screen flex-col items-center justify-center gap-4"
-      variants={MainVariants}
+    <motion.div
+      className="flex size-full gap-4"
+      variants={PageVariants}
       initial="hidden"
       animate="visible"
     >
-      <p className="text-2xl font-semibold">🏡 123 Structure</p>
-      <ScrollArea className="size-1/2 rounded-md border px-4">
+      <ScrollArea className="h-96 w-full rounded-md border p-4">
         <DossierForm />
       </ScrollArea>
-    </motion.main>
+    </motion.div>
   );
 }

@@ -1,10 +1,14 @@
 "use server";
 import { Dossier } from "@prisma/client";
+import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 import prisma from "./prisma";
 
 export const createDossier = async (
   data: Omit<Dossier, "id" | "createdAt" | "updatedAt">
-) => {
+): Promise<{
+  success?: string;
+  error?: string;
+}> => {
   if (
     !data.numDossier ||
     !data.nomDossier ||
@@ -12,7 +16,7 @@ export const createDossier = async (
     !data.dessinePar
   ) {
     return {
-      message: "⚠ Dossier - Toutes les données sont requises",
+      error: "Information du dossier - Toutes les données sont requises",
     };
   }
 
@@ -25,14 +29,26 @@ export const createDossier = async (
         dessinePar: data.dessinePar,
       },
     });
-    console.log(`🎉 Nouveau dossier créé : ${dossier.numDossier}`);
+    // console.log(`🎉 Nouveau dossier créé : ${dossier.numDossier}`);
     return {
-      message: `🎉 Nouveau dossier créé : ${dossier.numDossier}`,
+      success: dossier.numDossier,
     };
   } catch (error: any) {
+    if (error instanceof PrismaClientKnownRequestError) {
+      if (error.code === "P2002") {
+        console.log(
+          `Information du dossier - Le numéro de dossier ${data.numDossier} existe déjà`
+        );
+        return {
+          error: `Information du dossier - Le numéro de dossier ${data.numDossier} existe déjà`,
+        };
+      }
+    }
     console.log(error.message);
     return {
-      message: `💥 Erreur - Création dossier : ${error.message as string}`,
+      error: `Information du dossier - Une erreur inconnue s'est produite : ${
+        error.message as string
+      }`,
     };
   }
 };

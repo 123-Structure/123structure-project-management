@@ -1,0 +1,8304 @@
+[
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97101",
+    "NOM_COM": "Abymes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97102",
+    "NOM_COM": "Anse-Bertrand",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97103",
+    "NOM_COM": "Baie-Mahault",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97104",
+    "NOM_COM": "Baillif",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97105",
+    "NOM_COM": "Basse-Terre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97106",
+    "NOM_COM": "Bouillante",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97107",
+    "NOM_COM": "Capesterre-Belle-Eau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97108",
+    "NOM_COM": "Capesterre-de-Marie-Galante",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97109",
+    "NOM_COM": "Gourbeyre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97110",
+    "NOM_COM": "Désirade",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97111",
+    "NOM_COM": "Deshaies",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97112",
+    "NOM_COM": "Grand-Bourg",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97113",
+    "NOM_COM": "Gosier",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97114",
+    "NOM_COM": "Goyave",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97115",
+    "NOM_COM": "Lamentin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97116",
+    "NOM_COM": "Morne-à-l'Eau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97117",
+    "NOM_COM": "Moule",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97118",
+    "NOM_COM": "Petit-Bourg",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97119",
+    "NOM_COM": "Petit-Canal",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97120",
+    "NOM_COM": "Pointe-à-Pitre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97121",
+    "NOM_COM": "Pointe-Noire",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97122",
+    "NOM_COM": "Port-Louis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97125",
+    "NOM_COM": "Saint-François",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97126",
+    "NOM_COM": "Saint-Louis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97128",
+    "NOM_COM": "Sainte-Anne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97129",
+    "NOM_COM": "Sainte-Rose",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97130",
+    "NOM_COM": "Terre-de-Bas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97131",
+    "NOM_COM": "Terre-de-Haut",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97132",
+    "NOM_COM": "Trois-Rivières",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97133",
+    "NOM_COM": "Vieux-Fort",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "971",
+    "NOM_DEPT": "Guadeloupe",
+    "INSEE_COM": "97134",
+    "NOM_COM": "Vieux-Habitants",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97202",
+    "NOM_COM": "Anses-d'Arlet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97203",
+    "NOM_COM": "Basse-Pointe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97204",
+    "NOM_COM": "Carbet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97205",
+    "NOM_COM": "Case-Pilote",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97206",
+    "NOM_COM": "Diamant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97207",
+    "NOM_COM": "Ducos",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97209",
+    "NOM_COM": "Fort-de-France",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97210",
+    "NOM_COM": "François",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97211",
+    "NOM_COM": "Grand'Rivière",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97213",
+    "NOM_COM": "Lamentin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97214",
+    "NOM_COM": "Lorrain",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97215",
+    "NOM_COM": "Macouba",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97216",
+    "NOM_COM": "Marigot",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97217",
+    "NOM_COM": "Marin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97219",
+    "NOM_COM": "Prêcheur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97220",
+    "NOM_COM": "Rivière-Pilote",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97221",
+    "NOM_COM": "Rivière-Salée",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97222",
+    "NOM_COM": "Robert",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97225",
+    "NOM_COM": "Saint-Pierre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97226",
+    "NOM_COM": "Sainte-Anne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97227",
+    "NOM_COM": "Sainte-Luce",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97228",
+    "NOM_COM": "Sainte-Marie",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97229",
+    "NOM_COM": "Schœlcher",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97230",
+    "NOM_COM": "Trinité",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97231",
+    "NOM_COM": "Trois-Îlets",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97232",
+    "NOM_COM": "Vauclin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "972",
+    "NOM_DEPT": "Martinique",
+    "INSEE_COM": "97234",
+    "NOM_COM": "Bellefontaine",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97301",
+    "NOM_COM": "Régina",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97302",
+    "NOM_COM": "Cayenne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97303",
+    "NOM_COM": "Iracoubo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97304",
+    "NOM_COM": "Kourou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97305",
+    "NOM_COM": "Macouria",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97306",
+    "NOM_COM": "Mana",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97307",
+    "NOM_COM": "Matoury",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97308",
+    "NOM_COM": "Saint-Georges",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97309",
+    "NOM_COM": "Remire-Montjoly",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97310",
+    "NOM_COM": "Roura",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97312",
+    "NOM_COM": "Sinnamary",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97314",
+    "NOM_COM": "Ouanary",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97358",
+    "NOM_COM": "Saint-Élie",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "973",
+    "NOM_DEPT": "Guyane",
+    "INSEE_COM": "97361",
+    "NOM_COM": "Awala-Yalimapo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97401",
+    "NOM_COM": "Avirons",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97402",
+    "NOM_COM": "Bras-Panon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97404",
+    "NOM_COM": "Étang-Salé",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97405",
+    "NOM_COM": "Petite-Île",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97407",
+    "NOM_COM": "Port",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97408",
+    "NOM_COM": "Possession",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97409",
+    "NOM_COM": "Saint-André",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97410",
+    "NOM_COM": "Saint-Benoît",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97411",
+    "NOM_COM": "Saint-Denis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97412",
+    "NOM_COM": "Saint-Joseph",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97413",
+    "NOM_COM": "Saint-Leu",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97414",
+    "NOM_COM": "Saint-Louis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97415",
+    "NOM_COM": "Saint-Paul",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97416",
+    "NOM_COM": "Saint-Pierre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97417",
+    "NOM_COM": "Saint-Philippe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97418",
+    "NOM_COM": "Sainte-Marie",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97419",
+    "NOM_COM": "Sainte-Rose",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97420",
+    "NOM_COM": "Sainte-Suzanne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "974",
+    "NOM_DEPT": "La Réunion",
+    "INSEE_COM": "97423",
+    "NOM_COM": "Trois-Bassins",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97601",
+    "NOM_COM": "Acoua",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97602",
+    "NOM_COM": "Bandraboua",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97603",
+    "NOM_COM": "Bandrele",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97604",
+    "NOM_COM": "Bouéni",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97605",
+    "NOM_COM": "Chiconi",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97606",
+    "NOM_COM": "Chirongui",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97607",
+    "NOM_COM": "Dembeni",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97608",
+    "NOM_COM": "Dzaoudzi",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97609",
+    "NOM_COM": "Kani-Kéli",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97610",
+    "NOM_COM": "Koungou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97611",
+    "NOM_COM": "Mamoudzou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97612",
+    "NOM_COM": "Mtsamboro",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97613",
+    "NOM_COM": "M'Tsangamouji",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97614",
+    "NOM_COM": "Ouangani",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97615",
+    "NOM_COM": "Pamandzi",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97616",
+    "NOM_COM": "Sada",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "976",
+    "NOM_DEPT": "Mayotte",
+    "INSEE_COM": "97617",
+    "NOM_COM": "Tsingoni",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39038",
+    "NOM_COM": "Barésia-sur-l'Ain",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39061",
+    "NOM_COM": "Boissia",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39086",
+    "NOM_COM": "Cernon",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39106",
+    "NOM_COM": "Charchilla",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39175",
+    "NOM_COM": "Coyron",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39278",
+    "NOM_COM": "Largillay-Marsonnay",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39289",
+    "NOM_COM": "Lect",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39307",
+    "NOM_COM": "Maisod",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39333",
+    "NOM_COM": "Moirans-en-Montagne",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39394",
+    "NOM_COM": "Onoz",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39397",
+    "NOM_COM": "Orgelet",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39435",
+    "NOM_COM": "Pont-de-Poitte",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "39",
+    "NOM_DEPT": "Jura",
+    "INSEE_COM": "39534",
+    "NOM_COM": "Tour-du-Meix",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14001",
+    "NOM_COM": "Ablon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14009",
+    "NOM_COM": "Amfreville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14021",
+    "NOM_COM": "Arromanches-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14022",
+    "NOM_COM": "Asnelles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14024",
+    "NOM_COM": "Auberville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14059",
+    "NOM_COM": "Benerville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14060",
+    "NOM_COM": "Bénouville",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14066",
+    "NOM_COM": "Bernières-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14079",
+    "NOM_COM": "Blonville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14117",
+    "NOM_COM": "Cabourg",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14165",
+    "NOM_COM": "Colleville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14166",
+    "NOM_COM": "Colleville-Montgomery",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14172",
+    "NOM_COM": "Commes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14191",
+    "NOM_COM": "Courseulles-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14202",
+    "NOM_COM": "Cricquebœuf",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14204",
+    "NOM_COM": "Cricqueville-en-Bessin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14220",
+    "NOM_COM": "Deauville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14225",
+    "NOM_COM": "Dives-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14239",
+    "NOM_COM": "Englesqueville-la-Percée",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14281",
+    "NOM_COM": "Formigny La Bataille",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14298",
+    "NOM_COM": "Géfosse-Fontenay",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14305",
+    "NOM_COM": "Gonneville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14312",
+    "NOM_COM": "Grandcamp-Maisy",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14318",
+    "NOM_COM": "Graye-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14325",
+    "NOM_COM": "Hermanville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14333",
+    "NOM_COM": "Honfleur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14338",
+    "NOM_COM": "Houlgate",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14342",
+    "NOM_COM": "Isigny-sur-Mer",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14354",
+    "NOM_COM": "Langrune-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14365",
+    "NOM_COM": "Lion-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14377",
+    "NOM_COM": "Longues-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14384",
+    "NOM_COM": "Luc-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14401",
+    "NOM_COM": "Manvieux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14409",
+    "NOM_COM": "Merville-Franceville-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14430",
+    "NOM_COM": "Meuvaines",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14480",
+    "NOM_COM": "Osmanville",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14488",
+    "NOM_COM": "Ouistreham",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14492",
+    "NOM_COM": "Pennedepie",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14515",
+    "NOM_COM": "Port-en-Bessin-Huppain",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14530",
+    "NOM_COM": "Ranville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14536",
+    "NOM_COM": "Rivière-Saint-Sauveur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14562",
+    "NOM_COM": "Saint-Aubin-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14565",
+    "NOM_COM": "Saint-Côme-de-Fresné",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14591",
+    "NOM_COM": "Aure sur Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14605",
+    "NOM_COM": "Saint-Laurent-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14652",
+    "NOM_COM": "Saint-Pierre-du-Mont",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14665",
+    "NOM_COM": "Sallenelles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14701",
+    "NOM_COM": "Tourgéville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14709",
+    "NOM_COM": "Tracy-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14715",
+    "NOM_COM": "Trouville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14724",
+    "NOM_COM": "Varaville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14739",
+    "NOM_COM": "Ver-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14745",
+    "NOM_COM": "Vierville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14754",
+    "NOM_COM": "Villers-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "14",
+    "NOM_DEPT": "Calvados",
+    "INSEE_COM": "14755",
+    "NOM_COM": "Villerville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27064",
+    "NOM_COM": "Berville-sur-Mer",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27169",
+    "NOM_COM": "Conteville",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27233",
+    "NOM_COM": "Fatouville-Grestain",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27243",
+    "NOM_COM": "Fiquefleur-Équainville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27260",
+    "NOM_COM": "Foulbec",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27388",
+    "NOM_COM": "Marais-Vernier",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27485",
+    "NOM_COM": "Quillebeuf-sur-Seine",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "27",
+    "NOM_DEPT": "Eure",
+    "INSEE_COM": "27601",
+    "NOM_COM": "Saint-Samson-de-la-Roque",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50003",
+    "NOM_COM": "Agon-Coutainville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50015",
+    "NOM_COM": "Annoville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50021",
+    "NOM_COM": "Audouville-la-Hubert",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50022",
+    "NOM_COM": "Aumeville-Lestre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50025",
+    "NOM_COM": "Avranches",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50030",
+    "NOM_COM": "Barfleur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50031",
+    "NOM_COM": "Barneville-Carteret",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50033",
+    "NOM_COM": "Baubigny",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50041",
+    "NOM_COM": "Hague",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50042",
+    "NOM_COM": "Beauvoir",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50058",
+    "NOM_COM": "Blainville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50066",
+    "NOM_COM": "Jullouville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50076",
+    "NOM_COM": "Bréhal",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50077",
+    "NOM_COM": "Bretteville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50078",
+    "NOM_COM": "Bretteville-sur-Ay",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50081",
+    "NOM_COM": "Bréville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50085",
+    "NOM_COM": "Bricqueville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50099",
+    "NOM_COM": "Carentan-les-Marais",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50099",
+    "NOM_COM": "Carentan-les-Marais",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50102",
+    "NOM_COM": "Carolles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50108",
+    "NOM_COM": "Céaux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50117",
+    "NOM_COM": "Champeaux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50129",
+    "NOM_COM": "Cherbourg-en-Cotentin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50142",
+    "NOM_COM": "Vicq-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50143",
+    "NOM_COM": "Coudeville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50146",
+    "NOM_COM": "Courtils",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50150",
+    "NOM_COM": "Crasville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50151",
+    "NOM_COM": "Créances",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50162",
+    "NOM_COM": "Digosville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50165",
+    "NOM_COM": "Donville-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50167",
+    "NOM_COM": "Dragey-Ronthon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50178",
+    "NOM_COM": "Fermanville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50184",
+    "NOM_COM": "Flamanville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50190",
+    "NOM_COM": "Fontenay-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50196",
+    "NOM_COM": "Gatteville-le-Phare",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50198",
+    "NOM_COM": "Geffosses",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50199",
+    "NOM_COM": "Genêts",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50215",
+    "NOM_COM": "Gouville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50218",
+    "NOM_COM": "Granville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50231",
+    "NOM_COM": "Hauteville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50236",
+    "NOM_COM": "Haye",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50238",
+    "NOM_COM": "Héauville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50243",
+    "NOM_COM": "Heugueville-sur-Sienne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50253",
+    "NOM_COM": "Huisnes-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50267",
+    "NOM_COM": "Lessay",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50268",
+    "NOM_COM": "Lestre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50272",
+    "NOM_COM": "Lingreville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50288",
+    "NOM_COM": "Marcey-les-Grèves",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50296",
+    "NOM_COM": "Maupertus-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50332",
+    "NOM_COM": "Moitiers-d'Allonne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50342",
+    "NOM_COM": "Montfarville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50349",
+    "NOM_COM": "Montmartin-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50353",
+    "NOM_COM": "Mont-Saint-Michel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50388",
+    "NOM_COM": "Orval sur Sienne",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50388",
+    "NOM_COM": "Orval sur Sienne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50402",
+    "NOM_COM": "Pieux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50403",
+    "NOM_COM": "Pirou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50407",
+    "NOM_COM": "Poilley",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50408",
+    "NOM_COM": "Pontaubault",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50410",
+    "NOM_COM": "Pontorson",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50412",
+    "NOM_COM": "Port-Bail-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50417",
+    "NOM_COM": "Quettehou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50421",
+    "NOM_COM": "Quinéville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50429",
+    "NOM_COM": "Regnéville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50433",
+    "NOM_COM": "Réville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50442",
+    "NOM_COM": "Rozel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50471",
+    "NOM_COM": "Saint-Georges-de-la-Rivière",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50479",
+    "NOM_COM": "Saint-Germain-de-Varreville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50481",
+    "NOM_COM": "Saint-Germain-sur-Ay",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50490",
+    "NOM_COM": "Saint-Jean-de-la-Rivière",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50496",
+    "NOM_COM": "Saint-Jean-le-Thomas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50507",
+    "NOM_COM": "Saint-Marcouf",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50509",
+    "NOM_COM": "Sainte-Marie-du-Mont",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50517",
+    "NOM_COM": "Saint-Martin-de-Varreville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50523",
+    "NOM_COM": "Sainte-Mère-Église",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50532",
+    "NOM_COM": "Saint-Pair-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50543",
+    "NOM_COM": "Saint-Quentin-sur-le-Homme",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50562",
+    "NOM_COM": "Saint-Vaast-la-Hougue",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50576",
+    "NOM_COM": "Siouville-Hague",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50585",
+    "NOM_COM": "Surtainville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50603",
+    "NOM_COM": "Tourville-sur-Sienne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50604",
+    "NOM_COM": "Tréauville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50612",
+    "NOM_COM": "Vains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "50",
+    "NOM_DEPT": "Manche",
+    "INSEE_COM": "50616",
+    "NOM_COM": "Val-Saint-Père",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76079",
+    "NOM_COM": "Bénouville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76167",
+    "NOM_COM": "Cauville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76169",
+    "NOM_COM": "Cerlangue",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76192",
+    "NOM_COM": "Criel-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76194",
+    "NOM_COM": "Criquebeuf-en-Caux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76217",
+    "NOM_COM": "Dieppe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76232",
+    "NOM_COM": "Életot",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76254",
+    "NOM_COM": "Étretat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76259",
+    "NOM_COM": "Fécamp",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76266",
+    "NOM_COM": "Flocques",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76305",
+    "NOM_COM": "Gonfreville-l'Orcher",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76349",
+    "NOM_COM": "Hautot-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76351",
+    "NOM_COM": "Havre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76361",
+    "NOM_COM": "Heuqueville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76375",
+    "NOM_COM": "Ingouville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76390",
+    "NOM_COM": "Loges",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76407",
+    "NOM_COM": "Manneville-ès-Plains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76481",
+    "NOM_COM": "Octeville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76489",
+    "NOM_COM": "Oudalle",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76493",
+    "NOM_COM": "Paluel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76508",
+    "NOM_COM": "Poterie-Cap-d'Antifer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76515",
+    "NOM_COM": "Quiberville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76533",
+    "NOM_COM": "Rogerville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76552",
+    "NOM_COM": "Sainte-Adresse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76564",
+    "NOM_COM": "Saint-Aubin-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76595",
+    "NOM_COM": "Saint-Jouin-Bruneval",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76600",
+    "NOM_COM": "Saint-Léonard",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76605",
+    "NOM_COM": "Sainte-Marguerite-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76613",
+    "NOM_COM": "Saint-Martin-aux-Buneaux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76618",
+    "NOM_COM": "Petit-Caux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76637",
+    "NOM_COM": "Saint-Pierre-en-Port",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76651",
+    "NOM_COM": "Saint-Sylvain",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76655",
+    "NOM_COM": "Saint-Valery-en-Caux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76657",
+    "NOM_COM": "Saint-Vigor-d'Ymonville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76660",
+    "NOM_COM": "Sandouville",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76663",
+    "NOM_COM": "Sassetot-le-Mauconduit",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76670",
+    "NOM_COM": "Senneville-sur-Fécamp",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76683",
+    "NOM_COM": "Sotteville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76684",
+    "NOM_COM": "Tancarville",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76693",
+    "NOM_COM": "Tilleul",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76711",
+    "NOM_COM": "Tréport",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76720",
+    "NOM_COM": "Varengeville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76726",
+    "NOM_COM": "Vattetot-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76735",
+    "NOM_COM": "Veules-les-Roses",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76736",
+    "NOM_COM": "Veulettes-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "76",
+    "NOM_DEPT": "Seine-Maritime",
+    "INSEE_COM": "76754",
+    "NOM_COM": "Yport",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59107",
+    "NOM_COM": "Bray-Dunes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59183",
+    "NOM_COM": "Dunkerque",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59260",
+    "NOM_COM": "Ghyvelde",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59271",
+    "NOM_COM": "Grande-Synthe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59272",
+    "NOM_COM": "Grand-Fort-Philippe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59273",
+    "NOM_COM": "Gravelines",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59340",
+    "NOM_COM": "Leffrinckoucke",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59359",
+    "NOM_COM": "Loon-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "59",
+    "NOM_DEPT": "Nord",
+    "INSEE_COM": "59668",
+    "NOM_COM": "Zuydcoote",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62025",
+    "NOM_COM": "Ambleteuse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62054",
+    "NOM_COM": "Audinghen",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62056",
+    "NOM_COM": "Audresselles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62108",
+    "NOM_COM": "Berck",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62160",
+    "NOM_COM": "Boulogne-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62193",
+    "NOM_COM": "Calais",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62201",
+    "NOM_COM": "Camiers",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62233",
+    "NOM_COM": "Conchil-le-Temple",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62261",
+    "NOM_COM": "Cucq",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62264",
+    "NOM_COM": "Dannes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62300",
+    "NOM_COM": "Équihen-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62307",
+    "NOM_COM": "Escalles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62318",
+    "NOM_COM": "Étaples",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62390",
+    "NOM_COM": "Groffliers",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62548",
+    "NOM_COM": "Marck",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62571",
+    "NOM_COM": "Merlimont",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62604",
+    "NOM_COM": "Neufchâtel-Hardelot",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62643",
+    "NOM_COM": "Outreau",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62645",
+    "NOM_COM": "Oye-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62667",
+    "NOM_COM": "Portel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62746",
+    "NOM_COM": "Saint-Étienne-au-Mont",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62752",
+    "NOM_COM": "Saint-Josse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62774",
+    "NOM_COM": "Sangatte",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62806",
+    "NOM_COM": "Tardinghen",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62826",
+    "NOM_COM": "Touquet-Paris-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62866",
+    "NOM_COM": "Waben",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62893",
+    "NOM_COM": "Wimereux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62894",
+    "NOM_COM": "Wimille",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "62",
+    "NOM_DEPT": "Pas-de-Calais",
+    "INSEE_COM": "62899",
+    "NOM_COM": "Wissant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80039",
+    "NOM_COM": "Ault",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80110",
+    "NOM_COM": "Boismont",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80182",
+    "NOM_COM": "Cayeux-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80228",
+    "NOM_COM": "Crotoy",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80303",
+    "NOM_COM": "Favières",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80333",
+    "NOM_COM": "Fort-Mahon-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80464",
+    "NOM_COM": "Lanchères",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80533",
+    "NOM_COM": "Mers-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80600",
+    "NOM_COM": "Noyelles-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80618",
+    "NOM_COM": "Pendé",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80633",
+    "NOM_COM": "Ponthoile",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80649",
+    "NOM_COM": "Quend",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80713",
+    "NOM_COM": "Saint-Quentin-en-Tourmont",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80714",
+    "NOM_COM": "Saint-Quentin-la-Motte-Croix-au-Bailly",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80721",
+    "NOM_COM": "Saint-Valery-sur-Somme",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "80",
+    "NOM_DEPT": "Somme",
+    "INSEE_COM": "80826",
+    "NOM_COM": "Woignarue",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10005",
+    "NOM_COM": "Amance",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10061",
+    "NOM_COM": "Brévonnes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10129",
+    "NOM_COM": "Dosches",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10165",
+    "NOM_COM": "Géraudot",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10209",
+    "NOM_COM": "Lusigny-sur-Barse",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10228",
+    "NOM_COM": "Mathaux",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10238",
+    "NOM_COM": "Mesnil-Saint-Père",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10249",
+    "NOM_COM": "Montiéramey",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10287",
+    "NOM_COM": "Piney",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "10",
+    "NOM_DEPT": "Aube",
+    "INSEE_COM": "10313",
+    "NOM_COM": "Radonvilliers",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "51",
+    "NOM_DEPT": "Marne",
+    "INSEE_COM": "51016",
+    "NOM_COM": "Arrigny",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "51",
+    "NOM_DEPT": "Marne",
+    "INSEE_COM": "51223",
+    "NOM_COM": "Écollemont",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "51",
+    "NOM_DEPT": "Marne",
+    "INSEE_COM": "51269",
+    "NOM_COM": "Giffaumont-Champaubert",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "51",
+    "NOM_DEPT": "Marne",
+    "INSEE_COM": "51277",
+    "NOM_COM": "Sainte-Marie-du-Lac-Nuisement",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "51",
+    "NOM_DEPT": "Marne",
+    "INSEE_COM": "51316",
+    "NOM_COM": "Larzicourt",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "51",
+    "NOM_DEPT": "Marne",
+    "INSEE_COM": "51419",
+    "NOM_COM": "Outines",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "52",
+    "NOM_DEPT": "Haute-Marne",
+    "INSEE_COM": "52182",
+    "NOM_COM": "Éclaron-Braucourt-Sainte-Livière",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "52",
+    "NOM_DEPT": "Haute-Marne",
+    "INSEE_COM": "52391",
+    "NOM_COM": "Planrupt",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "52",
+    "NOM_DEPT": "Haute-Marne",
+    "INSEE_COM": "52411",
+    "NOM_COM": "Rives Dervoises",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "54",
+    "NOM_DEPT": "Meurthe-et-Moselle",
+    "INSEE_COM": "54182",
+    "NOM_COM": "Essey-et-Maizerais",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "54",
+    "NOM_DEPT": "Meurthe-et-Moselle",
+    "INSEE_COM": "54416",
+    "NOM_COM": "Pannes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "54",
+    "NOM_DEPT": "Meurthe-et-Moselle",
+    "INSEE_COM": "54470",
+    "NOM_COM": "Saint-Baussant",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "55",
+    "NOM_DEPT": "Meuse",
+    "INSEE_COM": "55093",
+    "NOM_COM": "Buxières-sous-les-Côtes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "55",
+    "NOM_DEPT": "Meuse",
+    "INSEE_COM": "55245",
+    "NOM_COM": "Heudicourt-sous-les-Côtes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "55",
+    "NOM_DEPT": "Meuse",
+    "INSEE_COM": "55270",
+    "NOM_COM": "Lahayville",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "55",
+    "NOM_DEPT": "Meuse",
+    "INSEE_COM": "55353",
+    "NOM_COM": "Montsec",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "55",
+    "NOM_DEPT": "Meuse",
+    "INSEE_COM": "55386",
+    "NOM_COM": "Nonsard-Lamarche",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "55",
+    "NOM_DEPT": "Meuse",
+    "INSEE_COM": "55431",
+    "NOM_COM": "Richecourt",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44006",
+    "NOM_COM": "Assérac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44010",
+    "NOM_COM": "Batz-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44012",
+    "NOM_COM": "Bernerie-en-Retz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44018",
+    "NOM_COM": "Bouaye",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44019",
+    "NOM_COM": "Bouée",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44021",
+    "NOM_COM": "Villeneuve-en-Retz",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44033",
+    "NOM_COM": "Chapelle-Launay",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44041",
+    "NOM_COM": "Chevrolière",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44046",
+    "NOM_COM": "Corsept",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44049",
+    "NOM_COM": "Croisic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44052",
+    "NOM_COM": "Donges",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44055",
+    "NOM_COM": "Baule-Escoublac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44061",
+    "NOM_COM": "Frossay",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44069",
+    "NOM_COM": "Guérande",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44080",
+    "NOM_COM": "Lavau-sur-Loire",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44097",
+    "NOM_COM": "Mesquer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44103",
+    "NOM_COM": "Montoir-de-Bretagne",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44106",
+    "NOM_COM": "Moutiers-en-Retz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44116",
+    "NOM_COM": "Paimbœuf",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44125",
+    "NOM_COM": "Piriac-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44126",
+    "NOM_COM": "Plaine-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44131",
+    "NOM_COM": "Pornic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44132",
+    "NOM_COM": "Pornichet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44135",
+    "NOM_COM": "Pouliguen",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44136",
+    "NOM_COM": "Préfailles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44150",
+    "NOM_COM": "Saint-Aignan-Grandlieu",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44154",
+    "NOM_COM": "Saint-Brevin-les-Pins",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44174",
+    "NOM_COM": "Saint-Lumine-de-Coutais",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44178",
+    "NOM_COM": "Saint-Mars-de-Coutais",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44182",
+    "NOM_COM": "Saint-Michel-Chef-Chef",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44184",
+    "NOM_COM": "Saint-Nazaire",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44188",
+    "NOM_COM": "Saint-Philbert-de-Grand-Lieu",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44192",
+    "NOM_COM": "Saint-Viaud",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "44",
+    "NOM_DEPT": "Loire-Atlantique",
+    "INSEE_COM": "44211",
+    "NOM_COM": "Turballe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85001",
+    "NOM_COM": "Aiguillon-la-Presqu'île",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85004",
+    "NOM_COM": "Angles",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85011",
+    "NOM_COM": "Barbâtre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85012",
+    "NOM_COM": "Barre-de-Monts",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85018",
+    "NOM_COM": "Beauvoir-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85029",
+    "NOM_COM": "Bouin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85035",
+    "NOM_COM": "Bretignolles-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85049",
+    "NOM_COM": "Champagné-les-Marais",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85083",
+    "NOM_COM": "Épine",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85088",
+    "NOM_COM": "Fenouiller",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85104",
+    "NOM_COM": "Grues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85106",
+    "NOM_COM": "Guérinière",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85112",
+    "NOM_COM": "Île-d'Olonne",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85113",
+    "NOM_COM": "Île-d'Yeu",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85114",
+    "NOM_COM": "Jard-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85127",
+    "NOM_COM": "Longeville-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85163",
+    "NOM_COM": "Noirmoutier-en-l'Île",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85164",
+    "NOM_COM": "Notre-Dame-de-Monts",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85185",
+    "NOM_COM": "Puyravault",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85194",
+    "NOM_COM": "Sables-d'Olonne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85222",
+    "NOM_COM": "Saint-Gilles-Croix-de-Vie",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85226",
+    "NOM_COM": "Saint-Hilaire-de-Riez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85234",
+    "NOM_COM": "Saint-Jean-de-Monts",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85243",
+    "NOM_COM": "Brem-sur-Mer",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85255",
+    "NOM_COM": "Saint-Michel-en-l'Herm",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85267",
+    "NOM_COM": "Sainte-Radégonde-des-Noyers",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85278",
+    "NOM_COM": "Saint-Vincent-sur-Jard",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85288",
+    "NOM_COM": "Talmont-Saint-Hilaire",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85294",
+    "NOM_COM": "Tranche-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "85",
+    "NOM_DEPT": "Vendée",
+    "INSEE_COM": "85297",
+    "NOM_COM": "Triaize",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22016",
+    "NOM_COM": "Île-de-Bréhat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22049",
+    "NOM_COM": "Créhen",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22054",
+    "NOM_COM": "Erquy",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22055",
+    "NOM_COM": "Binic-Étables-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22081",
+    "NOM_COM": "Hillion",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22085",
+    "NOM_COM": "Kerbors",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22093",
+    "NOM_COM": "Lamballe-Armor",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22094",
+    "NOM_COM": "Lancieux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22103",
+    "NOM_COM": "Langrolay-sur-Rance",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22106",
+    "NOM_COM": "Langueux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22111",
+    "NOM_COM": "Lanmodez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22113",
+    "NOM_COM": "Lannion",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22127",
+    "NOM_COM": "Lézardrieux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22134",
+    "NOM_COM": "Louannec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22143",
+    "NOM_COM": "Matignon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22152",
+    "NOM_COM": "Minihy-Tréguier",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22162",
+    "NOM_COM": "Paimpol",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22166",
+    "NOM_COM": "Penvénan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22168",
+    "NOM_COM": "Perros-Guirec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22174",
+    "NOM_COM": "Pléboulle",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22179",
+    "NOM_COM": "Fréhel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22186",
+    "NOM_COM": "Pléneuf-Val-André",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22187",
+    "NOM_COM": "Plérin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22194",
+    "NOM_COM": "Plestin-les-Grèves",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22195",
+    "NOM_COM": "Pleubian",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22196",
+    "NOM_COM": "Pleudaniel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22197",
+    "NOM_COM": "Pleudihen-sur-Rance",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22198",
+    "NOM_COM": "Pleumeur-Bodou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22201",
+    "NOM_COM": "Plévenon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22204",
+    "NOM_COM": "Ploëzal",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22209",
+    "NOM_COM": "Beaussais-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22210",
+    "NOM_COM": "Ploubazlanec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22213",
+    "NOM_COM": "Plouër-sur-Rance",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22214",
+    "NOM_COM": "Plouézec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22218",
+    "NOM_COM": "Plougrescant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22221",
+    "NOM_COM": "Plouguiel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22222",
+    "NOM_COM": "Plouha",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22224",
+    "NOM_COM": "Ploulec'h",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22226",
+    "NOM_COM": "Ploumilliau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22233",
+    "NOM_COM": "Plourivo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22242",
+    "NOM_COM": "Plurien",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22251",
+    "NOM_COM": "Pordic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22256",
+    "NOM_COM": "Quemper-Guézennec",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22264",
+    "NOM_COM": "Roche-Jaudy",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22278",
+    "NOM_COM": "Saint-Brieuc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22282",
+    "NOM_COM": "Saint-Cast-le-Guildo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22302",
+    "NOM_COM": "Saint-Jacut-de-la-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22311",
+    "NOM_COM": "Saint-Lormel",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22319",
+    "NOM_COM": "Saint-Michel-en-Grève",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22325",
+    "NOM_COM": "Saint-Quay-Portrieux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22327",
+    "NOM_COM": "Saint-Samson-sur-Rance",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22343",
+    "NOM_COM": "Trébeurden",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22347",
+    "NOM_COM": "Trédarzec",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22349",
+    "NOM_COM": "Trédrez-Locquémeau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22350",
+    "NOM_COM": "Tréduder",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22353",
+    "NOM_COM": "Trégastel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22362",
+    "NOM_COM": "Tréguier",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22363",
+    "NOM_COM": "Trélévern",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22377",
+    "NOM_COM": "Tréveneuc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22379",
+    "NOM_COM": "Trévou-Tréguignec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22383",
+    "NOM_COM": "Troguéry",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22385",
+    "NOM_COM": "Vicomté-sur-Rance",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "22",
+    "NOM_DEPT": "Côtes-d'Armor",
+    "INSEE_COM": "22389",
+    "NOM_COM": "Yffiniac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29001",
+    "NOM_COM": "Argol",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29003",
+    "NOM_COM": "Audierne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29006",
+    "NOM_COM": "Bénodet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29008",
+    "NOM_COM": "Beuzec-Cap-Sizun",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29017",
+    "NOM_COM": "Brélès",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29019",
+    "NOM_COM": "Brest",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29021",
+    "NOM_COM": "Plounéour-Brignogan-plages",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29022",
+    "NOM_COM": "Camaret-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29023",
+    "NOM_COM": "Carantec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29028",
+    "NOM_COM": "Cléden-Cap-Sizun",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29030",
+    "NOM_COM": "Cléder",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29031",
+    "NOM_COM": "Clohars-Carnoët",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29032",
+    "NOM_COM": "Clohars-Fouesnant",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29037",
+    "NOM_COM": "Combrit",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29039",
+    "NOM_COM": "Concarneau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29040",
+    "NOM_COM": "Conquet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29042",
+    "NOM_COM": "Crozon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29043",
+    "NOM_COM": "Daoulas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29044",
+    "NOM_COM": "Dinéault",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29045",
+    "NOM_COM": "Dirinon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29046",
+    "NOM_COM": "Douarnenez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29053",
+    "NOM_COM": "Faou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29056",
+    "NOM_COM": "Forest-Landerneau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29057",
+    "NOM_COM": "Forêt-Fouesnant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29058",
+    "NOM_COM": "Fouesnant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29063",
+    "NOM_COM": "Goulien",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29064",
+    "NOM_COM": "Goulven",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29072",
+    "NOM_COM": "Guilvinec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29073",
+    "NOM_COM": "Guimaëc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29075",
+    "NOM_COM": "Guipavas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29077",
+    "NOM_COM": "Guissény",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29078",
+    "NOM_COM": "Hanvec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29079",
+    "NOM_COM": "Henvic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29080",
+    "NOM_COM": "Hôpital-Camfrout",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29082",
+    "NOM_COM": "Île-de-Batz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29083",
+    "NOM_COM": "Île-de-Sein",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29084",
+    "NOM_COM": "Île-Molène",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29085",
+    "NOM_COM": "Île-Tudy",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29090",
+    "NOM_COM": "Kerlaz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29091",
+    "NOM_COM": "Kerlouan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29098",
+    "NOM_COM": "Lampaul-Plouarzel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29099",
+    "NOM_COM": "Lampaul-Ploudalmézeau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29101",
+    "NOM_COM": "Landéda",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29103",
+    "NOM_COM": "Landerneau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29104",
+    "NOM_COM": "Landévennec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29109",
+    "NOM_COM": "Landunvez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29112",
+    "NOM_COM": "Lanildut",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29117",
+    "NOM_COM": "Lannilis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29120",
+    "NOM_COM": "Lanvéoc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29130",
+    "NOM_COM": "Locmaria-Plouzané",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29132",
+    "NOM_COM": "Locquénolé",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29133",
+    "NOM_COM": "Locquirec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29135",
+    "NOM_COM": "Loctudy",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29137",
+    "NOM_COM": "Logonna-Daoulas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29140",
+    "NOM_COM": "Loperhet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29150",
+    "NOM_COM": "Moëlan-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29151",
+    "NOM_COM": "Morlaix",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29153",
+    "NOM_COM": "Névez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29155",
+    "NOM_COM": "Ouessant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29158",
+    "NOM_COM": "Penmarch",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29165",
+    "NOM_COM": "Plobannalec-Lesconil",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29166",
+    "NOM_COM": "Ploéven",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29168",
+    "NOM_COM": "Plogoff",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29171",
+    "NOM_COM": "Plomeur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29172",
+    "NOM_COM": "Plomodiern",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29176",
+    "NOM_COM": "Plonévez-Porzay",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29177",
+    "NOM_COM": "Plouarzel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29178",
+    "NOM_COM": "Ploudalmézeau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29184",
+    "NOM_COM": "Plouénan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29185",
+    "NOM_COM": "Plouescat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29186",
+    "NOM_COM": "Plouezoc'h",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29188",
+    "NOM_COM": "Plougasnou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29189",
+    "NOM_COM": "Plougastel-Daoulas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29190",
+    "NOM_COM": "Plougonvelin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29192",
+    "NOM_COM": "Plougoulm",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29195",
+    "NOM_COM": "Plouguerneau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29196",
+    "NOM_COM": "Plouguin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29197",
+    "NOM_COM": "Plouhinec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29198",
+    "NOM_COM": "Plouider",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29201",
+    "NOM_COM": "Ploumoguer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29206",
+    "NOM_COM": "Plounévez-Lochrist",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29209",
+    "NOM_COM": "Plouvien",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29212",
+    "NOM_COM": "Plouzané",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29214",
+    "NOM_COM": "Plovan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29215",
+    "NOM_COM": "Plozévet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29217",
+    "NOM_COM": "Pont-Aven",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29218",
+    "NOM_COM": "Pont-Croix",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29220",
+    "NOM_COM": "Pont-l'Abbé",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29221",
+    "NOM_COM": "Porspoder",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29225",
+    "NOM_COM": "Pouldreuzic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29226",
+    "NOM_COM": "Poullan-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29228",
+    "NOM_COM": "Primelin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29235",
+    "NOM_COM": "Relecq-Kerhuon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29236",
+    "NOM_COM": "Riec-sur-Bélon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29238",
+    "NOM_COM": "Roscanvel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29239",
+    "NOM_COM": "Roscoff",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29240",
+    "NOM_COM": "Rosnoën",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29251",
+    "NOM_COM": "Saint-Jean-du-Doigt",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29252",
+    "NOM_COM": "Saint-Jean-Trolimon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29254",
+    "NOM_COM": "Saint-Martin-des-Champs",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29256",
+    "NOM_COM": "Saint-Nic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29257",
+    "NOM_COM": "Saint-Pabu",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29259",
+    "NOM_COM": "Saint-Pol-de-Léon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29273",
+    "NOM_COM": "Santec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29276",
+    "NOM_COM": "Sibiril",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29279",
+    "NOM_COM": "Taulé",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29280",
+    "NOM_COM": "Telgruc-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29282",
+    "NOM_COM": "Trébabu",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29284",
+    "NOM_COM": "Treffiagat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29287",
+    "NOM_COM": "Tréflez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29289",
+    "NOM_COM": "Trégarvan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29290",
+    "NOM_COM": "Tréglonou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29292",
+    "NOM_COM": "Tréguennec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29293",
+    "NOM_COM": "Trégunc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29298",
+    "NOM_COM": "Tréogat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "29",
+    "NOM_DEPT": "Finistère",
+    "INSEE_COM": "29302",
+    "NOM_COM": "Pont-de-Buis-lès-Quimerch",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35049",
+    "NOM_COM": "Cancale",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35078",
+    "NOM_COM": "Cherrueix",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35093",
+    "NOM_COM": "Dinard",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35132",
+    "NOM_COM": "Hirel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35181",
+    "NOM_COM": "Minihic-sur-Rance",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35186",
+    "NOM_COM": "Mont-Dol",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35228",
+    "NOM_COM": "Pleurtuit",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35241",
+    "NOM_COM": "Richardais",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35247",
+    "NOM_COM": "Roz-sur-Couesnon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35255",
+    "NOM_COM": "Saint-Benoît-des-Ondes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35256",
+    "NOM_COM": "Saint-Briac-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35259",
+    "NOM_COM": "Saint-Broladre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35263",
+    "NOM_COM": "Saint-Coulomb",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35284",
+    "NOM_COM": "Saint-Jouan-des-Guérets",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35287",
+    "NOM_COM": "Saint-Lunaire",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35288",
+    "NOM_COM": "Saint-Malo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35299",
+    "NOM_COM": "Saint-Méloir-des-Ondes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35306",
+    "NOM_COM": "Saint-Père-Marc-en-Poulet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35314",
+    "NOM_COM": "Saint-Suliac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35358",
+    "NOM_COM": "Ville-ès-Nonais",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "35",
+    "NOM_DEPT": "Ille-et-Vilaine",
+    "INSEE_COM": "35361",
+    "NOM_COM": "Vivier-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56002",
+    "NOM_COM": "Ambon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56003",
+    "NOM_COM": "Arradon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56004",
+    "NOM_COM": "Arzal",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56005",
+    "NOM_COM": "Arzon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56007",
+    "NOM_COM": "Auray",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56008",
+    "NOM_COM": "Baden",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56009",
+    "NOM_COM": "Bangor",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56013",
+    "NOM_COM": "Belz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56018",
+    "NOM_COM": "Billiers",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56023",
+    "NOM_COM": "Brech",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56030",
+    "NOM_COM": "Camoël",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56034",
+    "NOM_COM": "Carnac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56036",
+    "NOM_COM": "Caudan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56046",
+    "NOM_COM": "Crach",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56052",
+    "NOM_COM": "Damgan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56054",
+    "NOM_COM": "Erdeven",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56055",
+    "NOM_COM": "Étel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56062",
+    "NOM_COM": "Gâvres",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56069",
+    "NOM_COM": "Groix",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56078",
+    "NOM_COM": "Guidel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56084",
+    "NOM_COM": "Hézo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56085",
+    "NOM_COM": "Hœdic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56086",
+    "NOM_COM": "Île-d'Houat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56087",
+    "NOM_COM": "Île-aux-Moines",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56088",
+    "NOM_COM": "Île-d'Arz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56094",
+    "NOM_COM": "Kervignac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56096",
+    "NOM_COM": "Landaul",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56097",
+    "NOM_COM": "Landévant",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56098",
+    "NOM_COM": "Lanester",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56106",
+    "NOM_COM": "Larmor-Baden",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56107",
+    "NOM_COM": "Larmor-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56114",
+    "NOM_COM": "Locmaria",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56116",
+    "NOM_COM": "Locmariaquer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56118",
+    "NOM_COM": "Locmiquélic",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56119",
+    "NOM_COM": "Locoal-Mendon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56121",
+    "NOM_COM": "Lorient",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56130",
+    "NOM_COM": "Merlevenez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56143",
+    "NOM_COM": "Muzillac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56148",
+    "NOM_COM": "Nostang",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56152",
+    "NOM_COM": "Palais",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56155",
+    "NOM_COM": "Pénestin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56162",
+    "NOM_COM": "Ploemeur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56167",
+    "NOM_COM": "Plougoumelen",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56168",
+    "NOM_COM": "Plouharnel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56169",
+    "NOM_COM": "Plouhinec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56176",
+    "NOM_COM": "Pluneret",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56181",
+    "NOM_COM": "Port-Louis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56185",
+    "NOM_COM": "Quéven",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56186",
+    "NOM_COM": "Quiberon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56193",
+    "NOM_COM": "Riantec",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56205",
+    "NOM_COM": "Saint-Armel",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56214",
+    "NOM_COM": "Saint-Gildas-de-Rhuys",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56220",
+    "NOM_COM": "Sainte-Hélène",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56233",
+    "NOM_COM": "Saint-Philibert",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56234",
+    "NOM_COM": "Saint-Pierre-Quiberon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56240",
+    "NOM_COM": "Sarzeau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56241",
+    "NOM_COM": "Sauzon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56243",
+    "NOM_COM": "Séné",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56248",
+    "NOM_COM": "Surzur",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56251",
+    "NOM_COM": "Theix-Noyalo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56252",
+    "NOM_COM": "Tour-du-Parc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56258",
+    "NOM_COM": "Trinité-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56260",
+    "NOM_COM": "Vannes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "56",
+    "NOM_DEPT": "Morbihan",
+    "INSEE_COM": "56262",
+    "NOM_COM": "Bono",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17004",
+    "NOM_COM": "Île-d'Aix",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17010",
+    "NOM_COM": "Angoulins",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17015",
+    "NOM_COM": "Arces",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17019",
+    "NOM_COM": "Ars-en-Ré",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17021",
+    "NOM_COM": "Arvert",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17028",
+    "NOM_COM": "Aytré",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17034",
+    "NOM_COM": "Barzan",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17051",
+    "NOM_COM": "Bois-Plage-en-Ré",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17058",
+    "NOM_COM": "Bourcefranc-le-Chapus",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17064",
+    "NOM_COM": "Breuillet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17079",
+    "NOM_COM": "Chaillevette",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17091",
+    "NOM_COM": "Charron",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17093",
+    "NOM_COM": "Château-d'Oléron",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17094",
+    "NOM_COM": "Châtelaillon-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17098",
+    "NOM_COM": "Chenac-Saint-Seurin-d'Uzet",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17121",
+    "NOM_COM": "Couarde-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17140",
+    "NOM_COM": "Dolus-d'Oléron",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17146",
+    "NOM_COM": "Échillais",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17151",
+    "NOM_COM": "Éguille",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17153",
+    "NOM_COM": "Esnandes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17155",
+    "NOM_COM": "Étaules",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17160",
+    "NOM_COM": "Floirac",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17161",
+    "NOM_COM": "Flotte",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17168",
+    "NOM_COM": "Fouras",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17185",
+    "NOM_COM": "Gua",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17190",
+    "NOM_COM": "Houmeau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17207",
+    "NOM_COM": "Loix",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17219",
+    "NOM_COM": "Marennes-Hiers-Brouage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17222",
+    "NOM_COM": "Marsilly",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17225",
+    "NOM_COM": "Mathes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17230",
+    "NOM_COM": "Meschers-sur-Gironde",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17237",
+    "NOM_COM": "Moëze",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17247",
+    "NOM_COM": "Mornac-sur-Seudre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17248",
+    "NOM_COM": "Mortagne-sur-Gironde",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17264",
+    "NOM_COM": "Nieul-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17265",
+    "NOM_COM": "Nieulle-sur-Seudre",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17286",
+    "NOM_COM": "Portes-en-Ré",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17297",
+    "NOM_COM": "Rivedoux-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17299",
+    "NOM_COM": "Rochefort",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17300",
+    "NOM_COM": "Rochelle",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17306",
+    "NOM_COM": "Royan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17318",
+    "NOM_COM": "Saint-Clément-des-Baleines",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17323",
+    "NOM_COM": "Saint-Denis-d'Oléron",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17325",
+    "NOM_COM": "Saint-Dizant-du-Gua",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17328",
+    "NOM_COM": "Saint-Fort-sur-Gironde",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17329",
+    "NOM_COM": "Saint-Froult",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17333",
+    "NOM_COM": "Saint-Georges-de-Didonne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17337",
+    "NOM_COM": "Saint-Georges-d'Oléron",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17346",
+    "NOM_COM": "Saint-Hippolyte",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17351",
+    "NOM_COM": "Saint-Just-Luzac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17353",
+    "NOM_COM": "Saint-Laurent-de-la-Prée",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17360",
+    "NOM_COM": "Sainte-Marie-de-Ré",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17369",
+    "NOM_COM": "Saint-Martin-de-Ré",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17375",
+    "NOM_COM": "Saint-Nazaire-sur-Charente",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17380",
+    "NOM_COM": "Saint-Palais-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17385",
+    "NOM_COM": "Saint-Pierre-d'Oléron",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17405",
+    "NOM_COM": "Saint-Sorlin-de-Conac",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17409",
+    "NOM_COM": "Saint-Sulpice-de-Royan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17410",
+    "NOM_COM": "Saint-Thomas-de-Conac",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17411",
+    "NOM_COM": "Saint-Trojan-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17421",
+    "NOM_COM": "Saujon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17429",
+    "NOM_COM": "Soubise",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17437",
+    "NOM_COM": "Talmont-sur-Gironde",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17449",
+    "NOM_COM": "Tonnay-Charente",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17452",
+    "NOM_COM": "Tremblade",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17461",
+    "NOM_COM": "Vaux-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17463",
+    "NOM_COM": "Vergeroux",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17483",
+    "NOM_COM": "Yves",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17484",
+    "NOM_COM": "Port-des-Barques",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17485",
+    "NOM_COM": "Grand-Village-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "17",
+    "NOM_DEPT": "Charente-Maritime",
+    "INSEE_COM": "17486",
+    "NOM_COM": "Brée-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "19",
+    "NOM_DEPT": "Corrèze",
+    "INSEE_COM": "19028",
+    "NOM_COM": "Bort-les-Orgues",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "19",
+    "NOM_DEPT": "Corrèze",
+    "INSEE_COM": "19142",
+    "NOM_COM": "Monestier-Port-Dieu",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "19",
+    "NOM_DEPT": "Corrèze",
+    "INSEE_COM": "19167",
+    "NOM_COM": "Confolent-Port-Dieu",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "19",
+    "NOM_DEPT": "Corrèze",
+    "INSEE_COM": "19252",
+    "NOM_COM": "Sarroux - Saint Julien",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "23",
+    "NOM_DEPT": "Creuse",
+    "INSEE_COM": "23077",
+    "NOM_COM": "Faux-la-Montagne",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "23",
+    "NOM_DEPT": "Creuse",
+    "INSEE_COM": "23090",
+    "NOM_COM": "Gentioux-Pigerolles",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "23",
+    "NOM_DEPT": "Creuse",
+    "INSEE_COM": "23165",
+    "NOM_COM": "Royère-de-Vassivière",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33005",
+    "NOM_COM": "Andernos-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33009",
+    "NOM_COM": "Arcachon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33011",
+    "NOM_COM": "Arès",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33019",
+    "NOM_COM": "Audenge",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33038",
+    "NOM_COM": "Bégadan",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33051",
+    "NOM_COM": "Biganos",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33058",
+    "NOM_COM": "Blaye",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33073",
+    "NOM_COM": "Braud-et-Saint-Louis",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33097",
+    "NOM_COM": "Carcans",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33097",
+    "NOM_COM": "Carcans",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33146",
+    "NOM_COM": "Cussac-Fort-Médoc",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33172",
+    "NOM_COM": "Fours",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33193",
+    "NOM_COM": "Grayan-et-l'Hôpital",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33199",
+    "NOM_COM": "Gujan-Mestras",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33203",
+    "NOM_COM": "Hourtin",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33203",
+    "NOM_COM": "Hourtin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33208",
+    "NOM_COM": "Jau-Dignac-et-Loirac",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33214",
+    "NOM_COM": "Lacanau",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33214",
+    "NOM_COM": "Lacanau",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33229",
+    "NOM_COM": "Lanton",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33236",
+    "NOM_COM": "Lège-Cap-Ferret",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33300",
+    "NOM_COM": "Naujac-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33314",
+    "NOM_COM": "Pauillac",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33333",
+    "NOM_COM": "Porge",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33370",
+    "NOM_COM": "Saint-Androny",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33383",
+    "NOM_COM": "Saint-Christoly-Médoc",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33389",
+    "NOM_COM": "Saint-Ciers-sur-Gironde",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33395",
+    "NOM_COM": "Saint-Estèphe",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33405",
+    "NOM_COM": "Saint-Genès-de-Blaye",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33423",
+    "NOM_COM": "Saint-Julien-Beychevelle",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33476",
+    "NOM_COM": "Saint-Seurin-de-Cadourne",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33490",
+    "NOM_COM": "Saint-Vivien-de-Médoc",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33493",
+    "NOM_COM": "Saint-Yzans-de-Médoc",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33514",
+    "NOM_COM": "Soulac-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33521",
+    "NOM_COM": "Talais",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33527",
+    "NOM_COM": "Teich",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33529",
+    "NOM_COM": "Teste-de-Buch",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33529",
+    "NOM_COM": "Teste-de-Buch",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33538",
+    "NOM_COM": "Valeyrac",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33540",
+    "NOM_COM": "Vendays-Montalivet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33541",
+    "NOM_COM": "Vensac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "33",
+    "NOM_DEPT": "Gironde",
+    "INSEE_COM": "33544",
+    "NOM_COM": "Verdon-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40046",
+    "NOM_COM": "Biscarrosse",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40046",
+    "NOM_COM": "Biscarrosse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40065",
+    "NOM_COM": "Capbreton",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40108",
+    "NOM_COM": "Gastes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40108",
+    "NOM_COM": "Gastes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40133",
+    "NOM_COM": "Labenne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40157",
+    "NOM_COM": "Lit-et-Mixe",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40181",
+    "NOM_COM": "Messanges",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40184",
+    "NOM_COM": "Mimizan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40187",
+    "NOM_COM": "Moliets-et-Maa",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40209",
+    "NOM_COM": "Ondres",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40217",
+    "NOM_COM": "Parentis-en-Born",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40217",
+    "NOM_COM": "Parentis-en-Born",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40257",
+    "NOM_COM": "Sainte-Eulalie-en-Born",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40257",
+    "NOM_COM": "Sainte-Eulalie-en-Born",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40266",
+    "NOM_COM": "Saint-Julien-en-Born",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40287",
+    "NOM_COM": "Sanguinet",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40287",
+    "NOM_COM": "Sanguinet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40296",
+    "NOM_COM": "Seignosse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40304",
+    "NOM_COM": "Soorts-Hossegor",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40310",
+    "NOM_COM": "Soustons",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40312",
+    "NOM_COM": "Tarnos",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40326",
+    "NOM_COM": "Vielle-Saint-Girons",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "40",
+    "NOM_DEPT": "Landes",
+    "INSEE_COM": "40328",
+    "NOM_COM": "Vieux-Boucau-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64024",
+    "NOM_COM": "Anglet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64102",
+    "NOM_COM": "Bayonne",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64122",
+    "NOM_COM": "Biarritz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64125",
+    "NOM_COM": "Bidart",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64140",
+    "NOM_COM": "Boucau",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64189",
+    "NOM_COM": "Ciboure",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64249",
+    "NOM_COM": "Guéthary",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64260",
+    "NOM_COM": "Hendaye",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64483",
+    "NOM_COM": "Saint-Jean-de-Luz",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "64",
+    "NOM_DEPT": "Pyrénées-Atlantiques",
+    "INSEE_COM": "64545",
+    "NOM_COM": "Urrugne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "87",
+    "NOM_DEPT": "Haute-Vienne",
+    "INSEE_COM": "87009",
+    "NOM_COM": "Beaumont-du-Lac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "87",
+    "NOM_DEPT": "Haute-Vienne",
+    "INSEE_COM": "87117",
+    "NOM_COM": "Peyrat-le-Château",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11024",
+    "NOM_COM": "Bages",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11144",
+    "NOM_COM": "Fitou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11145",
+    "NOM_COM": "Fleury",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11170",
+    "NOM_COM": "Gruissan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11188",
+    "NOM_COM": "Palme",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11202",
+    "NOM_COM": "Leucate",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11262",
+    "NOM_COM": "Narbonne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11266",
+    "NOM_COM": "Port-la-Nouvelle",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11285",
+    "NOM_COM": "Peyriac-de-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "11",
+    "NOM_DEPT": "Aude",
+    "INSEE_COM": "11379",
+    "NOM_COM": "Sigean",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12011",
+    "NOM_COM": "Arvieu",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12036",
+    "NOM_COM": "Brommat",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12050",
+    "NOM_COM": "Canet-de-Salars",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12051",
+    "NOM_COM": "Cantoin",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12188",
+    "NOM_COM": "Prades-Salars",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12223",
+    "NOM_COM": "Argences en Aubrac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12253",
+    "NOM_COM": "Salles-Curan",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12280",
+    "NOM_COM": "Thérondels",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "12",
+    "NOM_DEPT": "Aveyron",
+    "INSEE_COM": "12307",
+    "NOM_COM": "Curan",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "30",
+    "NOM_DEPT": "Gard",
+    "INSEE_COM": "30003",
+    "NOM_COM": "Aigues-Mortes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "30",
+    "NOM_DEPT": "Gard",
+    "INSEE_COM": "30133",
+    "NOM_COM": "Grau-du-Roi",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "30",
+    "NOM_DEPT": "Gard",
+    "INSEE_COM": "30276",
+    "NOM_COM": "Saint-Laurent-d'Aigouze",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "30",
+    "NOM_DEPT": "Gard",
+    "INSEE_COM": "30341",
+    "NOM_COM": "Vauvert",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34003",
+    "NOM_COM": "Agde",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34023",
+    "NOM_COM": "Balaruc-les-Bains",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34024",
+    "NOM_COM": "Balaruc-le-Vieux",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34039",
+    "NOM_COM": "Bouzigues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34050",
+    "NOM_COM": "Candillargues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34108",
+    "NOM_COM": "Frontignan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34127",
+    "NOM_COM": "Lansargues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34129",
+    "NOM_COM": "Lattes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34143",
+    "NOM_COM": "Loupian",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34150",
+    "NOM_COM": "Marseillan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34151",
+    "NOM_COM": "Marsillargues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34154",
+    "NOM_COM": "Mauguio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34157",
+    "NOM_COM": "Mèze",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34159",
+    "NOM_COM": "Mireval",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34192",
+    "NOM_COM": "Palavas-les-Flots",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34198",
+    "NOM_COM": "Pérols",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34209",
+    "NOM_COM": "Portiragnes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34213",
+    "NOM_COM": "Poussan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34299",
+    "NOM_COM": "Sérignan",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34301",
+    "NOM_COM": "Sète",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34324",
+    "NOM_COM": "Valras-Plage",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34329",
+    "NOM_COM": "Vendres",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34332",
+    "NOM_COM": "Vias",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34333",
+    "NOM_COM": "Vic-la-Gardiole",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34337",
+    "NOM_COM": "Villeneuve-lès-Maguelone",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "34",
+    "NOM_DEPT": "Hérault",
+    "INSEE_COM": "34344",
+    "NOM_COM": "Grande-Motte",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "48",
+    "NOM_DEPT": "Lozère",
+    "INSEE_COM": "48001",
+    "NOM_COM": "Albaret-le-Comtal",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "48",
+    "NOM_DEPT": "Lozère",
+    "INSEE_COM": "48010",
+    "NOM_COM": "Auroux",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "48",
+    "NOM_DEPT": "Lozère",
+    "INSEE_COM": "48041",
+    "NOM_COM": "Chastanier",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "48",
+    "NOM_DEPT": "Lozère",
+    "INSEE_COM": "48080",
+    "NOM_COM": "Langogne",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "48",
+    "NOM_DEPT": "Lozère",
+    "INSEE_COM": "48105",
+    "NOM_COM": "Naussac-Fontanes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66008",
+    "NOM_COM": "Argelès-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66016",
+    "NOM_COM": "Banyuls-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66017",
+    "NOM_COM": "Barcarès",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66037",
+    "NOM_COM": "Canet-en-Roussillon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66048",
+    "NOM_COM": "Cerbère",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66053",
+    "NOM_COM": "Collioure",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66065",
+    "NOM_COM": "Elne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66148",
+    "NOM_COM": "Port-Vendres",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66171",
+    "NOM_COM": "Saint-Cyprien",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66176",
+    "NOM_COM": "Saint-Hippolyte",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66180",
+    "NOM_COM": "Saint-Laurent-de-la-Salanque",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66182",
+    "NOM_COM": "Sainte-Marie-la-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66186",
+    "NOM_COM": "Saint-Nazaire",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66190",
+    "NOM_COM": "Salses-le-Château",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "66",
+    "NOM_DEPT": "Pyrénées-Orientales",
+    "INSEE_COM": "66212",
+    "NOM_COM": "Torreilles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15002",
+    "NOM_COM": "Alleuze",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15005",
+    "NOM_COM": "Anglards-de-Saint-Flour",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15020",
+    "NOM_COM": "Beaulieu",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15034",
+    "NOM_COM": "Chaliers",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15045",
+    "NOM_COM": "Chaudes-Aigues",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15065",
+    "NOM_COM": "Espinasse",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15073",
+    "NOM_COM": "Fridefont",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15092",
+    "NOM_COM": "Lanobre",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15106",
+    "NOM_COM": "Lieutadès",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15108",
+    "NOM_COM": "Val d'Arcomie",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15121",
+    "NOM_COM": "Maurines",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15142",
+    "NOM_COM": "Neuvéglise-sur-Truyère",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15149",
+    "NOM_COM": "Paulhenc",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15168",
+    "NOM_COM": "Ruynes-en-Margeride",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15188",
+    "NOM_COM": "Saint-Georges",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "15",
+    "NOM_DEPT": "Cantal",
+    "INSEE_COM": "15198",
+    "NOM_COM": "Sainte-Marie",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "63",
+    "NOM_DEPT": "Puy-de-Dôme",
+    "INSEE_COM": "63183",
+    "NOM_COM": "Labessette",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "63",
+    "NOM_DEPT": "Puy-de-Dôme",
+    "INSEE_COM": "63190",
+    "NOM_COM": "Larodde",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "63",
+    "NOM_DEPT": "Puy-de-Dôme",
+    "INSEE_COM": "63416",
+    "NOM_COM": "Savennes",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "63",
+    "NOM_DEPT": "Puy-de-Dôme",
+    "INSEE_COM": "63421",
+    "NOM_COM": "Singles",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73008",
+    "NOM_COM": "Aix-les-Bains",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73010",
+    "NOM_COM": "Entrelacs",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73050",
+    "NOM_COM": "Bourdeau",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73051",
+    "NOM_COM": "Bourget-du-Lac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73059",
+    "NOM_COM": "Brison-Saint-Innocent",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73076",
+    "NOM_COM": "Chapelle-du-Mont-du-Chat",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73085",
+    "NOM_COM": "Chindrieux",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73091",
+    "NOM_COM": "Conjux",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73273",
+    "NOM_COM": "Saint-Pierre-de-Curtille",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73300",
+    "NOM_COM": "Tresserve",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "73",
+    "NOM_DEPT": "Savoie",
+    "INSEE_COM": "73328",
+    "NOM_COM": "Viviers-du-Lac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74010",
+    "NOM_COM": "Annecy",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74013",
+    "NOM_COM": "Anthy-sur-Léman",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74070",
+    "NOM_COM": "Chens-sur-Léman",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74104",
+    "NOM_COM": "Doussard",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74108",
+    "NOM_COM": "Duingt",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74119",
+    "NOM_COM": "Évian-les-Bains",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74121",
+    "NOM_COM": "Excenevex",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74154",
+    "NOM_COM": "Lugrin",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74163",
+    "NOM_COM": "Margencel",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74172",
+    "NOM_COM": "Maxilly-sur-Léman",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74175",
+    "NOM_COM": "Meillerie",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74176",
+    "NOM_COM": "Menthon-Saint-Bernard",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74180",
+    "NOM_COM": "Messery",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74199",
+    "NOM_COM": "Nernier",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74200",
+    "NOM_COM": "Neuvecelle",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74218",
+    "NOM_COM": "Publier",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74237",
+    "NOM_COM": "Saint-Gingolph",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74242",
+    "NOM_COM": "Saint-Jorioz",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74263",
+    "NOM_COM": "Sciez",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74267",
+    "NOM_COM": "Sevrier",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74275",
+    "NOM_COM": "Talloires-Montmin",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74281",
+    "NOM_COM": "Thonon-les-Bains",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74299",
+    "NOM_COM": "Veyrier-du-Lac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "74",
+    "NOM_DEPT": "Haute-Savoie",
+    "INSEE_COM": "74315",
+    "NOM_COM": "Yvoire",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "4",
+    "NOM_DEPT": "Alpes-de-Haute-Provence",
+    "INSEE_COM": "04033",
+    "NOM_COM": "Ubaye-Serre-Ponçon",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "4",
+    "NOM_DEPT": "Alpes-de-Haute-Provence",
+    "INSEE_COM": "04102",
+    "NOM_COM": "Lauzet-Ubaye",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "4",
+    "NOM_DEPT": "Alpes-de-Haute-Provence",
+    "INSEE_COM": "04135",
+    "NOM_COM": "Moustiers-Sainte-Marie",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "4",
+    "NOM_DEPT": "Alpes-de-Haute-Provence",
+    "INSEE_COM": "04144",
+    "NOM_COM": "Palud-sur-Verdon",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "4",
+    "NOM_DEPT": "Alpes-de-Haute-Provence",
+    "INSEE_COM": "04154",
+    "NOM_COM": "Pontis",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "4",
+    "NOM_DEPT": "Alpes-de-Haute-Provence",
+    "INSEE_COM": "04176",
+    "NOM_COM": "Sainte-Croix-du-Verdon",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05012",
+    "NOM_COM": "Baratier",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05040",
+    "NOM_COM": "Chorges",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05045",
+    "NOM_COM": "Crots",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05046",
+    "NOM_COM": "Embrun",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05106",
+    "NOM_COM": "Prunières",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05111",
+    "NOM_COM": "Puy-Sanières",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05127",
+    "NOM_COM": "Rousset",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05163",
+    "NOM_COM": "Sauze-du-Lac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "5",
+    "NOM_DEPT": "Hautes-Alpes",
+    "INSEE_COM": "05164",
+    "NOM_COM": "Savines-le-Lac",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06004",
+    "NOM_COM": "Antibes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06011",
+    "NOM_COM": "Beaulieu-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06027",
+    "NOM_COM": "Cagnes-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06029",
+    "NOM_COM": "Cannes",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06032",
+    "NOM_COM": "Cap-d'Ail",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06059",
+    "NOM_COM": "Èze",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06079",
+    "NOM_COM": "Mandelieu-la-Napoule",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06083",
+    "NOM_COM": "Menton",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06088",
+    "NOM_COM": "Nice",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06104",
+    "NOM_COM": "Roquebrune-Cap-Martin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06121",
+    "NOM_COM": "Saint-Jean-Cap-Ferrat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06123",
+    "NOM_COM": "Saint-Laurent-du-Var",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06138",
+    "NOM_COM": "Théoule-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06155",
+    "NOM_COM": "Vallauris",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06159",
+    "NOM_COM": "Villefranche-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "6",
+    "NOM_DEPT": "Alpes-Maritimes",
+    "INSEE_COM": "06161",
+    "NOM_COM": "Villeneuve-Loubet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13004",
+    "NOM_COM": "Arles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13014",
+    "NOM_COM": "Berre-l'Étang",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13021",
+    "NOM_COM": "Carry-le-Rouet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13022",
+    "NOM_COM": "Cassis",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13026",
+    "NOM_COM": "Châteauneuf-les-Martigues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13028",
+    "NOM_COM": "Ciotat",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13033",
+    "NOM_COM": "Ensuès-la-Redonne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13039",
+    "NOM_COM": "Fos-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13047",
+    "NOM_COM": "Istres",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13054",
+    "NOM_COM": "Marignane",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13055",
+    "NOM_COM": "Marseille",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13056",
+    "NOM_COM": "Martigues",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13063",
+    "NOM_COM": "Miramas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13077",
+    "NOM_COM": "Port-de-Bouc",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13078",
+    "NOM_COM": "Port-Saint-Louis-du-Rhône",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13081",
+    "NOM_COM": "Rognac",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13088",
+    "NOM_COM": "Rove",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13092",
+    "NOM_COM": "Saint-Chamas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13096",
+    "NOM_COM": "Saintes-Maries-de-la-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13098",
+    "NOM_COM": "Saint-Mitre-les-Remparts",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13104",
+    "NOM_COM": "Sausset-les-Pins",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "13",
+    "NOM_DEPT": "Bouches-du-Rhône",
+    "INSEE_COM": "13117",
+    "NOM_COM": "Vitrolles",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83002",
+    "NOM_COM": "Aiguines",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83009",
+    "NOM_COM": "Bandol",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83014",
+    "NOM_COM": "Baudinard-sur-Verdon",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83015",
+    "NOM_COM": "Bauduen",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83019",
+    "NOM_COM": "Bormes-les-Mimosas",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83034",
+    "NOM_COM": "Carqueiranne",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83036",
+    "NOM_COM": "Cavalaire-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83042",
+    "NOM_COM": "Cogolin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83048",
+    "NOM_COM": "Croix-Valmer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83061",
+    "NOM_COM": "Fréjus",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83062",
+    "NOM_COM": "Garde",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83065",
+    "NOM_COM": "Gassin",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83068",
+    "NOM_COM": "Grimaud",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83069",
+    "NOM_COM": "Hyères",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83070",
+    "NOM_COM": "Lavandou",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83071",
+    "NOM_COM": "Londe-les-Maures",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83090",
+    "NOM_COM": "Ollioules",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83098",
+    "NOM_COM": "Pradet",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83101",
+    "NOM_COM": "Ramatuelle",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83107",
+    "NOM_COM": "Roquebrune-sur-Argens",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83112",
+    "NOM_COM": "Saint-Cyr-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83115",
+    "NOM_COM": "Sainte-Maxime",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83118",
+    "NOM_COM": "Saint-Raphaël",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83119",
+    "NOM_COM": "Saint-Tropez",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83122",
+    "NOM_COM": "Salles-sur-Verdon",
+    "CLASSEMENT": "Lac"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83123",
+    "NOM_COM": "Sanary-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83126",
+    "NOM_COM": "Seyne-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83129",
+    "NOM_COM": "Six-Fours-les-Plages",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83137",
+    "NOM_COM": "Toulon",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83152",
+    "NOM_COM": "Rayol-Canadel-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "83",
+    "NOM_DEPT": "Var",
+    "INSEE_COM": "83153",
+    "NOM_COM": "Saint-Mandrier-sur-Mer",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A004",
+    "NOM_COM": "Ajaccio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A006",
+    "NOM_COM": "Alata",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A008",
+    "NOM_COM": "Albitreccia",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A017",
+    "NOM_COM": "Appietto",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A035",
+    "NOM_COM": "Belvédère-Campomoro",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A041",
+    "NOM_COM": "Bonifacio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A048",
+    "NOM_COM": "Calcatoggio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A065",
+    "NOM_COM": "Cargèse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A070",
+    "NOM_COM": "Casaglione",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A090",
+    "NOM_COM": "Coggia",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A092",
+    "NOM_COM": "Conca",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A098",
+    "NOM_COM": "Coti-Chiavari",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A114",
+    "NOM_COM": "Figari",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A130",
+    "NOM_COM": "Grosseto-Prugna",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A139",
+    "NOM_COM": "Lecci",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A163",
+    "NOM_COM": "Monacia-d'Aullène",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A189",
+    "NOM_COM": "Olmeto",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A197",
+    "NOM_COM": "Osani",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A198",
+    "NOM_COM": "Ota",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A203",
+    "NOM_COM": "Partinello",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A212",
+    "NOM_COM": "Piana",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A215",
+    "NOM_COM": "Pianottoli-Caldarello",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A228",
+    "NOM_COM": "Pietrosella",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A247",
+    "NOM_COM": "Porto-Vecchio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A249",
+    "NOM_COM": "Propriano",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A269",
+    "NOM_COM": "Sari-Solenzara",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A272",
+    "NOM_COM": "Sartène",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A276",
+    "NOM_COM": "Serra-di-Ferro",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A279",
+    "NOM_COM": "Serriera",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A295",
+    "NOM_COM": "Sant'Andréa-d'Orcino",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A348",
+    "NOM_COM": "Vico",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A351",
+    "NOM_COM": "Villanova",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2A",
+    "NOM_DEPT": "Corse-du-Sud",
+    "INSEE_COM": "2A362",
+    "NOM_COM": "Zonza",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B009",
+    "NOM_COM": "Aléria",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B010",
+    "NOM_COM": "Algajola",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B020",
+    "NOM_COM": "Aregno",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B030",
+    "NOM_COM": "Barrettali",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B033",
+    "NOM_COM": "Bastia",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B034",
+    "NOM_COM": "Belgodère",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B037",
+    "NOM_COM": "Biguglia",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B042",
+    "NOM_COM": "Borgo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B043",
+    "NOM_COM": "Brando",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B046",
+    "NOM_COM": "Cagnano",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B049",
+    "NOM_COM": "Calenzana",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B050",
+    "NOM_COM": "Calvi",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B057",
+    "NOM_COM": "Canale-di-Verde",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B058",
+    "NOM_COM": "Canari",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B077",
+    "NOM_COM": "Castellare-di-Casinca",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B086",
+    "NOM_COM": "Centuri",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B087",
+    "NOM_COM": "Cervione",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B093",
+    "NOM_COM": "Corbara",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B107",
+    "NOM_COM": "Ersa",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B109",
+    "NOM_COM": "Farinole",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B120",
+    "NOM_COM": "Furiani",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B121",
+    "NOM_COM": "Galéria",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B123",
+    "NOM_COM": "Ghisonaccia",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B134",
+    "NOM_COM": "Île-Rousse",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B143",
+    "NOM_COM": "Linguizzetta",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B148",
+    "NOM_COM": "Lucciana",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B150",
+    "NOM_COM": "Lumio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B152",
+    "NOM_COM": "Luri",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B159",
+    "NOM_COM": "Meria",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B168",
+    "NOM_COM": "Monticello",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B170",
+    "NOM_COM": "Morsiglia",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B178",
+    "NOM_COM": "Nonza",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B182",
+    "NOM_COM": "Occhiatana",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B183",
+    "NOM_COM": "Ogliastro",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B187",
+    "NOM_COM": "Olmeta-di-Capocorso",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B199",
+    "NOM_COM": "Palasca",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B205",
+    "NOM_COM": "Patrimonio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B207",
+    "NOM_COM": "Penta-di-Casinca",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B224",
+    "NOM_COM": "Pietracorbara",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B233",
+    "NOM_COM": "Pino",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B242",
+    "NOM_COM": "Poggio-Mezzana",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B251",
+    "NOM_COM": "Prunelli-di-Fiumorbo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B261",
+    "NOM_COM": "Rogliano",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B277",
+    "NOM_COM": "Serra-di-Fiumorbo",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B281",
+    "NOM_COM": "Sisco",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B283",
+    "NOM_COM": "Solaro",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B286",
+    "NOM_COM": "Sorbo-Ocagnano",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B298",
+    "NOM_COM": "Saint-Florent",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B301",
+    "NOM_COM": "San-Gavino-di-Tenda",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B303",
+    "NOM_COM": "San-Giuliano",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B305",
+    "NOM_COM": "San-Martino-di-Lota",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B307",
+    "NOM_COM": "Santa-Lucia-di-Moriani",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B309",
+    "NOM_COM": "Santa-Maria-di-Lota",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B311",
+    "NOM_COM": "Santa-Maria-Poggio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B313",
+    "NOM_COM": "San-Nicolao",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B314",
+    "NOM_COM": "Santo-Pietro-di-Tenda",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B318",
+    "NOM_COM": "Taglio-Isolaccio",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B319",
+    "NOM_COM": "Talasani",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B320",
+    "NOM_COM": "Tallone",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B327",
+    "NOM_COM": "Tomino",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B335",
+    "NOM_COM": "Valle-di-Campoloro",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B342",
+    "NOM_COM": "Ventiseri",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B343",
+    "NOM_COM": "Venzolasca",
+    "CLASSEMENT": "Mer"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B346",
+    "NOM_COM": "Vescovato",
+    "CLASSEMENT": "Estuaire"
+  },
+  {
+    "INSEE_DEP": "2B",
+    "NOM_DEPT": "Haute-Corse",
+    "INSEE_COM": "2B353",
+    "NOM_COM": "Ville-di-Pietrabugno",
+    "CLASSEMENT": "Mer"
+  }
+]
