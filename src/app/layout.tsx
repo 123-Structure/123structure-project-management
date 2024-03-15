@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "bg-background font-sans antialiased overflow-hidden flex flex-col min-h-screen",
+          "bg-background font-sans antialiased flex flex-col min-h-screen",
           inter.className
         )}
       >

@@ -1,4 +1,4 @@
-import IAddress from "../interface/IAddress";
+import IAddress from "../interfaces/IAddress";
 
 const fetchAddress = async (query: {
   codePostal: string;

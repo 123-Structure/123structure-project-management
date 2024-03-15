@@ -1,4 +1,4 @@
-import ISeismSnowWind from "../interface/ISeismSnowWind";
+import ISeismSnowWind from "../interfaces/ISeismSnowWind";
 
 const fetchSeismSnowWind = async (query: {
   latitude: number;
