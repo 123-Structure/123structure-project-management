@@ -1,4 +1,5 @@
 "use server";
+import { Location } from "@prisma/client";
 import fetchAddress from "../utils/fetchAddress";
 import fetchSeismSnowWind from "../utils/fetchSeismSnowWind";
 import getLittoral from "../utils/getLittoral";
@@ -84,5 +85,25 @@ export const createLocation = async (
     return {
       error: `Localisation - ${error.message as string}`,
     };
+  }
+};
+
+
+export const getLocationByCodeInsee = async (
+  codeInsee: string
+): Promise<Location | null> => {
+  try {
+    const location = await prisma.location.findUnique({
+      where: {
+        codeInsee,
+      },
+    });
+    return location;
+  } catch (error) {
+    console.error(
+      "Une erreur s'est produite lors de la récupération de la localisation :",
+      error
+    );
+    throw new Error("Erreur lors de la récupération de la localisation");
   }
 };

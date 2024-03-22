@@ -39,3 +39,22 @@ export const createFeedback = async (
     };
   }
 };
+
+export const getFeedbackByNumDossier = async (
+  numDossier: string
+): Promise<Feedback | null> => {
+  try {
+    const feedback = await prisma.feedback.findUnique({
+      where: {
+        numDossier,
+      },
+    });
+    return feedback;
+  } catch (error) {
+    console.error(
+      "Une erreur s'est produite lors de la récupération des feedbacks :",
+      error
+    );
+    throw new Error("Erreur lors de la récupération des feedbacks");
+  }
+};

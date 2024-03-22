@@ -76,3 +76,22 @@ export const getPersonalDossier = async (): Promise<PersonalDossier[]> => {
     throw new Error("Erreur lors de la récupération des dossiers");
   }
 };
+
+export const getDossierByNumDossier = async (
+  numDossier: string
+): Promise<Dossier | null> => {
+  try {
+    const dossier = await prisma.dossier.findUnique({
+      where: {
+        numDossier,
+      },
+    });
+    return dossier;
+  } catch (error) {
+    console.error(
+      "Une erreur s'est produite lors de la récupération des dossiers :",
+      error
+    );
+    throw new Error("Erreur lors de la récupération des dossiers");
+  }
+};

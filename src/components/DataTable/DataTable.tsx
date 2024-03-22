@@ -1,3 +1,8 @@
+"use client";
+import { getDossierByNumDossier } from "@/lib/prisma/Dossier";
+import { getFeedbackByNumDossier } from "@/lib/prisma/Feedback";
+import { getLocationByCodeInsee } from "@/lib/prisma/Location";
+import useDossierDialogStore from "@/lib/store/dossierDialog.store";
 import { Skeleton } from "../ui/skeleton";
 import {
   Table,
@@ -20,6 +25,8 @@ interface IDataTableProps {
 }
 
 const DataTable = (props: IDataTableProps) => {
+  const setDossierDialog = useDossierDialogStore((s) => s.setDossierDialog);
+
   const pageData = () => {
     if (props.data.length > 0) {
       const maxFullPage = Math.floor(
@@ -43,6 +50,20 @@ const DataTable = (props: IDataTableProps) => {
       }
     }
     return [];
+  };
+
+  const handleRowClick = async (numDossier: string) => {
+    const dossier = await getDossierByNumDossier(numDossier);
+    if (dossier) {
+      const location = await getLocationByCodeInsee(dossier.codeInsee ?? "");
+      const feedback = await getFeedbackByNumDossier(numDossier);
+      setDossierDialog({
+        open: true,
+        dossier: dossier,
+        location: location ?? undefined,
+        feedback: feedback ?? undefined,
+      });
+    }
   };
 
   if (props.data.length === 0) {
@@ -74,7 +95,11 @@ const DataTable = (props: IDataTableProps) => {
       <TableBody>
         {pageData().map((data, index) => {
           return (
-            <TableRow key={index}>
+            <TableRow
+              key={index}
+              className="hover:cursor-pointer"
+              onClick={() => handleRowClick(data.numDossier)}
+            >
               {Object.keys(data).map((key) =>
                 key !== "createdAt" ? (
                   <TableCell key={key}>{data[key]}</TableCell>
