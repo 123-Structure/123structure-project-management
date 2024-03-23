@@ -15,18 +15,6 @@ export default function Home() {
   const router = useRouter();
   const { data: session, status } = useSession();
 
-  const getDossier = async () => {
-    try {
-      const personalDossier = await getPersonalDossier();
-      setDossiers(personalDossier);
-    } catch (error) {
-      console.error(
-        "Une erreur s'est produite lors de la récupération des dossiers :",
-        error
-      );
-    }
-  };
-
   const tableHead: {
     icon?: JSX.Element;
     title: string;
@@ -46,8 +34,23 @@ export default function Home() {
   ];
 
   useEffect(() => {
+    const getDossier = async () => {
+      try {
+        const userId =
+          `${session?.user?.firstName?.[0]?.toLowerCase()}.${session?.user?.lastName?.toLowerCase()}` ||
+          "";
+        const personalDossier = await getPersonalDossier(userId);
+        setDossiers(personalDossier);
+      } catch (error) {
+        console.error(
+          "Une erreur s'est produite lors de la récupération des dossiers :",
+          error
+        );
+      }
+    };
+
     getDossier();
-  }, []);
+  }, [session?.user?.firstName, session?.user?.lastName]);
 
   if (status === "loading") {
     return (

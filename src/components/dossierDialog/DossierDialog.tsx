@@ -1,7 +1,17 @@
 "use client";
 import useDossierStore from "@/lib/store/dossier.store";
 import { primaryColor } from "@/lib/utils/tailwindConfig";
-import { AudioLines, Folder, Snowflake, Star, Wind } from "lucide-react";
+import {
+  AudioLines,
+  Contact,
+  Folder,
+  MapPin,
+  Snowflake,
+  Star,
+  User,
+  Wind,
+} from "lucide-react";
+import { Badge } from "../ui/badge";
 import {
   Dialog,
   DialogContent,
@@ -20,13 +30,24 @@ const DossierDialog = () => {
       {/* <DialogTrigger>Open</DialogTrigger> */}
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
+          <DialogTitle className="flex items-center gap-2 pb-2">
             <Folder className="size-4" />
             {`${dossier.dossier?.numDossier} - 
               ${dossier.dossier?.nomDossier}`}
           </DialogTitle>
-          <DialogDescription>
-            {`${dossier.dossier?.client} - ${dossier.location?.codePostal} ${dossier.location?.ville}`}
+          <DialogDescription className="flex flex-wrap gap-2">
+            <Badge>
+              <Contact className="mr-2 size-4" />
+              {dossier.dossier?.client}
+            </Badge>
+            <Badge>
+              <MapPin className="mr-2 size-4" />
+              {`${dossier.location?.codePostal} ${dossier.location?.ville}`}
+            </Badge>
+            <Badge variant="secondary">
+              <User className="mr-2 size-4" />
+              {dossier.dossier?.dessinePar}
+            </Badge>
           </DialogDescription>
         </DialogHeader>
         <div className="flex flex-col gap-2">

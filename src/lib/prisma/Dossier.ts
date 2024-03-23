@@ -54,9 +54,12 @@ export const createDossier = async (
   }
 };
 
-export const getPersonalDossier = async (): Promise<PersonalDossier[]> => {
+export const getPersonalDossier = async (dessinePar:string): Promise<PersonalDossier[]> => {
   try {
     const dossiers = await prisma.dossier.findMany({
+      where: {
+        dessinePar,
+      },
       select: {
         numDossier: true,
         nomDossier: true,
