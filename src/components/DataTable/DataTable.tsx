@@ -2,7 +2,7 @@
 import { getDossierByNumDossier } from "@/lib/prisma/Dossier";
 import { getFeedbackByNumDossier } from "@/lib/prisma/Feedback";
 import { getLocationByCodeInsee } from "@/lib/prisma/Location";
-import useDossierDialogStore from "@/lib/store/dossierDialog.store";
+import useDossierStore from "@/lib/store/dossier.store";
 import { Skeleton } from "../ui/skeleton";
 import {
   Table,
@@ -25,7 +25,7 @@ interface IDataTableProps {
 }
 
 const DataTable = (props: IDataTableProps) => {
-  const setDossierDialog = useDossierDialogStore((s) => s.setDossierDialog);
+  const setDossier = useDossierStore((s) => s.setDossier);
 
   const pageData = () => {
     if (props.data.length > 0) {
@@ -57,8 +57,8 @@ const DataTable = (props: IDataTableProps) => {
     if (dossier) {
       const location = await getLocationByCodeInsee(dossier.codeInsee ?? "");
       const feedback = await getFeedbackByNumDossier(numDossier);
-      setDossierDialog({
-        open: true,
+      setDossier({
+        openDialog: true,
         dossier: dossier,
         location: location ?? undefined,
         feedback: feedback ?? undefined,
