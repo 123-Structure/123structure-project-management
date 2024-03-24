@@ -1,7 +1,7 @@
 import { Dossier, Feedback, Location } from "@prisma/client";
 import { create } from "zustand";
 
-interface IDossier {
+export interface IDossier {
   openDialog: boolean;
   dossier?: Dossier;
   location?: Location;
