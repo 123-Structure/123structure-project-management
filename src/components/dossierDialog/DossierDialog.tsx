@@ -58,7 +58,7 @@ const DossierDialog = () => {
         </DialogHeader>
         {editMode ? (
           <ScrollArea className="max-h-96  pr-4">
-            <DossierForm mode="update" />
+            <DossierForm mode="update" setEditMode={setEditMode} />
           </ScrollArea>
         ) : (
           <>

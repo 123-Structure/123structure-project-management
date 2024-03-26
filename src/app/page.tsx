@@ -5,6 +5,7 @@ import PageTransition from "@/components/PageTransition";
 import { Skeleton } from "@/components/ui/skeleton";
 import { PersonalDossier } from "@/lib/interfaces/PersonalDossier";
 import { getPersonalDossier } from "@/lib/prisma/Dossier";
+import useDossierStore from "@/lib/store/dossier.store";
 import { Contact, Folder, Folders, Hash } from "lucide-react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -14,6 +15,7 @@ export default function Home() {
   const [dossiers, setDossiers] = useState<PersonalDossier[]>([]);
   const router = useRouter();
   const { data: session, status } = useSession();
+  const dossier = useDossierStore((s) => s.dossier);
 
   const tableHead: {
     icon?: JSX.Element;
@@ -50,7 +52,7 @@ export default function Home() {
     };
 
     getDossier();
-  }, [session?.user?.firstName, session?.user?.lastName]);
+  }, [session?.user?.firstName, session?.user?.lastName, dossier]);
 
   if (status === "loading") {
     return (

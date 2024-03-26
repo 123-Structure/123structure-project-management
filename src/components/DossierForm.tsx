@@ -1,23 +1,36 @@
 "use client";
-import { createDossier, updateDossier } from "@/lib/prisma/Dossier";
-import { createFeedback, updateFeedback } from "@/lib/prisma/Feedback";
-import { createLocation, updateLocation } from "@/lib/prisma/Location";
-import dossierFormSchema from "@/lib/schema/dossierFormSchema";
+import {
+  createDossier,
+  getDossierByNumDossier,
+  updateDossier,
+} from "@/lib/prisma/Dossier";
+import {
+  createFeedback,
+  getFeedbackByNumDossier,
+  updateFeedback,
+} from "@/lib/prisma/Feedback";
+import {
+  createLocation,
+  getLocationByCodeInsee,
+  updateLocation,
+} from "@/lib/prisma/Location";
+import createDossierFormSchema from "@/lib/schema/createDossierFormSchema";
+import updateDossierFormSchema from "@/lib/schema/updateDossierFormSchema";
 import useDossierStore from "@/lib/store/dossier.store";
 import { Dossier, Feedback } from "@prisma/client";
 import { Pencil, Save } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { Dispatch, SetStateAction } from "react";
 import { toast } from "sonner";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
 
 interface IDossierFormProps {
   mode: "create" | "update";
+  setEditMode?: Dispatch<SetStateAction<boolean>>;
 }
 
 const DossierForm = (props: IDossierFormProps) => {
   const dossier = useDossierStore((s) => s.dossier);
-  const resetDossier = useDossierStore((s) => s.resetDossier);
-  const router = useRouter();
+  const setDossier = useDossierStore((s) => s.setDossier);
 
   const handleSubmitCreate = async (data: any) => {
     try {
@@ -52,7 +65,6 @@ const DossierForm = (props: IDossierFormProps) => {
             newFeedback?.success ? `/ ${newFeedback?.success}` : ""
           }`,
         });
-        router.refresh();
       }
     } catch (error) {
       console.error(error);
@@ -97,9 +109,22 @@ const DossierForm = (props: IDossierFormProps) => {
               newFeedback?.success ? `/ ${newFeedback?.success}` : ""
             }`,
           });
-
-        resetDossier();
-          router.refresh();
+          if (props.setEditMode) {
+            props.setEditMode(false);
+          }
+          const dossier = await getDossierByNumDossier(numDossier);
+          if (dossier) {
+            const location = await getLocationByCodeInsee(
+              dossier.codeInsee ?? ""
+            );
+            const feedback = await getFeedbackByNumDossier(numDossier);
+            setDossier({
+              openDialog: true,
+              dossier: dossier,
+              location: location ?? undefined,
+              feedback: feedback ?? undefined,
+            });
+          }
         }
       }
     } catch (error) {
@@ -110,7 +135,11 @@ const DossierForm = (props: IDossierFormProps) => {
 
   return (
     <AutoForm
-      formSchema={dossierFormSchema(dossier)}
+      formSchema={
+        props.mode === "update"
+          ? updateDossierFormSchema(dossier)
+          : createDossierFormSchema
+      }
       onSubmit={(data: any) =>
         props.mode === "update"
           ? handleSubmitUpdate(data)

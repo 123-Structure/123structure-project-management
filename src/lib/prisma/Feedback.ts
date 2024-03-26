@@ -1,7 +1,7 @@
 "use server";
 import { Feedback } from "@prisma/client";
-import prisma from "./prisma";
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
+import prisma from "./prisma";
 
 export const createFeedback = async (
   numDossier: string,
@@ -54,8 +54,8 @@ export const updateFeedback = async (
     };
   }
 
+  const generalNote = String(data.generalNote);
   try {
-    const generalNote = String(data.generalNote);
     const updatedFeedback = await prisma.feedback.update({
       where: {
         numDossier,
@@ -66,19 +66,25 @@ export const updateFeedback = async (
         updatedAt: new Date(),
       },
     });
-    console.log(`🎉 Feedback mis à jour : ${updatedFeedback.numDossier}`);
+    // console.log(`🎉 Feedback mis à jour : ${updatedFeedback.numDossier}`);
     return {
-      success: updatedFeedback.numDossier,
+      success: "Feedback mis à jour",
     };
   } catch (error: any) {
     if (error instanceof PrismaClientKnownRequestError) {
       if (error.code === "P2025") {
-        console.log(
-          `Feedback - Le feedback avec l'identifiant ${numDossier} n'existe pas`
-        );
-        return {
-          error: `Feedback - Le feedback avec l'identifiant ${numDossier} n'existe pas`,
-        };
+        // console.log(
+        //   `Feedback - Le feedback avec l'identifiant ${numDossier} n'existe pas`
+        // );
+        // return {
+        //   error: `Feedback - Le feedback avec l'identifiant ${numDossier} n'existe pas`,
+        // };
+        const feedback = await createFeedback(numDossier, {
+          generalComment: data.generalComment as string,
+          generalNote: Number(generalNote[0]),
+        });
+
+        return feedback;
       }
     }
     console.log(error.message);

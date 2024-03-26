@@ -80,7 +80,7 @@ export const updateDossier = async (
         updatedAt: new Date(),
       },
     });
-    console.log(`🎉 Dossier mis à jour : ${updatedDossier.numDossier}`);
+    // console.log(`🎉 Dossier mis à jour : ${updatedDossier.numDossier}`);
     return {
       success: updatedDossier.numDossier,
     };
