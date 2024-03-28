@@ -1,108 +1,51 @@
 "use client";
-import { createDossier } from "@/lib/prisma/Dossier";
-import { createFeedback } from "@/lib/prisma/Feedback";
-import { createLocation } from "@/lib/prisma/Location";
+import {
+  createDossier,
+  getDossierByNumDossier,
+  updateDossier,
+} from "@/lib/prisma/Dossier";
+import {
+  createFeedback,
+  getFeedbackByNumDossier,
+  updateFeedback,
+} from "@/lib/prisma/Feedback";
+import {
+  createLocation,
+  getLocationByCodeInsee,
+  updateLocation,
+} from "@/lib/prisma/Location";
+import createDossierFormSchema from "@/lib/schema/createDossierFormSchema";
+import updateDossierFormSchema from "@/lib/schema/updateDossierFormSchema";
+import useDossierStore from "@/lib/store/dossier.store";
 import { Dossier, Feedback } from "@prisma/client";
-import { Save } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { Pencil, Save } from "lucide-react";
+import { Dispatch, SetStateAction } from "react";
 import { toast } from "sonner";
-import * as z from "zod";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
 
-// Define your form schema using zod
-const formSchema = z.object({
-  // Create sub-objects to create accordion sections
-  dossier: z
-    .object({
-      numDossier: z
-        .string({
-          required_error: "Numéro de dossier est requis",
-        })
-        // .min(1, { message: "Numéro de dossier ne peut pas être vide" })
-        // .max(10, {
-        //   message: "Numéro de dossier ne peut pas dépasser 10 caractères",
-        // })
-        .length(10, {
-          message: "Numéro de dossier doit faire 10 caractères",
-        })
-        .describe("Numéro de dossier"),
-      nomDossier: z
-        .string({
-          required_error: "Nom de dossier est requis",
-        })
-        .min(1, { message: "Nom de dossier ne peut pas être vide" })
-        .max(100, {
-          message: "Nom de dossier ne peut pas dépasser 100 caractères",
-        })
-        .describe("Nom de dossier"),
-      codePostal: z
-        .string({
-          required_error: "Code postal est requis",
-        })
-        .length(5, { message: "Code postal doit faire 5 caractères" })
-        .describe("Code postal"),
-      ville: z
-        .string({
-          required_error: "Ville est requis",
-        })
-        .min(1, { message: "Ville ne peut pas être vide" })
-        .max(100, { message: "Ville ne peut pas dépasser 100 caractères" }),
-      client: z
-        .string()
-        .min(1, { message: "Client ne peut pas être vide" })
-        .max(100, { message: "Client ne peut pas dépasser 100 caractères" }),
-      dessinePar: z
-        .string({
-          required_error: "Dessiné par est requis",
-        })
-        .min(1, { message: "Dessiné par ne peut pas être vide" })
-        .max(50, {
-          message: "Dessiné par ne peut pas dépasser 50 caractères",
-        })
-        .describe("Dessiné par"),
-    })
-    .describe("📂 Informations du dossier"),
-  feedback: z
-    .object({
-      generalComment: z
-        .string()
-        .describe("Commentaires")
-        .describe("Remarques général sur le projet")
-        .optional(),
-      generalNote: z
-        .enum([
-          "1 - Non satisfaisant",
-          "2 - Médiocre",
-          "3 - Acceptable",
-          "4 - Bon",
-          "5 - Excellent",
-        ])
-        .describe("Note général sur le projet")
-        .optional(),
-    })
-    .describe("📝 Remarques sur le dossier")
-    .optional(),
-});
+interface IDossierFormProps {
+  mode: "create" | "update";
+  setEditMode?: Dispatch<SetStateAction<boolean>>;
+}
 
-const DossierForm = () => {
-  const router = useRouter();
+const DossierForm = (props: IDossierFormProps) => {
+  const dossier = useDossierStore((s) => s.dossier);
+  const setDossier = useDossierStore((s) => s.setDossier);
 
-  const handleSubmit = async (data: any) => {
+  const handleSubmitCreate = async (data: any) => {
     try {
+      const numDossier = data.dossier.numDossier;
       const newDossier = await createDossier(data.dossier as Dossier);
-      const newLocation = await createLocation(
-        {
-          codePostal: data.dossier.codePostal,
-          ville: data.dossier.ville,
-        },
-        data.dossier.numDossier
-      );
+      const newLocation = await createLocation(numDossier, {
+        codePostal: data.dossier.codePostal,
+        ville: data.dossier.ville,
+      });
 
       let newFeedback;
       if (data.feedback !== undefined) {
         newFeedback = await createFeedback(
-          data.feedback as Feedback,
-          data.dossier.numDossier
+          numDossier,
+          data.feedback as Feedback
         );
       }
 
@@ -122,7 +65,6 @@ const DossierForm = () => {
             newFeedback?.success ? `/ ${newFeedback?.success}` : ""
           }`,
         });
-        router.refresh();
       }
     } catch (error) {
       console.error(error);
@@ -130,10 +72,79 @@ const DossierForm = () => {
     }
   };
 
+  const handleSubmitUpdate = async (data: any) => {
+    try {
+      const numDossier = dossier.dossier?.numDossier;
+      if (numDossier) {
+        const newDossier = await updateDossier(
+          numDossier,
+          data.dossier as Dossier
+        );
+        const newLocation = await updateLocation(numDossier, {
+          codePostal: data.dossier.codePostal,
+          ville: data.dossier.ville,
+        });
+
+        let newFeedback;
+        if (data.feedback !== undefined) {
+          newFeedback = await updateFeedback(
+            numDossier,
+            data.feedback as Feedback
+          );
+        }
+
+        if (
+          newDossier.error ||
+          newLocation.error ||
+          (newFeedback && newFeedback.error)
+        ) {
+          toast.error("Erreur lors de la mise à jour du dossier", {
+            description: `${newDossier.error ?? ""} / ${
+              newLocation.error ?? ""
+            } / ${newFeedback?.error ?? ""}`,
+          });
+        } else {
+          toast.success("Mise à jour du dossier avec succès", {
+            description: `${newDossier.success} / ${newLocation.success} ${
+              newFeedback?.success ? `/ ${newFeedback?.success}` : ""
+            }`,
+          });
+          if (props.setEditMode) {
+            props.setEditMode(false);
+          }
+          const dossier = await getDossierByNumDossier(numDossier);
+          if (dossier) {
+            const location = await getLocationByCodeInsee(
+              dossier.codeInsee ?? ""
+            );
+            const feedback = await getFeedbackByNumDossier(numDossier);
+            setDossier({
+              openDialog: true,
+              dossier: dossier,
+              location: location ?? undefined,
+              feedback: feedback ?? undefined,
+            });
+          }
+        }
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Une erreur est survenue lors de la mise à jour du dossier");
+    }
+  };
+
   return (
     <AutoForm
-      formSchema={formSchema}
-      onSubmit={(data: any) => handleSubmit(data)}
+      formSchema={
+        props.mode === "update"
+          ? updateDossierFormSchema(dossier)
+          : createDossierFormSchema
+      }
+      onSubmit={(data: any) =>
+        props.mode === "update"
+          ? handleSubmitUpdate(data)
+          : handleSubmitCreate(data)
+      }
       fieldConfig={{
         dossier: {
           numDossier: {
@@ -168,10 +179,17 @@ const DossierForm = () => {
         },
       }}
     >
-      <AutoFormSubmit>
-        <Save className="mr-2 size-4" />
-        Enregistrer un nouveau dossier
-      </AutoFormSubmit>
+      {props.mode === "update" ? (
+        <AutoFormSubmit>
+          <Pencil className="mr-2 size-4" />
+          Mettre à jour le dossier
+        </AutoFormSubmit>
+      ) : (
+        <AutoFormSubmit>
+          <Save className="mr-2 size-4" />
+          Enregistrer un nouveau dossier
+        </AutoFormSubmit>
+      )}
     </AutoForm>
   );
 };

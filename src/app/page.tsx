@@ -1,33 +1,64 @@
 "use client";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Variants, motion } from "framer-motion";
+import DataTableContainer from "@/components/dataTable/DataTableContainer";
+import DossierDialog from "@/components/dossierDialog/DossierDialog";
+import PageTransition from "@/components/PageTransition";
+import { Skeleton } from "@/components/ui/skeleton";
+import { PersonalDossier } from "@/lib/interfaces/PersonalDossier";
+import { getPersonalDossier } from "@/lib/prisma/Dossier";
+import useDossierStore from "@/lib/store/dossier.store";
+import { Contact, Folder, Folders, Hash } from "lucide-react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import DossierForm from "../components/DossierForm";
-
-const PageVariants: Variants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-  },
-};
+import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [dossiers, setDossiers] = useState<PersonalDossier[]>([]);
   const router = useRouter();
   const { data: session, status } = useSession();
+  const dossier = useDossierStore((s) => s.dossier);
+
+  const tableHead: {
+    icon?: JSX.Element;
+    title: string;
+  }[] = [
+    {
+      icon: <Hash className="size-4" />,
+      title: "Numéro de dossier",
+    },
+    {
+      icon: <Folder className="size-4" />,
+      title: "Nom de dossier",
+    },
+    {
+      icon: <Contact className="size-4" />,
+      title: "Client",
+    },
+  ];
+
+  useEffect(() => {
+    const getDossier = async () => {
+      try {
+        const userId =
+          `${session?.user?.firstName?.[0]?.toLowerCase()}.${session?.user?.lastName?.toLowerCase()}` ||
+          "";
+        const personalDossier = await getPersonalDossier(userId);
+        setDossiers(personalDossier);
+      } catch (error) {
+        console.error(
+          "Une erreur s'est produite lors de la récupération des dossiers :",
+          error
+        );
+      }
+    };
+
+    getDossier();
+  }, [session?.user?.firstName, session?.user?.lastName, dossier]);
 
   if (status === "loading") {
     return (
-      <motion.div
-        className="flex h-screen w-screen items-center justify-center"
-        variants={PageVariants}
-        initial="hidden"
-        animate="visible"
-      >
+      <PageTransition className="flex h-screen w-screen items-center justify-center">
         <div>Chargement...</div>
-      </motion.div>
+      </PageTransition>
     );
   }
 
@@ -36,15 +67,40 @@ export default function Home() {
   }
 
   return (
-    <motion.div
-      className="flex size-full gap-4"
-      variants={PageVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      <ScrollArea className="h-96 w-full rounded-md border p-4">
-        <DossierForm />
-      </ScrollArea>
-    </motion.div>
+    <PageTransition className="flex gap-4">
+      <div className="w-1/2">
+        <DataTableContainer
+          data={dossiers}
+          itemType="Dossier"
+          tableIcon={<Folders />}
+          tableTitle="Derniers dossiers enregistrés"
+          tableHead={tableHead}
+        />
+      </div>
+      <div className="flex w-1/4 flex-col gap-4">
+        <div className="flex size-full flex-col gap-2 rounded-lg border border-border p-4">
+          <Skeleton className="h-4 w-1/2 rounded-full" />
+          <Skeleton className="h-4 w-full rounded-full" />
+          <Skeleton className="h-4 w-full rounded-full" />
+          <Skeleton className="h-4 w-full rounded-full" />
+          <Skeleton className="h-4 w-1/4 rounded-full" />
+        </div>
+        <div className="flex size-full flex-col gap-2 rounded-lg border border-border p-4">
+          <Skeleton className="h-4 w-1/2 rounded-full" />
+          <Skeleton className="h-4 w-full rounded-full" />
+          <Skeleton className="h-4 w-full rounded-full" />
+          <Skeleton className="h-4 w-full rounded-full" />
+          <Skeleton className="h-4 w-1/4 rounded-full" />
+        </div>
+      </div>
+      <div className="flex w-1/4 grow flex-col gap-2 rounded-lg border border-border p-4">
+        <Skeleton className="h-4 w-1/2 rounded-full" />
+        <Skeleton className="h-4 w-full rounded-full" />
+        <Skeleton className="h-4 w-full rounded-full" />
+        <Skeleton className="h-4 w-full rounded-full" />
+        <Skeleton className="h-4 w-1/4 rounded-full" />
+      </div>
+      <DossierDialog />
+    </PageTransition>
   );
 }

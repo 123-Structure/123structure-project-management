@@ -1,7 +1,7 @@
 "use client";
-import { Variants, motion } from "framer-motion";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import PageTransition from "@/components/PageTransition";
 
 // Images
 import Image01 from "../../../public/img/auth/01.jpg";
@@ -15,15 +15,6 @@ import Image08 from "../../../public/img/auth/08.jpg";
 import Image09 from "../../../public/img/auth/09.jpg";
 import Image10 from "../../../public/img/auth/10.jpg";
 import Image11 from "../../../public/img/auth/11.jpg";
-
-const MainVariants: Variants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-  },
-};
 
 const illustrations = [
   Image01,
@@ -49,12 +40,7 @@ export default function AuthLayout({
   const randomIllustration = illustrations[randomIndex];
 
   return (
-    <motion.main
-      className="relative flex h-screen w-screen"
-      variants={MainVariants}
-      initial="hidden"
-      animate="visible"
-    >
+    <PageTransition className="relative flex h-screen w-screen">
       {theme === "dark" ? (
         <Image
           src="/img/logo-dark.png"
@@ -73,7 +59,7 @@ export default function AuthLayout({
         />
       )}
 
-      <div className="h-screen w-1/2 p-6">
+      <div className="h-full w-1/2 p-6">
         <div
           className="size-full rounded-2xl"
           style={{
@@ -83,9 +69,9 @@ export default function AuthLayout({
           }}
         />
       </div>
-      <div className="flex h-screen  w-1/2 flex-col items-center justify-center gap-4">
+      <div className="flex h-full w-1/2 flex-col items-center justify-center gap-4">
         {children}
       </div>
-    </motion.main>
+    </PageTransition>
   );
 }

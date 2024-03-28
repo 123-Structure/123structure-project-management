@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "bg-background font-sans antialiased overflow-hidden flex flex-col min-h-screen",
+          "bg-background font-sans antialiased flex flex-col min-h-screen",
           inter.className
         )}
       >
@@ -43,7 +43,7 @@ export default function RootLayout({
               <ThemeToggle />
             </div>
             <Menu />
-            <main className="grow p-4">{children}</main>
+            <main className="grow">{children}</main>
             <Toaster expand={true} richColors />
           </ThemeProvider>
         </SessionProviderWrapper>
