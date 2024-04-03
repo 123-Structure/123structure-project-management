@@ -1,8 +1,8 @@
 import prisma from "@/lib/prisma/prisma";
+import { credentialsSchema, userSchema } from "@/lib/schema/authSchema";
 import bcrypt from "bcrypt";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { z } from "zod";
 
 declare module "next-auth" {
   interface Session {
@@ -23,19 +23,6 @@ declare module "next-auth" {
     email?: string | null;
   }
 }
-
-
-const userSchema = z.object({
-  id: z.string(),
-  firstName: z.string().nullable(),
-  lastName: z.string().nullable(),
-  email: z.string().nullable(),
-});
-
-const credentialsSchema = z.object({
-  email: z.string().email(),
-  password: z.string().min(1),
-});
 
 const handler = NextAuth({
   providers: [

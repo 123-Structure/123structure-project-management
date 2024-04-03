@@ -1,12 +1,13 @@
 "use client";
 import { LogOut, PlusCircle, UserIcon, Users, Wrench } from "lucide-react";
 import { signOut, useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
 import User from "./User";
 
 const Menu = () => {
+  const pathname = usePathname();
   const router = useRouter();
   const { data: session } = useSession();
 
@@ -25,11 +26,19 @@ const Menu = () => {
   return (
     <nav className="flex w-full justify-center p-4">
       <div className="flex gap-4">
-        <Button variant="link" onClick={() => router.push("/")}>
+        <Button
+          className={pathname === "/" ? "bg-primary/10" : ""}
+          variant="link"
+          onClick={() => router.push("/")}
+        >
           <UserIcon className="mr-2 size-4" />
           Espace personnel
         </Button>
-        <Button variant="link" disabled>
+        <Button
+          className={pathname === "/equipe" ? "bg-primary/10" : ""}
+          variant="link"
+          onClick={() => router.push("/equipe")}
+        >
           <Users className="mr-2 size-4" />
           Équipe
         </Button>

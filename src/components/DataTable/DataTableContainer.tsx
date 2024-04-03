@@ -28,8 +28,10 @@ const DataTableContainer = (props: IDataTableContainer) => {
     <Card className="w-full">
       <CardHeader>
         <CardTitle className="flex justify-between">
-          <span className="mr-2">{props.tableIcon}</span>
-          {props.tableTitle}
+          <div className="flex items-center gap-2">
+            <span className="mr-2">{props.tableIcon}</span>
+            {props.tableTitle}
+          </div>
           <DataTableControls
             itemType={props.itemType}
             itemPerPage={itemPerPage}

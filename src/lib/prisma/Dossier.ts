@@ -1,6 +1,7 @@
 "use server";
 import { Dossier } from "@prisma/client";
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
+import { AllDossier } from "../interfaces/AllDossier";
 import { PersonalDossier } from "../interfaces/PersonalDossier";
 import prisma from "./prisma";
 
@@ -120,6 +121,30 @@ export const getPersonalDossier = async (
         nomDossier: true,
         client: true,
         createdAt: true,
+      },
+      orderBy: {
+        createdAt: "asc",
+      },
+    });
+    return dossiers;
+  } catch (error) {
+    console.error(
+      "Une erreur s'est produite lors de la récupération des dossiers :",
+      error
+    );
+    throw new Error("Erreur lors de la récupération des dossiers");
+  }
+};
+
+export const getAllDossier = async (): Promise<AllDossier[]> => {
+  try {
+    const dossiers = await prisma.dossier.findMany({
+      select: {
+        numDossier: true,
+        nomDossier: true,
+        client: true,
+        createdAt: true,
+        dessinePar: true,
       },
       orderBy: {
         createdAt: "asc",
