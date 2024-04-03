@@ -1,9 +1,9 @@
 "use server";
 import { Dossier } from "@prisma/client";
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
+import { AllDossier } from "../interfaces/AllDossier";
 import { PersonalDossier } from "../interfaces/PersonalDossier";
 import prisma from "./prisma";
-import { AllDossier } from "../interfaces/AllDossier";
 
 export const createDossier = async (
   data: Omit<Dossier, "id" | "createdAt" | "updatedAt">
@@ -144,7 +144,7 @@ export const getAllDossier = async (): Promise<AllDossier[]> => {
         nomDossier: true,
         client: true,
         createdAt: true,
-        dessinePar:true
+        dessinePar: true,
       },
       orderBy: {
         createdAt: "asc",

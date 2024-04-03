@@ -2,7 +2,7 @@ import prisma from "@/lib/prisma/prisma";
 import { credentialsSchema, userSchema } from "@/lib/schema/authSchema";
 import bcrypt from "bcrypt";
 import { NextResponse } from "next/server";
-import { ZodError } from "zod";
+import { z } from "zod";
 
 export async function authMiddleware(credentials: {
   email: string;
@@ -57,15 +57,16 @@ export async function authMiddleware(credentials: {
       }
     );
   } catch (err: any) {
-    console.error(err);
-    if (err instanceof ZodError) {
+    if (err instanceof z.ZodError) {
+      console.error(err.issues);
       return NextResponse.json(
         { error: err.issues },
         { status: 400, statusText: "Bad Request" }
       );
     }
+    console.error(err);
     return NextResponse.json(
-      { error: "Erreur interne du serveur" },
+      { error: `Erreur interne du serveur : ${err.message}` },
       { status: 500, statusText: "Internal Server Error" }
     );
   }
