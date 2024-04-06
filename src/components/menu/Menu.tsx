@@ -1,9 +1,15 @@
 "use client";
+import tools from "@/lib/constants/tools";
 import { LogOut, PlusCircle, UserIcon, Users, Wrench } from "lucide-react";
 import { signOut, useSession } from "next-auth/react";
 import { usePathname, useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "../ui/hover-card";
 import User from "./User";
 
 const Menu = () => {
@@ -42,10 +48,33 @@ const Menu = () => {
           <Users className="mr-2 size-4" />
           Équipe
         </Button>
-        <Button variant="link" disabled>
-          <Wrench className="mr-2 size-4" />
-          Outils
-        </Button>
+        <HoverCard>
+          <HoverCardTrigger>
+            <Button
+              className={pathname === "/outils" ? "bg-primary/10" : ""}
+              variant="link"
+              onClick={() => router.push("/outils")}
+            >
+              <Wrench className="mr-2 size-4" />
+              Outils
+            </Button>
+          </HoverCardTrigger>
+          <HoverCardContent className="grid grid-cols-2 gap-2">
+            {tools.map((tool, index) => (
+              <div
+                key={index}
+                className="flex flex-col gap-2 rounded p-2 text-sm text-slate-950 transition-all duration-200 ease-in-out hover:cursor-pointer hover:bg-muted dark:text-slate-50"
+                onClick={() => router.push(tool.link)}
+              >
+                <p className="flex items-center gap-2 font-semibold">
+                  {tool.icon}
+                  {tool.title}
+                </p>
+                <p className="text-muted-foreground">{tool.description}</p>
+              </div>
+            ))}
+          </HoverCardContent>
+        </HoverCard>
         <Button variant="link" onClick={handleSignOut}>
           <LogOut className="mr-2 size-4" />
           Déconnexion
