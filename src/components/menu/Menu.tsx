@@ -51,7 +51,7 @@ const Menu = () => {
         <HoverCard>
           <HoverCardTrigger>
             <Button
-              className={pathname === "/outils" ? "bg-primary/10" : ""}
+              className={pathname.includes("/outils") ? "bg-primary/10" : ""}
               variant="link"
               onClick={() => router.push("/outils")}
             >
@@ -63,7 +63,7 @@ const Menu = () => {
             {tools.map((tool, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-2 rounded p-2 text-sm text-slate-950 transition-all duration-200 ease-in-out hover:cursor-pointer hover:bg-muted dark:text-slate-50"
+                className="flex flex-col gap-2 rounded p-2 text-sm transition-all duration-200 ease-in-out hover:cursor-pointer hover:bg-muted dark:text-slate-50"
                 onClick={() => router.push(tool.link)}
               >
                 <p className="flex items-center gap-2 font-semibold">

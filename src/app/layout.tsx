@@ -46,10 +46,9 @@ export default function RootLayout({
             </div>
             <Menu />
             <main className="grow">
-          <AuthProvider >
-
-              <PageTransition>{children}</PageTransition>
-          </AuthProvider>
+              <AuthProvider>
+                <PageTransition>{children}</PageTransition>
+              </AuthProvider>
             </main>
             <Toaster expand={true} richColors />
           </ThemeProvider>

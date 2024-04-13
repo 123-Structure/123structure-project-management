@@ -13,10 +13,12 @@ export const createLocation = async (
   error?: string;
 }> => {
   try {
-    const address = await fetchAddress({
+    const addresses = await fetchAddress({
       codePostal: data.codePostal,
       ville: data.ville,
     });
+
+    const address = addresses[0];
 
     const coordinates = {
       latitude: address.geometry.coordinates[1],
@@ -97,10 +99,12 @@ export const updateLocation = async (
   error?: string;
 }> => {
   try {
-    const address = await fetchAddress({
+    const addresses = await fetchAddress({
       codePostal: data.codePostal,
       ville: data.ville,
     });
+
+    const address = addresses[0]
 
     const coordinates = {
       latitude: address.geometry.coordinates[1],
