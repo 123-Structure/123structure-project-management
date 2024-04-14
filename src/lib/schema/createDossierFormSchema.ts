@@ -2,8 +2,6 @@ import * as z from "zod";
 
 // Define your form schema using zod
 const createDossierFormSchema = z.object({
-  dossier: z
-    .object({
       numDossier: z
         .string({
           required_error: "Numéro de dossier est requis",
@@ -45,29 +43,7 @@ const createDossierFormSchema = z.object({
         .max(50, {
           message: "Dessiné par ne peut pas dépasser 50 caractères",
         })
-        .describe("Dessiné par"),
-    })
-    .describe("📂 Informations du dossier"),
-  feedback: z
-    .object({
-      generalComment: z
-        .string()
-        .describe("Commentaires")
-        .describe("Remarques général sur le projet")
-        .optional(),
-      generalNote: z
-        .enum([
-          "1 - Non satisfaisant",
-          "2 - Médiocre",
-          "3 - Acceptable",
-          "4 - Bon",
-          "5 - Excellent",
-        ])
-        .describe("Note général sur le projet")
-        .optional(),
-    })
-    .describe("📝 Remarques sur le dossier")
-    .optional(),
+        .describe("Dessiné par")
 });
 
 export default createDossierFormSchema;

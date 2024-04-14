@@ -5,11 +5,6 @@ import {
   updateDossier,
 } from "@/lib/prisma/Dossier";
 import {
-  createFeedback,
-  getFeedbackByNumDossier,
-  updateFeedback,
-} from "@/lib/prisma/Feedback";
-import {
   createLocation,
   getLocationByCodeInsee,
   updateLocation,
@@ -17,7 +12,7 @@ import {
 import createDossierFormSchema from "@/lib/schema/createDossierFormSchema";
 import updateDossierFormSchema from "@/lib/schema/updateDossierFormSchema";
 import useDossierStore from "@/lib/store/dossier.store";
-import { Dossier, Feedback } from "@prisma/client";
+import { Dossier } from "@prisma/client";
 import { Pencil, Save } from "lucide-react";
 import { Dispatch, SetStateAction } from "react";
 import { toast } from "sonner";
@@ -34,36 +29,23 @@ const DossierForm = (props: IDossierFormProps) => {
 
   const handleSubmitCreate = async (data: any) => {
     try {
-      const numDossier = data.dossier.numDossier;
-      const newDossier = await createDossier(data.dossier as Dossier);
+      const numDossier = data.numDossier;
+      const newDossier = await createDossier(data as Dossier);
       const newLocation = await createLocation(numDossier, {
-        codePostal: data.dossier.codePostal,
-        ville: data.dossier.ville,
+        codePostal: data.codePostal,
+        ville: data.ville,
       });
-
-      let newFeedback;
-      if (data.feedback !== undefined) {
-        newFeedback = await createFeedback(
-          numDossier,
-          data.feedback as Feedback
-        );
-      }
 
       if (
         newDossier.error ||
-        newLocation.error ||
-        (newFeedback && newFeedback.error)
+        newLocation.error
       ) {
         toast.error("Erreur lors de la création du dossier", {
-          description: `${newDossier.error ?? ""} / ${
-            newLocation.error ?? ""
-          } / ${newFeedback?.error ?? ""}`,
+          description: `${newDossier.error ?? ""} / ${newLocation.error ?? ""}`,
         });
       } else {
         toast.success("Dossier créé avec succès", {
-          description: `${newDossier.success} / ${newLocation.success} ${
-            newFeedback?.success ? `/ ${newFeedback?.success}` : ""
-          }`,
+          description: `${newDossier.success} / ${newLocation.success}`,
         });
       }
     } catch (error) {
@@ -78,36 +60,25 @@ const DossierForm = (props: IDossierFormProps) => {
       if (numDossier) {
         const newDossier = await updateDossier(
           numDossier,
-          data.dossier as Dossier
+          data as Dossier
         );
         const newLocation = await updateLocation(numDossier, {
-          codePostal: data.dossier.codePostal,
-          ville: data.dossier.ville,
+          codePostal: data.codePostal,
+          ville: data.ville,
         });
-
-        let newFeedback;
-        if (data.feedback !== undefined) {
-          newFeedback = await updateFeedback(
-            numDossier,
-            data.feedback as Feedback
-          );
-        }
 
         if (
           newDossier.error ||
-          newLocation.error ||
-          (newFeedback && newFeedback.error)
+          newLocation.error
         ) {
           toast.error("Erreur lors de la mise à jour du dossier", {
             description: `${newDossier.error ?? ""} / ${
               newLocation.error ?? ""
-            } / ${newFeedback?.error ?? ""}`,
+            }`,
           });
         } else {
           toast.success("Mise à jour du dossier avec succès", {
-            description: `${newDossier.success} / ${newLocation.success} ${
-              newFeedback?.success ? `/ ${newFeedback?.success}` : ""
-            }`,
+            description: `${newDossier.success} / ${newLocation.success}`,
           });
           if (props.setEditMode) {
             props.setEditMode(false);
@@ -117,12 +88,10 @@ const DossierForm = (props: IDossierFormProps) => {
             const location = await getLocationByCodeInsee(
               dossier.codeInsee ?? ""
             );
-            const feedback = await getFeedbackByNumDossier(numDossier);
             setDossier({
               openDialog: true,
               dossier: dossier,
               location: location ?? undefined,
-              feedback: feedback ?? undefined,
             });
           }
         }
@@ -146,37 +115,24 @@ const DossierForm = (props: IDossierFormProps) => {
           : handleSubmitCreate(data)
       }
       fieldConfig={{
-        dossier: {
-          numDossier: {
-            inputProps: { placeholder: "00.00.000A" },
-          },
-          nomDossier: {
-            inputProps: { placeholder: "PROPRIETE ABC" },
-          },
-          codePostal: {
-            inputProps: { placeholder: "00000" },
-          },
-          ville: {
-            inputProps: { placeholder: "VILLE" },
-          },
-          client: {
-            inputProps: { placeholder: "ABC Construction" },
-          },
-          dessinePar: {
-            inputProps: { placeholder: "b.lechat" },
-          },
+        numDossier: {
+          inputProps: { placeholder: "00.00.000A" },
         },
-        feedback: {
-          generalComment: {
-            inputProps: {
-              placeholder: "Commentaires",
-            },
-            fieldType: "textarea",
-          },
-          generalNote: {
-            fieldType: "radio",
-          },
+        nomDossier: {
+          inputProps: { placeholder: "PROPRIETE ABC" },
         },
+        codePostal: {
+          inputProps: { placeholder: "00000" },
+        },
+        ville: {
+          inputProps: { placeholder: "VILLE" },
+        },
+        client: {
+          inputProps: { placeholder: "ABC Construction" },
+        },
+        dessinePar: {
+          inputProps: { placeholder: "b.lechat" },
+        }
       }}
     >
       {props.mode === "update" ? (

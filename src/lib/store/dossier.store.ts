@@ -1,11 +1,10 @@
-import { Dossier, Feedback, Location } from "@prisma/client";
+import { Dossier, Location } from "@prisma/client";
 import { create } from "zustand";
 
 export interface IDossier {
   openDialog: boolean;
   dossier?: Dossier;
   location?: Location;
-  feedback?: Feedback;
 }
 
 type DossierType = {
@@ -18,7 +17,6 @@ const defaultDossier = {
   openDialog: false,
   dossier: undefined,
   location: undefined,
-  feedback: undefined,
 };
 
 const useDossierStore = create<DossierType>((set) => ({
@@ -27,14 +25,12 @@ const useDossierStore = create<DossierType>((set) => ({
     openDialog: boolean;
     dossier?: Dossier;
     location?: Location;
-    feedback?: Feedback;
   }) => {
     set({
       dossier: {
         openDialog: newDossier.openDialog,
         dossier: newDossier.dossier,
         location: newDossier.location,
-        feedback: newDossier.feedback,
       },
     });
   },
