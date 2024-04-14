@@ -1,3 +1,5 @@
+"use client";
+import { useTheme } from "next-themes";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 
 interface IZoneCardProps {
@@ -8,6 +10,8 @@ interface IZoneCardProps {
 }
 
 const ZoneCard = (props: IZoneCardProps) => {
+  const { theme } = useTheme();
+
   const seism = {
     1: "#9f9f9f",
     2: "#86bb5f",
@@ -47,7 +51,10 @@ const ZoneCard = (props: IZoneCardProps) => {
     if (colorObject.hasOwnProperty(key)) {
       return colorObject[key as keyof typeof colorObject];
     }
-    return "#000000";
+    if (theme === "dark") {
+      return "#f8fafc";
+    }
+    return "#0f172a";
   };
 
   return (

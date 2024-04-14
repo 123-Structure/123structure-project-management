@@ -33,7 +33,7 @@ const Menu = () => {
     <nav className="flex w-full justify-center p-4">
       <div className="flex gap-4">
         <Button
-          className={pathname === "/" ? "bg-primary/10" : ""}
+          className={pathname === "/" ? "bg-primary/20" : ""}
           variant="link"
           onClick={() => router.push("/")}
         >
@@ -41,7 +41,7 @@ const Menu = () => {
           Espace personnel
         </Button>
         <Button
-          className={pathname === "/equipe" ? "bg-primary/10" : ""}
+          className={pathname === "/equipe" ? "bg-primary/20" : ""}
           variant="link"
           onClick={() => router.push("/equipe")}
         >
@@ -51,7 +51,7 @@ const Menu = () => {
         <HoverCard>
           <HoverCardTrigger>
             <Button
-              className={pathname.includes("/outils") ? "bg-primary/10" : ""}
+              className={pathname.includes("/outils") ? "bg-primary/20" : ""}
               variant="link"
               onClick={() => router.push("/outils")}
             >

@@ -3,7 +3,7 @@ import IExtendAddress from "@/lib/interfaces/IExtendAddress";
 import fetchContour from "@/lib/utils/fetchContour";
 import fetchSeismSnowWind from "@/lib/utils/fetchSeismSnowWind";
 import getLittoral from "@/lib/utils/getLittoral";
-import { ChevronRight, Waves } from "lucide-react";
+import { Check, ChevronRight, Waves } from "lucide-react";
 import { Dispatch, SetStateAction } from "react";
 import { toast } from "sonner";
 
@@ -15,7 +15,8 @@ interface IAddressItemProps {
 
 const AddressItem = (props: IAddressItemProps) => {
 
-  const littoral = getLittoral(props.address.properties.citycode)
+  const littoral = getLittoral(props.address.properties.citycode);
+  const selected = props.insee === props.address.properties.citycode;
 
   const handleClick = async () => {
     const promise = async () => {
@@ -59,11 +60,15 @@ const AddressItem = (props: IAddressItemProps) => {
   return (
     <div
       className={`flex items-center gap-2 rounded p-2 transition-all duration-200 ease-in-out hover:cursor-pointer hover:bg-muted dark:text-slate-50 ${
-        props.insee === props.address.properties.citycode ? "bg-primary/10" : ""
+        selected ? "bg-primary/20" : ""
       }`}
       onClick={handleClick}
     >
-      <ChevronRight className="size-4" />
+      {selected ? (
+        <Check className="size-4" />
+      ) : (
+        <ChevronRight className="size-4" />
+      )}
       <div className="flex flex-col gap-1">
         <p className="flex items-center gap-2">
           {props.address.properties.city.toUpperCase()}

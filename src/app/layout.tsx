@@ -37,9 +37,9 @@ export default function RootLayout({
         <SessionProviderWrapper session={session}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
+            // defaultTheme="system"
+            // enableSystem
+            // disableTransitionOnChange
           >
             <div className="fixed bottom-8 right-8 z-50">
               <ThemeToggle />

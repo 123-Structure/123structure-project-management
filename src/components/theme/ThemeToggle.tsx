@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Variants } from "framer-motion";
-import { Moon, Sun } from "lucide-react";
+import { ChevronRight, Dot, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 const ThemeToggleVariants: Variants = {
@@ -23,7 +23,7 @@ const ThemeToggleVariants: Variants = {
 };
 
 const ThemeToggle = () => {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
 
   return (
     <DropdownMenu>
@@ -41,15 +41,31 @@ const ThemeToggle = () => {
         </MotionButton>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+        <DropdownMenuItem
+          onClick={() => setTheme("light")}
+          className="hover:cursor-pointer"
+        >
+          {theme === "light" ? (
+            <ChevronRight className="mr-2 size-4" />
+          ) : (
+            <Dot className="mr-2 size-4" />
+          )}
           Light
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
+        <DropdownMenuItem
+          onClick={() => setTheme("dark")}
+          className="hover:cursor-pointer"
+        >
+          {theme === "dark" ? (
+            <ChevronRight className="mr-2 size-4" />
+          ) : (
+            <Dot className="mr-2 size-4" />
+          )}
           Dark
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
+        {/* <DropdownMenuItem onClick={() => setTheme("system")}>
           System
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
       </DropdownMenuContent>
     </DropdownMenu>
   );
