@@ -5,7 +5,8 @@ import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useRef } from "react";
-import { GeoJSON, MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { GeoJSON, MapContainer, Marker, TileLayer } from "react-leaflet";
+import MapPopup from "./MapPopup";
 
 interface IMapProps {
   currentAddress: IExtendAddress | undefined;
@@ -43,7 +44,7 @@ const Map = (props: IMapProps) => {
     <MapContainer
       center={defaultPosition}
       zoom={6}
-      style={{ height: "75vh" }}
+      style={{ height: "78vh" }}
       className="rounded"
       whenReady={() => {
         if (props.currentAddress) {
@@ -66,24 +67,7 @@ const Map = (props: IMapProps) => {
             props.currentAddress.geometry.coordinates[0],
           ]}
         >
-          <Popup>
-            <div>
-              <p>
-                {props.currentAddress.properties.postcode} -{" "}
-                {props.currentAddress.properties.city.toUpperCase()} (
-                {props.currentAddress.properties.citycode})
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Vent : {props.currentAddress.zones.vent}
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Neige : {props.currentAddress.zones.neige}
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Séisme : {props.currentAddress.zones.seisme}
-              </p>
-            </div>
-          </Popup>
+          <MapPopup currentAddress={props.currentAddress} />
         </Marker>
       )}
       {props.currentAddress?.geoJSON && (
@@ -92,24 +76,7 @@ const Map = (props: IMapProps) => {
           data={props.currentAddress.geoJSON.contour}
           style={geoJsonStyle}
         >
-          <Popup>
-            <div>
-              <p>
-                {props.currentAddress.properties.postcode} -{" "}
-                {props.currentAddress.properties.city.toUpperCase()} (
-                {props.currentAddress.properties.citycode})
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Vent : {props.currentAddress.zones.vent}
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Neige : {props.currentAddress.zones.neige}
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Séisme : {props.currentAddress.zones.seisme}
-              </p>
-            </div>
-          </Popup>
+          <MapPopup currentAddress={props.currentAddress} />
         </GeoJSON>
       )}
     </MapContainer>

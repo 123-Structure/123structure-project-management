@@ -70,7 +70,7 @@ const ZoneCard = (props: IZoneCardProps) => {
             color: getColor(props.type, props.value ?? ""),
           }}
         >
-          {props.value}
+          {props.value ?? "--"}
         </div>
       </CardContent>
     </Card>

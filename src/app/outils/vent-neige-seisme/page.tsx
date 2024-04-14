@@ -9,6 +9,7 @@ import fetchAddress from "@/lib/utils/fetchAddress";
 import { AudioLines, Search, Snowflake, Wind } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
+import { toast } from "sonner";
 
 export default function Tools() {
   const Map = useMemo(
@@ -25,14 +26,37 @@ export default function Tools() {
   const [addresses, setAddresses] = useState<IAddress[]>();
   const [currentAddress, setCurrentAddress] = useState<IExtendAddress>();
 
-  const handleSubmit = async () => {
-    const result = await fetchAddress({
-      codePostal: cp === "" ? "0" : cp,
-      ville: ville,
-    });
-
-    setAddresses(result);
+  const resetInput = () => {
+    setCp("");
+    setVille("");
   };
+
+  const handleSubmit = async () => {
+    const promise = async () => {
+      const result = await fetchAddress({
+        codePostal: cp === "" ? "0" : cp,
+        ville: ville,
+      });
+
+      return result;
+    };
+
+    toast.promise(promise, {
+      loading: "Chargement...",
+      success: (data) => {
+        setAddresses(data);
+        resetInput();
+        return `${data.length} résultat(s) trouvé(s)`;
+      },
+      error: "Erreur lors du chargement des données",
+    });
+  };
+
+const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+  if (event.key === "Enter") {
+    handleSubmit();
+  }
+};
 
   return (
     <div className="flex w-full gap-4">
@@ -42,11 +66,13 @@ export default function Tools() {
             placeholder="Code Postal"
             value={cp}
             onChange={(e) => setCp(e.currentTarget.value)}
+            onKeyDown={handleKeyDown}
           />
           <Input
             placeholder="Ville"
             value={ville}
             onChange={(e) => setVille(e.currentTarget.value)}
+            onKeyDown={handleKeyDown}
           />
           <Button type="submit" onClick={handleSubmit}>
             <Search className="mr-2 size-4" />

@@ -6,6 +6,7 @@ interface IExtendAddress extends IAddress {
     vent: string;
     neige: string;
     seisme: string;
+    littoral : string
   };
   geoJSON: IGeoJSON;
 }

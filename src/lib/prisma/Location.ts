@@ -56,7 +56,7 @@ export const createLocation = async (
         };
       }
 
-      const littoral = await getLittoral(codeInsee);
+      const littoral = getLittoral(codeInsee);
 
       const location = await prisma.location.create({
         data: {
@@ -138,7 +138,7 @@ export const updateLocation = async (
         };
       }
 
-      const littoral = await getLittoral(codeInsee);
+      const littoral = getLittoral(codeInsee);
 
       const location = await prisma.location.create({
         data: {
