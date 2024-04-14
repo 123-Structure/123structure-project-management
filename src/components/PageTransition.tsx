@@ -28,7 +28,7 @@ const PageTransition = (props: IPageTransition) => {
       <motion.div
         className={props.className}
         style={{
-          padding: !pathName.includes("auth") ? "16px" : "overflow-hidden",
+          padding: !pathName.includes("auth") ? "16px" : "0px",
         }}
         variants={PageTransitionVariants}
         initial="hidden"

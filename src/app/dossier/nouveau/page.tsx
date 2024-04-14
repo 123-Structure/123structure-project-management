@@ -1,13 +1,16 @@
 import DossierForm from "@/components/DossierForm";
-import PageTransition from "@/components/PageTransition";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Nouveau dossier",
+  description: "Créer un nouveau dossier",
+};
 
 const NewDossier = () => {
   return (
-    <PageTransition>
       <div className="h-fit w-full rounded-md border p-4">
-        <DossierForm mode="create"/>
+        <DossierForm mode="create" />
       </div>
-    </PageTransition>
   );
 };
 

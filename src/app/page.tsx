@@ -1,81 +1,18 @@
-"use client";
-import DataTableContainer from "@/components/dataTable/DataTableContainer";
 import DossierDialog from "@/components/dossierDialog/DossierDialog";
-import PageTransition from "@/components/PageTransition";
+import HomeDataTable from "@/components/pages/home/HomeDataTable";
 import { Skeleton } from "@/components/ui/skeleton";
-import { PersonalDossier } from "@/lib/interfaces/PersonalDossier";
-import { getPersonalDossier } from "@/lib/prisma/Dossier";
-import useDossierStore from "@/lib/store/dossier.store";
-import { Contact, Folder, Folders, Hash } from "lucide-react";
-import { useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Accueil",
+  description: "Consulter l'ensemble des dossiers attribués à son espace personnel",
+};
 
 export default function Home() {
-  const [dossiers, setDossiers] = useState<PersonalDossier[]>([]);
-  const router = useRouter();
-  const { data: session, status } = useSession();
-  const dossier = useDossierStore((s) => s.dossier);
-
-  const tableHead: {
-    icon?: JSX.Element;
-    title: string;
-  }[] = [
-    {
-      icon: <Hash className="size-4" />,
-      title: "Numéro de dossier",
-    },
-    {
-      icon: <Folder className="size-4" />,
-      title: "Nom de dossier",
-    },
-    {
-      icon: <Contact className="size-4" />,
-      title: "Client",
-    },
-  ];
-
-  useEffect(() => {
-    const getDossier = async () => {
-      try {
-        const userId =
-          `${session?.user?.firstName?.[0]?.toLowerCase()}.${session?.user?.lastName?.toLowerCase()}` ||
-          "";
-        const personalDossier = await getPersonalDossier(userId);
-        setDossiers(personalDossier);
-      } catch (error) {
-        console.error(
-          "Une erreur s'est produite lors de la récupération des dossiers :",
-          error
-        );
-      }
-    };
-
-    getDossier();
-  }, [session?.user?.firstName, session?.user?.lastName, dossier]);
-
-  if (status === "loading") {
-    return (
-      <PageTransition className="flex h-screen w-screen items-center justify-center">
-        <div>Chargement...</div>
-      </PageTransition>
-    );
-  }
-
-  if (!session) {
-    router.push("auth/connexion");
-  }
-
   return (
-    <PageTransition className="flex gap-4">
+    <div className="flex gap-4">
       <div className="w-1/2">
-        <DataTableContainer
-          data={dossiers}
-          itemType="Dossier"
-          tableIcon={<Folders />}
-          tableTitle="Derniers dossiers enregistrés"
-          tableHead={tableHead}
-        />
+        <HomeDataTable />
       </div>
       <div className="flex w-1/4 flex-col gap-4">
         <div className="flex size-full flex-col gap-2 rounded-lg border border-border p-4">
@@ -101,6 +38,6 @@ export default function Home() {
         <Skeleton className="h-4 w-1/4 rounded-full" />
       </div>
       <DossierDialog />
-    </PageTransition>
+    </div>
   );
 }

@@ -1,7 +1,6 @@
 "use client";
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import PageTransition from "@/components/PageTransition";
 
 // Images
 import Image01 from "../../../public/img/auth/01.jpg";
@@ -40,7 +39,7 @@ export default function AuthLayout({
   const randomIllustration = illustrations[randomIndex];
 
   return (
-    <PageTransition className="relative flex h-screen w-screen">
+    <div className="relative flex h-screen w-screen">
       {theme === "dark" ? (
         <Image
           src="/img/logo-dark.png"
@@ -72,6 +71,6 @@ export default function AuthLayout({
       <div className="flex h-full w-1/2 flex-col items-center justify-center gap-4">
         {children}
       </div>
-    </PageTransition>
+    </div>
   );
 }
