@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 123structure-project-management_app
+    ports:
+      - "${APP_PORT}:3000"
+    volumes:
+      - .:/app:cached
+      - /app/node_modules
+      - /app/.next
+    restart: always

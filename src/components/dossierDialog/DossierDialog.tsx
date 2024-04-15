@@ -97,31 +97,6 @@ const DossierDialog = () => {
                   icon={<Snowflake className="size-20" />}
                 />
               </div>
-              <p className="text-lg font-semibold">
-                Remarques sur le dossier :
-              </p>
-              <p className="italic underline">Général :</p>
-              {dossier.feedback?.generalNote ? (
-                <div className="flex gap-2">
-                  {Array.from({ length: 5 }, (_, index) => (
-                    <Star
-                      key={index}
-                      fill={primaryColor}
-                      strokeWidth={1.5}
-                      fillOpacity={
-                        dossier.feedback?.generalNote
-                          ? index <= dossier.feedback?.generalNote - 1
-                            ? 1
-                            : 0
-                          : 0
-                      }
-                    />
-                  ))}
-                </div>
-              ) : (
-                <></>
-              )}
-              <p>{dossier.feedback?.generalComment ?? "-"}</p>
             </div>
           </>
         )}

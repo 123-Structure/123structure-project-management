@@ -56,12 +56,10 @@ const DataTable = (props: IDataTableProps) => {
     const dossier = await getDossierByNumDossier(numDossier);
     if (dossier) {
       const location = await getLocationByCodeInsee(dossier.codeInsee ?? "");
-      const feedback = await getFeedbackByNumDossier(numDossier);
       setDossier({
         openDialog: true,
         dossier: dossier,
-        location: location ?? undefined,
-        feedback: feedback ?? undefined,
+        location: location ?? undefined
       });
     }
   };
