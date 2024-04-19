@@ -39,6 +39,11 @@ export const createLocation = async (
         data: { codeInsee: existingLocation.codeInsee },
       });
 
+      await prisma.location.update({
+        where: { codeInsee: existingLocation.codeInsee },
+        data: { updatedAt: new Date() },
+      });
+
       location = existingLocation;
 
       // console.log(
@@ -104,7 +109,7 @@ export const updateLocation = async (
       ville: data.ville,
     });
 
-    const address = addresses[0]
+    const address = addresses[0];
 
     const coordinates = {
       latitude: address.geometry.coordinates[1],
@@ -121,6 +126,11 @@ export const updateLocation = async (
       await prisma.dossier.update({
         where: { numDossier: numDossier },
         data: { codeInsee: existingLocation.codeInsee },
+      });
+
+      await prisma.location.update({
+        where: { codeInsee: existingLocation.codeInsee },
+        data: { updatedAt: new Date() },
       });
 
       // console.log(

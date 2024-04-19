@@ -28,30 +28,32 @@ const DossierForm = (props: IDossierFormProps) => {
   const setDossier = useDossierStore((s) => s.setDossier);
 
   const handleSubmitCreate = async (data: any) => {
-    try {
-      const numDossier = data.numDossier;
-      const newDossier = await createDossier(data as Dossier);
-      const newLocation = await createLocation(numDossier, {
-        codePostal: data.codePostal,
-        ville: data.ville,
-      });
+    console.log(data)
+   
+    // try {
+    //   const numDossier = data.numDossier;
+    //   const newDossier = await createDossier(data as Dossier);
+    //   const newLocation = await createLocation(numDossier, {
+    //     codePostal: data.codePostal,
+    //     ville: data.ville,
+    //   });
 
-      if (
-        newDossier.error ||
-        newLocation.error
-      ) {
-        toast.error("Erreur lors de la création du dossier", {
-          description: `${newDossier.error ?? ""} / ${newLocation.error ?? ""}`,
-        });
-      } else {
-        toast.success("Dossier créé avec succès", {
-          description: `${newDossier.success} / ${newLocation.success}`,
-        });
-      }
-    } catch (error) {
-      console.error(error);
-      toast.error("Une erreur est survenue lors de la création du dossier");
-    }
+    //   if (
+    //     newDossier.error ||
+    //     newLocation.error
+    //   ) {
+    //     toast.error("Erreur lors de la création du dossier", {
+    //       description: `${newDossier.error ?? ""} / ${newLocation.error ?? ""}`,
+    //     });
+    //   } else {
+    //     toast.success("Dossier créé avec succès", {
+    //       description: `${newDossier.success} / ${newLocation.success}`,
+    //     });
+    //   }
+    // } catch (error) {
+    //   console.error(error);
+    //   toast.error("Une erreur est survenue lors de la création du dossier");
+    // }
   };
 
   const handleSubmitUpdate = async (data: any) => {
@@ -132,9 +134,13 @@ const DossierForm = (props: IDossierFormProps) => {
         },
         dessinePar: {
           inputProps: { placeholder: "b.lechat" },
+        },
+        category : {
+          fieldType: "multiselect"
         }
       }}
     >
+      <p>CUSTOM COMPONENT HERE</p>
       {props.mode === "update" ? (
         <AutoFormSubmit>
           <Pencil className="mr-2 size-4" />

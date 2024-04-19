@@ -24,16 +24,34 @@ model User {
 }
 
 model Dossier {
-  id         Int       @id @default(autoincrement())
-  numDossier String    @unique
-  nomDossier String    @default("")
-  client     String    @default("")
-  dessinePar String    @default("")
+  id         Int        @id @default(autoincrement())
+  numDossier String     @unique
+  nomDossier String     @default("")
+  client     String     @default("")
+  dessinePar String     @default("")
   codeInsee  String?
-  location   Location? @relation(fields: [codeInsee], references: [codeInsee])
+  location   Location?  @relation(fields: [codeInsee], references: [codeInsee])
   feedback   Feedback?
-  createdAt  DateTime  @default(now())
-  updatedAt  DateTime  @updatedAt
+  categories Category[]
+  tags       Tag[]
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+}
+
+model Category {
+  id        Int       @id @default(autoincrement())
+  name      String    @unique
+  dossiers  Dossier[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Tag {
+  id        Int       @id @default(autoincrement())
+  name      String    @unique
+  dossiers  Dossier[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
 }
 
 model Location {
