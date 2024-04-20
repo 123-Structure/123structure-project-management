@@ -1,6 +1,6 @@
 "use client";
 import { PersonalDossier } from "@/lib/interfaces/PersonalDossier";
-import { getAllDossier } from "@/lib/prisma/Dossier";
+import getAllDossier from "@/lib/prisma/Dossier/getAllDossier";
 import useDossierStore from "@/lib/store/dossier.store";
 import { Contact, Folder, Folders, Hash, User } from "lucide-react";
 import { useEffect, useState } from "react";

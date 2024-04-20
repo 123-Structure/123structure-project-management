@@ -1,15 +1,5 @@
 import * as z from "zod";
 
-const categoryEnum = z.enum([
-  "construction neuve",
-  "extension par agrandissement",
-  "extension par surélévation",
-  "rénovation",
-  "dimensionnement d'élément",
-  "bâtiment industriel",
-  "autre",
-]);
-
 // Define your form schema using zod
 const createDossierFormSchema = z.object({
   numDossier: z
@@ -53,16 +43,7 @@ const createDossierFormSchema = z.object({
     .max(50, {
       message: "Dessiné par ne peut pas dépasser 50 caractères",
     })
-    .describe("Dessiné par"),
-  category: z.enum([
-    "construction neuve",
-    "extension par agrandissement",
-    "extension par surélévation",
-    "rénovation",
-    "dimensionnement d'élément",
-    "bâtiment industriel",
-    "autre",
-  ]),
+    .describe("Dessiné par")
 });
 
 export default createDossierFormSchema;

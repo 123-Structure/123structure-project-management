@@ -1,5 +1,5 @@
 "use client";
-import { createUser } from "@/lib/prisma/User";
+import createUser from "@/lib/prisma/User/User";
 import { User } from "@prisma/client";
 import { LogIn } from "lucide-react";
 import { useRouter } from "next/navigation";

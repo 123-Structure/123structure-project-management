@@ -1,6 +1,6 @@
 "use client";
 import { PersonalDossier } from "@/lib/interfaces/PersonalDossier";
-import { getPersonalDossier } from "@/lib/prisma/Dossier";
+import getPersonalDossier from "@/lib/prisma/Dossier/getPersonalDossier";
 import useDossierStore from "@/lib/store/dossier.store";
 import { Contact, Folder, Folders, Hash } from "lucide-react";
 import { useSession } from "next-auth/react";

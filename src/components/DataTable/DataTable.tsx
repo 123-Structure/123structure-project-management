@@ -1,7 +1,6 @@
 "use client";
-import { getDossierByNumDossier } from "@/lib/prisma/Dossier";
-import { getFeedbackByNumDossier } from "@/lib/prisma/Feedback";
-import { getLocationByCodeInsee } from "@/lib/prisma/Location";
+import getDossierByNumDossier from "@/lib/prisma/Dossier/getDossierByNumDossier";
+import getLocationByCodeInsee from "@/lib/prisma/Location/getLocationByCodeInsee";
 import useDossierStore from "@/lib/store/dossier.store";
 import { Skeleton } from "../ui/skeleton";
 import {
@@ -59,7 +58,7 @@ const DataTable = (props: IDataTableProps) => {
       setDossier({
         openDialog: true,
         dossier: dossier,
-        location: location ?? undefined
+        location: location ?? undefined,
       });
     }
   };

@@ -3,9 +3,9 @@ import { User } from "@prisma/client";
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime/library";
 import "bcrypt";
 import bcrypt from "bcrypt";
-import prisma from "./prisma";
+import prisma from "../prisma";
 
-export const createUser = async (
+const createUser = async (
   data: Omit<User, "id" | "createdAt" | "updatedAt">
 ): Promise<{
   success?: string;
@@ -53,3 +53,5 @@ export const createUser = async (
     };
   }
 };
+
+export default createUser

@@ -1,5 +1,5 @@
-import { createDossier } from "@/lib/prisma/Dossier";
-import { createLocation } from "@/lib/prisma/Location";
+import createDossier from "@/lib/prisma/Dossier/createDossier";
+import createLocation from "@/lib/prisma/Location/createLocation";
 import createDossierFromApiSchema from "@/lib/schema/createDossierFromApiSchema";
 import { authMiddleware } from "@/lib/utils/authMiddleware";
 import { NextResponse } from "next/server";
@@ -7,7 +7,9 @@ import { z } from "zod";
 
 export async function POST(req: Request) {
   try {
-    const parsedCredentials = createDossierFromApiSchema.parse(await req.json());
+    const parsedCredentials = createDossierFromApiSchema.parse(
+      await req.json()
+    );
 
     const {
       email,
