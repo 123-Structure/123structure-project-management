@@ -1,5 +1,6 @@
 import createDossier from "@/lib/prisma/Dossier/createDossier";
-import createLocation from "@/lib/prisma/Location/createLocation";
+import createOrUpdateLocation from "@/lib/prisma/Location/createOrUpdateLocation";
+
 import createDossierFromApiSchema from "@/lib/schema/createDossierFromApiSchema";
 import { authMiddleware } from "@/lib/utils/authMiddleware";
 import { NextResponse } from "next/server";
@@ -48,7 +49,7 @@ export async function POST(req: Request) {
         codePostal,
         ville,
       };
-      const location = await createLocation(numDossier, locationData);
+      const location = await createOrUpdateLocation(numDossier, locationData);
 
       if (location.success) {
         return NextResponse.json(

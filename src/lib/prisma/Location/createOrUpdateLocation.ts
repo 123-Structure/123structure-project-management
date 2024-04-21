@@ -4,7 +4,7 @@ import fetchSeismSnowWind from "../../utils/fetchSeismSnowWind";
 import getLittoral from "../../utils/getLittoral";
 import prisma from "../prisma";
 
-const updateLocation = async (
+const createOrUpdateLocation = async (
   numDossier: string,
   data: { codePostal: string; ville: string }
 ): Promise<{
@@ -31,14 +31,14 @@ const updateLocation = async (
     });
 
     if (existingLocation) {
-      await prisma.dossier.update({
-        where: { numDossier: numDossier },
-        data: { codeInsee: existingLocation.codeInsee, updatedAt: new Date() },
-      });
-
       await prisma.location.update({
         where: { codeInsee: existingLocation.codeInsee },
         data: { updatedAt: new Date() },
+      });
+
+      await prisma.dossier.update({
+        where: { numDossier: numDossier },
+        data: { codeInsee: existingLocation.codeInsee, updatedAt: new Date() },
       });
 
       // console.log(
@@ -91,4 +91,4 @@ const updateLocation = async (
   }
 };
 
-export default updateLocation;
+export default createOrUpdateLocation;

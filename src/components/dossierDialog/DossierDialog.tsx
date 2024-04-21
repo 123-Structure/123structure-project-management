@@ -1,6 +1,6 @@
 "use client";
 import useDossierStore from "@/lib/store/dossier.store";
-import { primaryColor } from "@/lib/utils/tailwindConfig";
+import getFormattedDate from "@/lib/utils/getFormattedDate";
 import {
   AudioLines,
   Ban,
@@ -9,7 +9,6 @@ import {
   MapPin,
   Pencil,
   Snowflake,
-  Star,
   User,
   Wind,
   X,
@@ -76,6 +75,7 @@ const DossierDialog = () => {
                 {dossier.dossier?.dessinePar}
               </Badge>
             </div>
+
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
                 <ZoneCard
@@ -98,6 +98,17 @@ const DossierDialog = () => {
                 />
               </div>
             </div>
+            <div className="flex flex-wrap gap-2">
+              {dossier.categories?.map((category) => (
+                <Badge key={category.name}>{category.name}</Badge>
+              ))}
+            </div>
+            <p className="text-right text-sm text-muted-foreground">
+              {`Créé le : ${getFormattedDate(
+                dossier.dossier?.createdAt
+              )} / Dernière
+            mise à jour : ${getFormattedDate(dossier.dossier?.updatedAt)}`}
+            </p>
           </>
         )}
         <DialogFooter>

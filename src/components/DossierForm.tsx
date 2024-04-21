@@ -1,17 +1,18 @@
 "use client";
-import createCategory from "@/lib/prisma/Category/createCategory";
+import createOrUpdateCategory from "@/lib/prisma/Category/createOrUpdateCategory";
+import getCategoriesByNumDossier from "@/lib/prisma/Category/getCategoriesByNumDossier";
 import createDossier from "@/lib/prisma/Dossier/createDossier";
 import getDossierByNumDossier from "@/lib/prisma/Dossier/getDossierByNumDossier";
 import updateDossier from "@/lib/prisma/Dossier/updateDossier";
-import createLocation from "@/lib/prisma/Location/createLocation";
+import createOrUpdateLocation from "@/lib/prisma/Location/createOrUpdateLocation";
+import deleteCategory from "@/lib/prisma/Location/deleteCategory";
 import getLocationByCodeInsee from "@/lib/prisma/Location/getLocationByCodeInsee";
-import updateLocation from "@/lib/prisma/Location/updateLocation";
 import createDossierFormSchema from "@/lib/schema/createDossierFormSchema";
 import updateDossierFormSchema from "@/lib/schema/updateDossierFormSchema";
 import useDossierStore from "@/lib/store/dossier.store";
 import { Dossier } from "@prisma/client";
 import { Pencil, Save } from "lucide-react";
-import { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { toast } from "sonner";
 import Multiselect from "./Multiselect";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
@@ -22,10 +23,6 @@ interface IDossierFormProps {
 }
 
 const DossierForm = (props: IDossierFormProps) => {
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const dossier = useDossierStore((s) => s.dossier);
-  const setDossier = useDossierStore((s) => s.setDossier);
-
   const category = [
     "Construction neuve",
     "Extension par agrandissement",
@@ -36,16 +33,20 @@ const DossierForm = (props: IDossierFormProps) => {
     "Autre",
   ];
 
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const dossier = useDossierStore((s) => s.dossier);
+  const setDossier = useDossierStore((s) => s.setDossier);
+
   const handleSubmitCreate = async (data: any) => {
     try {
       const numDossier = data.numDossier;
       const newDossier = await createDossier(data as Dossier);
-      const newLocation = await createLocation(numDossier, {
+      const newLocation = await createOrUpdateLocation(numDossier, {
         codePostal: data.codePostal,
         ville: data.ville,
       });
       selectedCategories.map(async (category) => {
-        await createCategory(numDossier, category);
+        await createOrUpdateCategory(numDossier, category);
       });
 
       if (newDossier.error || newLocation.error) {
@@ -68,10 +69,32 @@ const DossierForm = (props: IDossierFormProps) => {
       const numDossier = dossier.dossier?.numDossier;
       if (numDossier) {
         const newDossier = await updateDossier(numDossier, data as Dossier);
-        const newLocation = await updateLocation(numDossier, {
+        const newLocation = await createOrUpdateLocation(numDossier, {
           codePostal: data.codePostal,
           ville: data.ville,
         });
+
+        const existingCategories = await getCategoriesByNumDossier(numDossier);
+        if (existingCategories) {
+          const categoriesToCreate = selectedCategories.filter(
+            (category) =>
+              !existingCategories
+                .map((category) => category.name)
+                .includes(category)
+          );
+
+          const categoriesToDelete = existingCategories
+            .map((category) => category.name)
+            .filter((category) => !selectedCategories.includes(category));
+
+          categoriesToDelete.map(async (category) => {
+            await deleteCategory(numDossier, category);
+          });
+
+          categoriesToCreate.map(async (category) => {
+            await createOrUpdateCategory(numDossier, category);
+          });
+        }
 
         if (newDossier.error || newLocation.error) {
           toast.error("Erreur lors de la mise à jour du dossier", {
@@ -91,10 +114,14 @@ const DossierForm = (props: IDossierFormProps) => {
             const location = await getLocationByCodeInsee(
               dossier.codeInsee ?? ""
             );
+            const categories = await getCategoriesByNumDossier(
+              dossier.numDossier ?? ""
+            );
             setDossier({
               openDialog: true,
               dossier: dossier,
               location: location ?? undefined,
+              categories: categories ?? undefined,
             });
           }
         }
@@ -104,6 +131,13 @@ const DossierForm = (props: IDossierFormProps) => {
       toast.error("Une erreur est survenue lors de la mise à jour du dossier");
     }
   };
+
+  useEffect(() => {
+    const categories = dossier.categories?.map((category) => category.name);
+    if (categories) {
+      setSelectedCategories(categories);
+    }
+  }, [dossier.categories]);
 
   return (
     <AutoForm

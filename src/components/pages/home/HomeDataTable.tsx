@@ -10,7 +10,7 @@ import DataTableContainer from "../../DataTable/DataTableContainer";
 const HomeDataTable = () => {
   const [dossiers, setDossiers] = useState<PersonalDossier[]>([]);
   const dossier = useDossierStore((s) => s.dossier);
-  const { data: session, status } = useSession();
+  const { data: session } = useSession();
 
   useEffect(() => {
     const getDossier = async () => {

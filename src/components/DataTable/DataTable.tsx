@@ -1,4 +1,5 @@
 "use client";
+import getCategoriesByNumDossier from "@/lib/prisma/Category/getCategoriesByNumDossier";
 import getDossierByNumDossier from "@/lib/prisma/Dossier/getDossierByNumDossier";
 import getLocationByCodeInsee from "@/lib/prisma/Location/getLocationByCodeInsee";
 import useDossierStore from "@/lib/store/dossier.store";
@@ -55,10 +56,12 @@ const DataTable = (props: IDataTableProps) => {
     const dossier = await getDossierByNumDossier(numDossier);
     if (dossier) {
       const location = await getLocationByCodeInsee(dossier.codeInsee ?? "");
+      const categories = await getCategoriesByNumDossier(dossier.numDossier ?? "");
       setDossier({
         openDialog: true,
         dossier: dossier,
         location: location ?? undefined,
+        categories: categories ?? undefined,
       });
     }
   };

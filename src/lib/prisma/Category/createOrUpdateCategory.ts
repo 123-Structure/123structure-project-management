@@ -1,7 +1,7 @@
 "use server";
 import prisma from "../prisma";
 
-const createCategory = async (
+const createOrUpdateCategory = async (
   numDossier: string,
   category: string
 ): Promise<{
@@ -14,7 +14,7 @@ const createCategory = async (
     });
 
     if (existingCategory) {
-      prisma.category.update({
+      await prisma.category.update({
         where: { name: existingCategory.name },
         data: {
           dossiers: {
@@ -25,6 +25,7 @@ const createCategory = async (
           updatedAt: new Date(),
         },
       });
+
       return {
         success: existingCategory.name,
       };
@@ -39,6 +40,7 @@ const createCategory = async (
           },
         },
       });
+
       return {
         success: category,
       };
@@ -51,4 +53,4 @@ const createCategory = async (
   }
 };
 
-export default createCategory;
+export default createOrUpdateCategory;
