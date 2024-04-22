@@ -14,6 +14,7 @@ interface IMultiselectProps {
   values: string[];
   selectedValues: string[];
   setSelectedValues: Dispatch<SetStateAction<string[]>>;
+  orientation?: "row" | "column";
 }
 
 const Multiselect = (props: IMultiselectProps) => {
@@ -23,7 +24,13 @@ const Multiselect = (props: IMultiselectProps) => {
       <DropdownMenu>
         <DropdownMenuTrigger asChild className="w-fit">
           {props.selectedValues.length > 0 ? (
-            <div className="flex items-center gap-2">
+            <div
+              className="flex items-center gap-2"
+              style={{
+                flexDirection: props.orientation,
+                alignItems: props.orientation === "column" ? "flex-start" : "",
+              }}
+            >
               {props.selectedValues.sort().map((value, index) => (
                 <Badge
                   key={value}

@@ -179,6 +179,7 @@ const DossierForm = (props: IDossierFormProps) => {
         values={category}
         selectedValues={selectedCategories}
         setSelectedValues={setSelectedCategories}
+        orientation={props.mode === "update" ? "column" : "row"}
       />
       {props.mode === "update" ? (
         <AutoFormSubmit className="w-fit">
