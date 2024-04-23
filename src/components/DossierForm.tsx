@@ -1,4 +1,5 @@
 "use client";
+import categories from "@/lib/constants/categories";
 import createOrUpdateCategory from "@/lib/prisma/Category/createOrUpdateCategory";
 import getCategoriesByNumDossier from "@/lib/prisma/Category/getCategoriesByNumDossier";
 import createDossier from "@/lib/prisma/Dossier/createDossier";
@@ -16,6 +17,7 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { toast } from "sonner";
 import Multiselect from "./Multiselect";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
+import tags from "@/lib/constants/tags";
 
 interface IDossierFormProps {
   mode: "create" | "update";
@@ -23,18 +25,8 @@ interface IDossierFormProps {
 }
 
 const DossierForm = (props: IDossierFormProps) => {
-  const category = [
-    "Construction neuve",
-    "Extension par agrandissement",
-    "Extension par surélévation",
-    "Rénovation",
-    "Infrastructure",
-    "Dimensionnement d'élément",
-    "Bâtiment industriel",
-    "Autre",
-  ];
-
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const dossier = useDossierStore((s) => s.dossier);
   const setDossier = useDossierStore((s) => s.setDossier);
 
@@ -176,9 +168,16 @@ const DossierForm = (props: IDossierFormProps) => {
     >
       <Multiselect
         title="Catégories"
-        values={category}
+        values={categories}
         selectedValues={selectedCategories}
         setSelectedValues={setSelectedCategories}
+        orientation={props.mode === "update" ? "column" : "row"}
+      />
+      <Multiselect
+        title="Mots-clés"
+        values={tags}
+        selectedValues={selectedTags}
+        setSelectedValues={setSelectedTags}
         orientation={props.mode === "update" ? "column" : "row"}
       />
       {props.mode === "update" ? (
