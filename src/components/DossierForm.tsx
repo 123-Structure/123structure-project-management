@@ -1,5 +1,6 @@
 "use client";
 import categories from "@/lib/constants/categories";
+import tags from "@/lib/constants/tags";
 import createOrUpdateCategory from "@/lib/prisma/Category/createOrUpdateCategory";
 import getCategoriesByNumDossier from "@/lib/prisma/Category/getCategoriesByNumDossier";
 import createDossier from "@/lib/prisma/Dossier/createDossier";
@@ -17,7 +18,6 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { toast } from "sonner";
 import Multiselect from "./Multiselect";
 import AutoForm, { AutoFormSubmit } from "./ui/auto-form";
-import tags from "@/lib/constants/tags";
 
 interface IDossierFormProps {
   mode: "create" | "update";
@@ -179,6 +179,7 @@ const DossierForm = (props: IDossierFormProps) => {
         selectedValues={selectedTags}
         setSelectedValues={setSelectedTags}
         orientation={props.mode === "update" ? "column" : "row"}
+        customValue
       />
       {props.mode === "update" ? (
         <AutoFormSubmit className="w-fit">

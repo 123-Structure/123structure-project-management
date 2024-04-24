@@ -10,6 +10,7 @@ import {
 import { Plus, Trash2 } from "lucide-react";
 import { Dispatch, SetStateAction } from "react";
 import { Badge } from "./ui/badge";
+import { Input } from "./ui/input";
 import { ScrollArea } from "./ui/scroll-area";
 
 interface IMultiselectProps {
@@ -22,6 +23,7 @@ interface IMultiselectProps {
   selectedValues: string[];
   setSelectedValues: Dispatch<SetStateAction<string[]>>;
   orientation?: "row" | "column";
+  customValue?: boolean;
 }
 
 const Item = (props: IMultiselectProps) => {
@@ -126,6 +128,15 @@ const Multiselect = (props: IMultiselectProps) => {
             )}
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-56">
+            {props.customValue ? (
+              <>
+                <Input placeholder="..." className="m-1 mb-2 w-52" />
+                <DropdownMenuSeparator />
+              </>
+            ) : (
+              <></>
+            )}
+
             <Item {...props} />
           </DropdownMenuContent>
         </DropdownMenu>
