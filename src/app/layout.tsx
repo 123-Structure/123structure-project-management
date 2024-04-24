@@ -37,7 +37,7 @@ export default function RootLayout({
         <SessionProviderWrapper session={session}>
           <ThemeProvider
             attribute="class"
-            // defaultTheme="system"
+            defaultTheme="light"
             // enableSystem
             // disableTransitionOnChange
           >
